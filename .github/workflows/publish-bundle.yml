@@ -1,0 +1,108 @@
+name: Publish verified Windows bundle
+on:
+  workflow_dispatch:
+    inputs:
+      bundle_url:
+        description: Temporary HTTPS download URL for the already-built release ZIP
+        required: true
+        type: string
+      sha256:
+        description: SHA-256 of the exact release ZIP from the successful build
+        required: true
+        type: string
+      version:
+        description: Release version, for example 0.1.5
+        required: true
+        type: string
+permissions:
+  contents: write
+concurrency:
+  group: publish-windows-bundle
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Download and verify bundle
+        env:
+          BUNDLE_URL: ${{ inputs.bundle_url }}
+          EXPECTED_SHA: ${{ inputs.sha256 }}
+          RELEASE_VERSION: ${{ inputs.version }}
+        run: |
+          python3 - <<'PY'
+          import hashlib,json,os,re,urllib.request,urllib.parse,zipfile
+          from pathlib import Path
+          url=os.environ['BUNDLE_URL']
+          parsed=urllib.parse.urlparse(url)
+          if parsed.scheme!='https' or not (parsed.hostname or '').endswith('.oaiusercontent.com') or parsed.username:
+              raise SystemExit('Expected a temporary OpenAI artifact download URL.')
+          expected=os.environ['EXPECTED_SHA'].lower()
+          version=os.environ['RELEASE_VERSION']
+          if not re.fullmatch('[a-f0-9]{64}',expected) or not re.fullmatch(r'\d+\.\d+\.\d+',version):
+              raise SystemExit('Invalid checksum or version.')
+          total=0
+          digest=hashlib.sha256()
+          with urllib.request.urlopen(url,timeout=60) as response,open('bundle.zip','wb') as output:
+              while chunk:=response.read(1024*1024):
+                  total+=len(chunk)
+                  if total>350*1024*1024: raise SystemExit('Bundle too large.')
+                  digest.update(chunk);output.write(chunk)
+          if digest.hexdigest()!=expected: raise SystemExit('Bundle checksum mismatch.')
+          root=Path('bundle');root.mkdir()
+          with zipfile.ZipFile('bundle.zip') as archive:
+              if sum(i.file_size for i in archive.infolist())>400*1024*1024: raise SystemExit('Expanded bundle too large.')
+              for entry in archive.infolist():
+                  if entry.is_dir(): continue
+                  if Path(entry.filename).name!=entry.filename: raise SystemExit('Only root-level release files are accepted.')
+                  archive.extract(entry,root)
+          info=json.loads((root/'release-info.json').read_text(encoding='utf-8-sig'))
+          if info!={'Repository':'melihxcode/shDeveloperTool','Channel':'win','Version':version}: raise SystemExit('Metadata mismatch.')
+          manifest=json.loads((root/'releases.win.json').read_text(encoding='utf-8-sig'))
+          assets=manifest['Assets']
+          if len(assets)!=1: raise SystemExit('Expected one full package.')
+          asset=assets[0]
+          name=f'shDeveloperTools-{version}-full.nupkg'
+          if asset['Version']!=version or asset['PackageId']!='shDeveloperTools' or asset['Type']!='Full' or asset['FileName']!=name: raise SystemExit('Manifest mismatch.')
+          package=root/name
+          if package.stat().st_size!=asset['Size'] or hashlib.sha256(package.read_bytes()).hexdigest()!=asset['SHA256'].lower(): raise SystemExit('Package checksum mismatch.')
+          required=['shDeveloperTools-win-Setup.exe',name,'shDeveloperTools-win-Portable.zip','releases.win.json','assets.win.json','RELEASES']
+          for item in required:
+              if not (root/item).is_file(): raise SystemExit('Missing release file: '+item)
+          Path('assets.txt').write_text('\n'.join(str(root/item) for item in required))
+          print('Verified installer and update bundle for version '+version)
+          PY
+      - name: Upload all assets and publish
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_VERSION: ${{ inputs.version }}
+        run: |
+          set -euo pipefail
+          repo=melihxcode/shDeveloperTool
+          tag="v$RELEASE_VERSION"
+          gh api "repos/$repo/releases?per_page=100" > releases.json
+          python3 - <<'PY'
+          import json,os
+          v=os.environ['RELEASE_VERSION']
+          for release in json.load(open('releases.json')):
+              if release['tag_name']=='v'+v and not release['draft']:
+                  raise SystemExit('Never overwrite a published version.')
+          PY
+          if gh release view "$tag" --repo "$repo" --json isDraft --jq .isDraft > existing.txt 2>/dev/null; then
+              test "$(cat existing.txt)" = true
+          else
+              gh release create "$tag" --repo "$repo" --target main --title "shDeveloperTools $RELEASE_VERSION" --notes-file bundle/release-notes.md --draft
+          fi
+          while IFS= read -r asset || [ -n "$asset" ]; do
+              gh release upload "$tag" "$asset" --repo "$repo" --clobber
+          done < assets.txt
+          gh release view "$tag" --repo "$repo" --json assets > uploaded.json
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          found={a['name']:a['size'] for a in json.load(open('uploaded.json'))['assets']}
+          for path in Path('assets.txt').read_text().splitlines():
+              p=Path(path)
+              if found.get(p.name)!=p.stat().st_size: raise SystemExit('Uploaded asset mismatch.')
+          PY
+          gh release edit "$tag" --repo "$repo" --draft=false --latest
