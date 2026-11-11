@@ -1,5 +1,15 @@
 [
   {
+    "version": "0.1.7",
+    "date": "2026-11-11",
+    "title": "A smoother exit",
+    "changes": [
+      "Idle windows close directly without re-entering the Closing event.",
+      "Active downloads finish cancellation after the window is hidden, preserving resume data.",
+      "Online content requests are cancelled on exit; transfer I/O stays off the UI thread."
+    ]
+  },
+  {
     "version": "0.1.6",
     "date": "2026-11-11",
     "title": "An always-current library",
