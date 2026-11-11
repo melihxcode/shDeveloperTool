@@ -1,0 +1,37 @@
+{
+  "categories": [
+    {
+      "id": "client",
+      "name": "Client Files"
+    },
+    {
+      "id": "server",
+      "name": "Server Files"
+    },
+    {
+      "id": "sql-programs",
+      "name": "SQL Programs"
+    },
+    {
+      "id": "queries",
+      "name": "SQL Queries"
+    },
+    {
+      "id": "editors",
+      "name": "Editing Programs"
+    },
+    {
+      "id": "developer",
+      "name": "Developer Programs"
+    },
+    {
+      "id": "interface",
+      "name": "Interface"
+    },
+    {
+      "id": "website",
+      "name": "Website"
+    }
+  ],
+  "files": []
+}

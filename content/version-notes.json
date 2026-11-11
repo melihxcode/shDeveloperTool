@@ -1,0 +1,74 @@
+[
+  {
+    "version": "0.1.6",
+    "date": "2026-11-11",
+    "title": "An always-current library",
+    "changes": [
+      "File catalog and release history now load from GitHub without reinstalling the app.",
+      "Refresh controls and a validated offline cache for both content sources.",
+      "Bundled catalog and release-history files are no longer distributed."
+    ]
+  },
+  {
+    "version": "0.1.5",
+    "date": "2026-11-11",
+    "title": "GitHub release updates",
+    "changes": [
+      "Automatic update checks now use the public GitHub release repository.",
+      "Windows installer and update bundle build workflow.",
+      "Resource downloads are paused before applying an application update."
+    ]
+  },
+  {
+    "version": "0.1.4",
+    "date": "2026-11-11",
+    "title": "A simpler library",
+    "changes": [
+      "Four grouped collections with context-aware category filters.",
+      "Episode for client/server files; bit architecture for SQL programs.",
+      "Gold pill buttons and download controls that appear only when needed.",
+      "Full release history with a slim gold scrollbar."
+    ]
+  },
+  {
+    "version": "0.1.3",
+    "date": "2026-11-10",
+    "title": "A download library built to resume",
+    "changes": [
+      "Browse catalog files by category, episode and language.",
+      "Pause and resume downloads, including after restarting the app.",
+      "Progress, saved transfer state and optional SHA-256 verification.",
+      "Fixed-size workspace with paged lists instead of scrollbars."
+    ]
+  },
+  {
+    "version": "0.1.2",
+    "date": "2026-11-10",
+    "title": "Resource collections & release history",
+    "changes": [
+      "Active navigation icons now use the app's gold accent.",
+      "Four resource collections with local file selection and file details.",
+      "Release history is loaded from a bundled JSON file.",
+      "Added the melihxcode copyright footer."
+    ]
+  },
+  {
+    "version": "0.1.1",
+    "date": "2026-11-10",
+    "title": "A personal touch",
+    "changes": [
+      "New sword and code-bracket application icon.",
+      "Contact Me form connected to Formspree.",
+      "YouTube, GitHub and website shortcuts."
+    ]
+  },
+  {
+    "version": "0.1.0",
+    "date": "2026-11-10",
+    "title": "The first workspace",
+    "changes": [
+      "Frameless desktop window with dark styling and four navigation pages.",
+      "Version display and configurable Velopack update support."
+    ]
+  }
+]
