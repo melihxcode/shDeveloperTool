@@ -15,3 +15,6 @@ Install once with Setup.exe. The installed application checks this repository fo
 Application source code is maintained separately in the private source repository. This repository is only for distribution.
 
 © 2026 melihxcode. All rights reserved.
+
+## Online library and release history
+From version 0.1.6, the application loads its file catalog and release notes from [content/](content/). Edit these JSON files to update content without publishing a new application. See the [editing guide](content/README.md). Valid content is cached locally for offline use.
