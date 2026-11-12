@@ -1,5 +1,18 @@
 [
   {
+    "version": "0.1.9",
+    "date": "2026-11-12",
+    "title": "Refreshed tools & cleaner window controls",
+    "changes": [
+      "Fixed title-bar and About buttons keeping a highlight after minimize/restore or closing About. Keyboard navigation still has a dedicated focus outline.",
+      "Moved all five EP5.4 references out of the active library into content/disabled/ep5.4-references.json, ready to restore later.",
+      "Replaced generic SSMS entries with SQL Server 2019 Express (64-bit) and SSMS 22, which supports SQL Server 2019.",
+      "Updated developer tools to Visual Studio Community 2026 Stable, XAMPP 8.5.12 (64-bit), and Visual Studio Code 1.146.0 (64-bit), using verified official download sources.",
+      "Archived the old VS Code 32-bit entry because the current version no longer supports 32-bit Windows. Previous tool records remain available in content/disabled/superseded-tools-2026-11-12.json.",
+      "The active catalog now contains 133 entries. New download links passed executable-signature and HTTP range checks; installers were not run."
+    ]
+  },
+  {
     "version": "0.1.8",
     "date": "2026-11-12",
     "title": "The purpose behind the workspace",
