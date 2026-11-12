@@ -1,5 +1,16 @@
 [
   {
+    "version": "0.1.8",
+    "date": "2026-11-12",
+    "title": "The purpose behind the workspace",
+    "changes": [
+      "Added a gold information icon beside the title-bar window controls.",
+      "A dedicated About window introduces the project's purpose, current features and future direction in clear English, written from the perspective of its solo developer.",
+      "Future guides, a growing resource library, server management and theme preferences are clearly labeled as plans rather than available features.",
+      "The About window matches the dark-and-gold theme, scales to fit smaller screens, and closes with Esc, the close icon or Back to workspace. Your current workspace stays in place."
+    ]
+  },
+  {
     "version": "0.1.7",
     "date": "2026-11-11",
     "title": "Faster closing & the first resource library",
