@@ -60,7 +60,8 @@ with tempfile.TemporaryDirectory() as temp:
     # Upload in small batches. A failed run leaves only an unpublished draft.
     for offset in range(0,len(paths),15):
         gh('release','upload',tag,*paths[offset:offset+15],'--repo',repo,'--clobber')
-    release = json.loads(gh('api',f'repos/{repo}/releases/tags/{tag}'))
+    release_url = json.loads(gh('release','view',tag,'--repo',repo,'--json','apiUrl'))['apiUrl']
+    release = json.loads(gh('api',release_url))
     # --paginate concatenates arrays; --slurp wraps them for reliable JSON.
     pages = json.loads(gh('api','--paginate','--slurp',f'repos/{repo}/releases/{release["id"]}/assets?per_page=100'))
     remote = {a['name']:a for page in pages for a in page}
