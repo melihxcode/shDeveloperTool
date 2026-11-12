@@ -1,5 +1,19 @@
 [
   {
+    "version": "0.1.11",
+    "date": "2026-11-12",
+    "title": "A growing library and everyday developer tools",
+    "changes": [
+      "Expanded Information from 19 to 41 articles across seven categories, with 33 named sources. Added class and faction concepts, database files, transactions, permissions, restore checks, configuration routing, map editing, encoding, file hashes and change review.",
+      "Added five resolution articles: three maintainer-confirmed Parsec fixes (versions 1.1.0, 1.1.1 and 1.2.0) and Microsoft-documented SQL 18456/4064 diagnostic routes. Resolution labels distinguish published evidence from local reproduction; no universal episode compatibility is claimed.",
+      "Files now supports a persistent sequential download queue. Add more files while a transfer runs; inspect, reorder or remove waiting items in a dedicated queue window. Pause stops the queue; an error preserves the current partial file and waiting work for an explicit retry.",
+      "Queue state survives application restarts and preserves existing single-download resume data. Downloads do not start automatically when reopening the application. Finished files expose Open folder; program files are never executed by the downloader.",
+      "Added Tools, a local program launcher with executable selection, friendly names, saved shortcuts, launch, relocation and shortcut-only removal. Missing executables are identified. Programs launch only on an explicit click.",
+      "Added a dark-and-gold Support the project button and window. The external payment link is remotely configurable; it remains disabled until the owner supplies a real support page. Added a Turkish Patreon setup and payout guide.",
+      "Extended automated checks for queue ordering, duplicate destinations, interruptions, promotion recovery, launcher persistence, support URLs and solution labels; added Windows UI scenarios for the queue, tools and support windows."
+    ]
+  },
+  {
     "version": "0.1.10",
     "date": "2026-11-12",
     "title": "A source-backed knowledge library",
