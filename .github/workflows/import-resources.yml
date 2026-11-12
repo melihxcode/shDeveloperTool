@@ -1,0 +1,18 @@
+name: Import legacy resource library
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: resource-library-import
+  cancel-in-progress: false
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify and publish resource files
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python content/migrations/2026-11-12/import-resources.py

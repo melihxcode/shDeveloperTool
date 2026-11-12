@@ -1,0 +1,731 @@
+{
+  "sourceRepository": "melihxcode/shDeveloperPack",
+  "sourceCommit": "c70c3e1460945685df6793ffd5819452a44c2188",
+  "tag": "resources-2026-11-12",
+  "assets": [
+    {
+      "sourcePath": "bin/serverfiles/ep4.5/OmegaFiles(EP4).rar",
+      "fileName": "server-episode-4-5-server-files.rar",
+      "sizeBytes": 20176653,
+      "sha256": "6a00f88cc920b95b4bbfe2afccdc83664d28a9a619e5366ea56f1abc25668d39"
+    },
+    {
+      "sourcePath": "bin/serverfiles/ep6.4/EP6.4 ServerFiles {Essentials}}.zip",
+      "fileName": "server-episode-6-4-server-files.zip",
+      "sizeBytes": 25631289,
+      "sha256": "5deea85aa49f3ddb6079736060ccb5adb6de2bf75dbe3899697886e67a808bd7"
+    },
+    {
+      "sourcePath": "bin/programs/shStudio - Old Version.rar",
+      "fileName": "editors-shstudio-old-version.rar",
+      "sizeBytes": 320455,
+      "sha256": "ba60b43045aae444783dac4c9f0b33c7e76527f03f5b69e9b81253b003cf6d13"
+    },
+    {
+      "sourcePath": "bin/programs/shStudio 0.7.5.1.zip",
+      "fileName": "editors-shstudio-0-7-5-1.zip",
+      "sizeBytes": 796151,
+      "sha256": "04a5ba6a3471dd7fec6b9d9009ee109a1263e0983ae0e61c3cefe257b9cab1de"
+    },
+    {
+      "sourcePath": "bin/programs/shStudio 0.7.5.5.zip",
+      "fileName": "editors-shstudio-0-7-5-5.zip",
+      "sizeBytes": 827120,
+      "sha256": "c0dd0639a988a0574e95a3dbb433ee365d553ef3aa916b8fb1933b0953c7a41d"
+    },
+    {
+      "sourcePath": "bin/programs/shStudio 0.8.0.1.zip",
+      "fileName": "editors-shstudio-0-8-0-1.zip",
+      "sizeBytes": 845001,
+      "sha256": "fb4e3d136c47bce8c774196cc72c02244adaf6d5e10bfab4d47862b71b682a0c"
+    },
+    {
+      "sourcePath": "bin/programs/shStudio 0.8.0.2.zip",
+      "fileName": "editors-shstudio-0-8-0-2.zip",
+      "sizeBytes": 810118,
+      "sha256": "402614043e21c3343fe67a4d7e35597dad9642624987ff638088156b0aa7575c"
+    },
+    {
+      "sourcePath": "bin/programs/shStudio2 0.8.0.3.zip",
+      "fileName": "editors-shstudio2-0-8-0-3.zip",
+      "sizeBytes": 808449,
+      "sha256": "70c963e65b5ab011b1c13ed7d3a9b416115ab70beca21f5701863ca755676427"
+    },
+    {
+      "sourcePath": "bin/programs/SahEditor.zip",
+      "fileName": "editors-saheditor.zip",
+      "sizeBytes": 5378919,
+      "sha256": "f0e3c98508a1a66c9f05a643f8680361f0f9e8f66652ad53d4de50ff9c4cc73f"
+    },
+    {
+      "sourcePath": "bin/programs/Shaiya Data File Tool.rar",
+      "fileName": "editors-shaiya-data-file-tool.rar",
+      "sizeBytes": 874043,
+      "sha256": "32141da698310e372058deb5c680769a23e4c38094f6421155866eb75cb23a23"
+    },
+    {
+      "sourcePath": "bin/programs/Shaiya Make Tool.rar",
+      "fileName": "editors-shaiya-make-tool.rar",
+      "sizeBytes": 1412539,
+      "sha256": "0c841c54934f2931af0fe3e59edbd93e4c963cebeaf880c75dbf4fc098bbd01d"
+    },
+    {
+      "sourcePath": "bin/programs/Shaiya Patcher.rar",
+      "fileName": "editors-shaiya-patcher.rar",
+      "sizeBytes": 9363,
+      "sha256": "39b25e4dac80f45c427852016fa8cbd05895cea40c61e0d647a382ec88e8c317"
+    },
+    {
+      "sourcePath": "bin/developer/cheat-engine_softradar-com.exe",
+      "fileName": "developer-cheat-engine-legacy-installer.exe",
+      "sizeBytes": 3351888,
+      "sha256": "9b8480581ffd010c93c4504d0bb5dcd8c2eba5c57812e399da8c6c58024a4903"
+    },
+    {
+      "sourcePath": "bin/developer/odbg110.zip",
+      "fileName": "developer-ollydbg-1-10.zip",
+      "sizeBytes": 1333471,
+      "sha256": "73b1770f28893dab22196eb58d45ede8ddf5444009960ccc0107d09881a7cd1e"
+    },
+    {
+      "sourcePath": "bin/developer/HxDSetup.zip",
+      "fileName": "developer-hxd-hex-editor.zip",
+      "sizeBytes": 3348036,
+      "sha256": "5065041c7b03c24b9533a5b32b33db58f2b4924cd84bed41834ff2db51c1cb7c"
+    },
+    {
+      "sourcePath": "bin/developer/VisualStudioSetup.exe",
+      "fileName": "developer-visual-studio-legacy-bootstrapper.exe",
+      "sizeBytes": 3951168,
+      "sha256": "eabb25899ce2e8ee2ea58637a2dfdf32d13cb6bcc910cd7cfc6cd7241203a6e4"
+    },
+    {
+      "sourcePath": "bin/query/issue/120K Kill Fix.sql",
+      "fileName": "queries-fix-120k-kill.sql",
+      "sizeBytes": 2836,
+      "sha256": "ee108f69b62b3a6b6bf7f18e36ea96c2b55d6602f234b0c3cf4bce5d377e7c2a"
+    },
+    {
+      "sourcePath": "bin/query/issue/Rollback.sql",
+      "fileName": "queries-fix-rollback.sql",
+      "sizeBytes": 622,
+      "sha256": "20c63ad79526ac71b9c8be53948e8538f3ccbbc5b756a2793bfe12ce0f78cf99"
+    },
+    {
+      "sourcePath": "bin/query/issue/RESTART after Guild Delete.sql",
+      "fileName": "queries-fix-guild-delete-after-reset.sql",
+      "sizeBytes": 1005,
+      "sha256": "72795c5a9c54fd017dc465eadf6eb3af051e1cb1727fb0497b875b4364352d88"
+    },
+    {
+      "sourcePath": "bin/query/issue/Name is already use.sql",
+      "fileName": "queries-fix-name-is-already-use.sql",
+      "sizeBytes": 686,
+      "sha256": "92ca41bc9f57e072efc1420146ce1006433b4cce7bc13265531079286df14877"
+    },
+    {
+      "sourcePath": "bin/query/issue/Name Hack.sql",
+      "fileName": "queries-fix-name-hack.sql",
+      "sizeBytes": 344,
+      "sha256": "687cb478ada87c0db7a1d2f76c6914255bb932bd365df6effd9c58ab9833a659"
+    },
+    {
+      "sourcePath": "bin/query/issue/Bankteller Fix 1.sql",
+      "fileName": "queries-fix-bankteller-dc-variant-1.sql",
+      "sizeBytes": 3414,
+      "sha256": "71ab8f95dfb2f4f1d1f75f008e3a96375ba343cabc574b3f97e7862d79f92890"
+    },
+    {
+      "sourcePath": "bin/query/issue/Bankteller Fix 2.sql",
+      "fileName": "queries-fix-bankteller-dc-variant-2.sql",
+      "sizeBytes": 1956,
+      "sha256": "ea3e717b29aac7955046dd8b12c4467703ea880cc5122112d7a0eefb9d886dc0"
+    },
+    {
+      "sourcePath": "bin/query/issue/Fix Login.sql",
+      "fileName": "queries-fix-fix-login.sql",
+      "sizeBytes": 3081,
+      "sha256": "513f13b0a9f258b9c26d7348c60359c38bee0b0a7dfb8abdc7b4003ce647c1c8"
+    },
+    {
+      "sourcePath": "bin/query/issue/GM Account Fix.sql",
+      "fileName": "queries-fix-gm-account-fix.sql",
+      "sizeBytes": 158,
+      "sha256": "ea1f2ae65acbae6634f3c005c09e63f394ad4ab00f42c2323ec852eeba4a7b79"
+    },
+    {
+      "sourcePath": "bin/query/issue/sui-ranger 30K.txt",
+      "fileName": "queries-fix-sui-ranger-30k-reference.txt",
+      "sizeBytes": 59,
+      "sha256": "c352fa1e45e1afec3fa88f17c32c2ff27fe882dba525eeabfb725ca210691168"
+    },
+    {
+      "sourcePath": "bin/query/feature/Add_LoginStatus.sql",
+      "fileName": "queries-query-add-loginstatus.sql",
+      "sizeBytes": 327,
+      "sha256": "0147215d7afc1ea88a2f20e3192b3d028f27fb6b0b516b6539a9d2ab99f1b868"
+    },
+    {
+      "sourcePath": "bin/query/feature/Admin Check.sql",
+      "fileName": "queries-query-admin-check.sql",
+      "sizeBytes": 1405,
+      "sha256": "32c3545bd92bd4af04885ea6e301b1d92b41ba9e873bf5fe28952e53f387e67c"
+    },
+    {
+      "sourcePath": "bin/query/feature/AuctionBoardOverpricingSearchTest.sql",
+      "fileName": "queries-query-auction-board-overpricing-search-test.sql",
+      "sizeBytes": 282,
+      "sha256": "892dbf79120634413da4ecd58fd8653ffd6c641cf8a20d00014ded8c2d4c168d"
+    },
+    {
+      "sourcePath": "bin/query/feature/Auction House.sql",
+      "fileName": "queries-query-auction-house.sql",
+      "sizeBytes": 2892,
+      "sha256": "4023e693f29f4f5edcd9458962a64ebc6014c45a7ad50fee8c1c2ebb611e28cf"
+    },
+    {
+      "sourcePath": "bin/query/feature/Backup Databases.sql",
+      "fileName": "queries-query-backup-databases.sql",
+      "sizeBytes": 868,
+      "sha256": "b1c9daab0cfff542cff5a4f888b49138c408ca93700000353d01e03b5b511071"
+    },
+    {
+      "sourcePath": "bin/query/feature/Banned_IPs Table.sql",
+      "fileName": "queries-query-banned-ips-table.sql",
+      "sizeBytes": 668,
+      "sha256": "e1451afcddf52cb033010aa59c1d0dcc9e6cf7872af3694846ed2e849d2c3551"
+    },
+    {
+      "sourcePath": "bin/query/feature/Change an Item to Item for Character Name.sql",
+      "fileName": "queries-query-change-an-item-to-item-for-character-name.sql",
+      "sizeBytes": 2273,
+      "sha256": "fa3546984d045ee9d1eebd0ef538b19ef402b81e8fb8837757a03d351934156d"
+    },
+    {
+      "sourcePath": "bin/query/feature/Change Faction of Player.sql",
+      "fileName": "queries-query-change-faction-of-player.sql",
+      "sizeBytes": 77,
+      "sha256": "136b35403742fd30292de89fcf6476d048c1ae788bdfeec55d1141bedc38cf4c"
+    },
+    {
+      "sourcePath": "bin/query/feature/Change Grade of Items.sql",
+      "fileName": "queries-query-change-grade-of-items.sql",
+      "sizeBytes": 149,
+      "sha256": "0b1ff0f705bb333022d8f7a29f23befdc6de5170311780ded06eeb63d96849e9"
+    },
+    {
+      "sourcePath": "bin/query/feature/Change Item to Another Item.sql",
+      "fileName": "queries-query-change-item-to-another-item.sql",
+      "sizeBytes": 76,
+      "sha256": "3447c84a4f24b01070575cc528e938572563c742791edb275b7998223ab2a58d"
+    },
+    {
+      "sourcePath": "bin/query/feature/Change Lapis in Gears to Another.sql",
+      "fileName": "queries-query-change-lapis-in-gears-to-another.sql",
+      "sizeBytes": 72,
+      "sha256": "11ea8a904582ca3e2308c056a1dc7de3cd06dcf730fe921838971695288ee88d"
+    },
+    {
+      "sourcePath": "bin/query/feature/Change Mob Drops and Rate.sql",
+      "fileName": "queries-query-change-mob-drops-and-rate.sql",
+      "sizeBytes": 216,
+      "sha256": "e751382629550c273e573527eb58f0ccff34aec0893924576eb0d9c117b1a581"
+    },
+    {
+      "sourcePath": "bin/query/feature/Char&Gear Change.sql",
+      "fileName": "queries-query-char-gear-change.sql",
+      "sizeBytes": 8339,
+      "sha256": "05daacae2df838896b2ccf4fa384c4a07463ee5732b71239f2de4f8901498643"
+    },
+    {
+      "sourcePath": "bin/query/feature/Character Statistics.sql",
+      "fileName": "queries-query-character-statistics.sql",
+      "sizeBytes": 12414,
+      "sha256": "9f0d12c1fedc7b66062c07abdab71eb9a583b008fcb668df854a1753d24ee676"
+    },
+    {
+      "sourcePath": "bin/query/feature/Check Grades Drop Rate.sql",
+      "fileName": "queries-query-check-grade-s-drop-rate.sql",
+      "sizeBytes": 69,
+      "sha256": "deb7fe7c5c9e76b5d0888a7637d9362912e50fba350d18b10171abfc8ee016f0"
+    },
+    {
+      "sourcePath": "bin/query/feature/Check illegal linking of items.sql",
+      "fileName": "queries-query-check-illegal-linking-of-items.sql",
+      "sizeBytes": 7328,
+      "sha256": "c8db07820577beaf9342e77022822fb30c6a01b39265e22e48d25b6085c21e40"
+    },
+    {
+      "sourcePath": "bin/query/feature/Check player chat.sql",
+      "fileName": "queries-query-check-player-chat.sql",
+      "sizeBytes": 582,
+      "sha256": "96762c5ea7282810318580fe8923c88f6c5b42f35618ad1ecb1b73bc49d41548"
+    },
+    {
+      "sourcePath": "bin/query/feature/Check player gamelog.sql",
+      "fileName": "queries-query-check-player-gamelog.sql",
+      "sizeBytes": 586,
+      "sha256": "f13a34b4ffdcba2f1e885c20bd960d2db6474e92a33ebb4c6d0a39503ecb796a"
+    },
+    {
+      "sourcePath": "bin/query/feature/Delete Accounts - All traces.sql",
+      "fileName": "queries-query-delete-accounts-all-traces.sql",
+      "sizeBytes": 1778,
+      "sha256": "16756556b235d9c796aaae3175e78aede3098f16429bcec76877a5f829956edb"
+    },
+    {
+      "sourcePath": "bin/query/feature/Delete Accounts - Inactive 180 days.sql",
+      "fileName": "queries-query-delete-accounts-inactive-180-days.sql",
+      "sizeBytes": 2040,
+      "sha256": "b90b5c79016df371c30e8964d95c6fd8fa82ae6ce7443193da63f13f34227765"
+    },
+    {
+      "sourcePath": "bin/query/feature/Delete AH Item Script.sql",
+      "fileName": "queries-query-delete-ah-item-script.sql",
+      "sizeBytes": 135,
+      "sha256": "74a1885ec1cc760a09a6b017f09840914df139dd5bda9b031f6acc0429f9758c"
+    },
+    {
+      "sourcePath": "bin/query/feature/Delete Auction Board Item.sql",
+      "fileName": "queries-query-delete-auction-board-item.sql",
+      "sizeBytes": 592,
+      "sha256": "d5da71e6bd4910a637d49169441fb5af52069c38f01c7d2783382874e3d66697"
+    },
+    {
+      "sourcePath": "bin/query/feature/Delete Item From Certain Character.sql",
+      "fileName": "queries-query-delete-item-from-certain-character.sql",
+      "sizeBytes": 76,
+      "sha256": "a8cb91b85b8de74e84081c211313e4f01eaff3351129c91d48263223047bd45e"
+    },
+    {
+      "sourcePath": "bin/query/feature/Deleting A Player.sql",
+      "fileName": "queries-query-deleting-a-player.sql",
+      "sizeBytes": 3355,
+      "sha256": "5e7558c7f1acf500c0c8a40ced7822720e734d60643adf9d5114fc776d592b79"
+    },
+    {
+      "sourcePath": "bin/query/feature/Find Characters With Certain Item.sql",
+      "fileName": "queries-query-find-characters-with-certain-item.sql",
+      "sizeBytes": 67,
+      "sha256": "bbc5014fb769be68d551fec901ff9808c227a23f890d9456f7b7ae174681b37e"
+    },
+    {
+      "sourcePath": "bin/query/feature/Find What Items Are In A Certain Grade.sql",
+      "fileName": "queries-query-find-what-items-are-in-a-certain-grade.sql",
+      "sizeBytes": 64,
+      "sha256": "0acdce2a141a1d56300dacf6b829176bcc73661a574b0d50587ffab7ec7e6820"
+    },
+    {
+      "sourcePath": "bin/query/feature/Finding Character Items.sql",
+      "fileName": "queries-query-finding-character-items.sql",
+      "sizeBytes": 8786,
+      "sha256": "d1e9fb5f7639acb552b47fa9987b6933517f7e1e45db0c4bb23c83b098c4b0fb"
+    },
+    {
+      "sourcePath": "bin/query/feature/FindMobsItems.sql",
+      "fileName": "queries-query-findmobsitems.sql",
+      "sizeBytes": 381,
+      "sha256": "a5f020f45fa9de0847590f21f2e398709c673a15e7b3b17649d325b83523022a"
+    },
+    {
+      "sourcePath": "bin/query/feature/Faction change - Keeps race.sql",
+      "fileName": "queries-query-faction-change-keeps-race.sql",
+      "sizeBytes": 1708,
+      "sha256": "254c7bd10460bebb193d8df66503bc40fdb8eafad62758aabae9dd7617c02e79"
+    },
+    {
+      "sourcePath": "bin/query/feature/Gearcheck - guildhouse.sql",
+      "fileName": "queries-query-gearcheck-guildhouse.sql",
+      "sizeBytes": 1697,
+      "sha256": "6431009ae0d18be351f436e05c555f7cbb44c7525656d943646ffca293085181"
+    },
+    {
+      "sourcePath": "bin/query/feature/Gearcheck - player.sql",
+      "fileName": "queries-query-gearcheck-player.sql",
+      "sizeBytes": 1686,
+      "sha256": "4375742ad19248d6cf3c1bdc7326b18beb666e0d98d06883f522fe26dbac24ab"
+    },
+    {
+      "sourcePath": "bin/query/feature/Gearcheck - warehouse.sql",
+      "fileName": "queries-query-gearcheck-warehouse.sql",
+      "sizeBytes": 1705,
+      "sha256": "efa3e5dd20091555abbdc658ea2ddad43ede3f7268cad849728765b817469900"
+    },
+    {
+      "sourcePath": "bin/query/feature/Global Stat-Skill Reset.sql",
+      "fileName": "queries-query-global-stat-skill-reset.sql",
+      "sizeBytes": 608,
+      "sha256": "5fe58ca3450fe7c702ac3cb7efa3974d98ce426d1332bb25fc56979a3f882dc1"
+    },
+    {
+      "sourcePath": "bin/query/feature/gmreroll.sql",
+      "fileName": "queries-query-gm-reroll.sql",
+      "sizeBytes": 130,
+      "sha256": "29928a8beebbd8771aeb1f8db48a33b1968bdc1a519b0f0aad459bcf29c99a52"
+    },
+    {
+      "sourcePath": "bin/query/feature/Guildhouse lookup.sql",
+      "fileName": "queries-query-guildhouse-lookup.sql",
+      "sizeBytes": 1684,
+      "sha256": "05de18ca2d7da87735aa121c6a86d218a4049a216b50cfb3ff9898a5cbd41d75"
+    },
+    {
+      "sourcePath": "bin/query/feature/Inventory lookup - player.sql",
+      "fileName": "queries-query-inventory-lookup-player.sql",
+      "sizeBytes": 1687,
+      "sha256": "24a86d705faa67507fa7cc8ea127e4bb023e838cd3a8f2216d4e086aa7f3a941"
+    },
+    {
+      "sourcePath": "bin/query/feature/ipban query.sql",
+      "fileName": "queries-query-ip-ban-query.sql",
+      "sizeBytes": 76,
+      "sha256": "b6f6e9ca74ce1dec2479381df80f87db9c0b298670b10c893062794a6c284220"
+    },
+    {
+      "sourcePath": "bin/query/feature/kick query.sql",
+      "fileName": "queries-query-kick-query.sql",
+      "sizeBytes": 6206,
+      "sha256": "dfc575e238afa5a38cffe44cd2c7340128617e7e9e2b0c5db78b2280b2c56c83"
+    },
+    {
+      "sourcePath": "bin/query/feature/Link spesific UID item for CharID.sql",
+      "fileName": "queries-query-link-spesific-uid-item-for-charid.sql",
+      "sizeBytes": 711,
+      "sha256": "3fd5f827bc4f804ef045b5e8b62ff35c0b2bbbeb2d62f737700a5605a27e7cc7"
+    },
+    {
+      "sourcePath": "bin/query/feature/Logging of Kills pr Playername.sql",
+      "fileName": "queries-query-logging-of-kills-pr-playername.sql",
+      "sizeBytes": 1062,
+      "sha256": "26d5087d1449153576e7e1508ec156f174090d447e438dcc4fb1714702ca316f"
+    },
+    {
+      "sourcePath": "bin/query/feature/Lookup No of items - GuildWarehouse.sql",
+      "fileName": "queries-query-lookup-no-of-items-guildwarehouse.sql",
+      "sizeBytes": 565,
+      "sha256": "714e305eff1ea90ebb62b6c67b1ef1a6da0b6b0237cd9970c56fa933a316aa3a"
+    },
+    {
+      "sourcePath": "bin/query/feature/Lookup No of items - Warehouse.sql",
+      "fileName": "queries-query-lookup-no-of-items-warehouse.sql",
+      "sizeBytes": 461,
+      "sha256": "25966026b59d97c856e089fef74fa0e7994fa79f1bb53e2d2f1a39756667d95f"
+    },
+    {
+      "sourcePath": "bin/query/feature/Lookup No of items.sql",
+      "fileName": "queries-query-lookup-no-of-items.sql",
+      "sizeBytes": 595,
+      "sha256": "2143e199327e36e50990100731a939da477c8dfb4c8db0f32fc694c2915e15b1"
+    },
+    {
+      "sourcePath": "bin/query/feature/MarketItems lookup.sql",
+      "fileName": "queries-query-marketitems-lookup.sql",
+      "sizeBytes": 457,
+      "sha256": "b13cad93423762d1f911f75ee012ed7f257605b8430ef19b8b267ecdfc58a57e"
+    },
+    {
+      "sourcePath": "bin/query/feature/Move Char to ah.sql",
+      "fileName": "queries-query-move-char-to-ah.sql",
+      "sizeBytes": 392,
+      "sha256": "5fff231e4d953655e0ceaa8928a7e0321cc821c0452fd45f18197aeaf4db5142"
+    },
+    {
+      "sourcePath": "bin/query/feature/Naughty GM Checker.sql",
+      "fileName": "queries-query-naughty-gm-checker.sql",
+      "sizeBytes": 88,
+      "sha256": "91ff50b41628240f1c1ce9be7ad748cf55abe3db800fd87914c53832f504d304"
+    },
+    {
+      "sourcePath": "bin/query/feature/Player lookup pr guild.sql",
+      "fileName": "queries-query-player-lookup-pr-guild.sql",
+      "sizeBytes": 346,
+      "sha256": "c06a54c980b1852b20dcb096c642257b349fedb7558d4e1bccab65cb81e75cac"
+    },
+    {
+      "sourcePath": "bin/query/feature/Query In Account Character Is Blocked By Dupe Fix.sql",
+      "fileName": "queries-query-query-in-account-character-is-blocked-by-dupe-fix.sql",
+      "sizeBytes": 149,
+      "sha256": "986ab5520efcd74ddce7dec5f3c0f63e787bf62493a59c53c26f69a80322e74a"
+    },
+    {
+      "sourcePath": "bin/query/feature/Rec Runes Work On Quest Items by Danco.sql",
+      "fileName": "queries-query-rec-runes-work-on-quest-items.sql",
+      "sizeBytes": 73,
+      "sha256": "0cf4485036d51962b3d0481301a7d2d0c36727f7975b9856b17af6a1c5d1effb"
+    },
+    {
+      "sourcePath": "bin/query/feature/Remove Ap-Per-Min.sql",
+      "fileName": "queries-query-remove-ap-per-min.sql",
+      "sizeBytes": 4630,
+      "sha256": "56e1591aed1bf331cba4f0cddbf9af065cd45b6c0ce9374098d61c655dd4d32c"
+    },
+    {
+      "sourcePath": "bin/query/feature/Remove EXP from GRB and PvP.sql",
+      "fileName": "queries-query-remove-exp-from-grb-and-pvp.sql",
+      "sizeBytes": 282,
+      "sha256": "c46ef5d723449d7f461c6006446df2c2dcceb50eb1491c3c0bebbd97ef6ab5f3"
+    },
+    {
+      "sourcePath": "bin/query/feature/Remove Guild Penaltys.sql",
+      "fileName": "queries-query-remove-guild-penalty-s.sql",
+      "sizeBytes": 109,
+      "sha256": "c14057046db0fc752fff0c07c55fe50f84774ccd2a0f01f4026894584e9ddd1d"
+    },
+    {
+      "sourcePath": "bin/query/feature/Remove life lapis from shields.sql",
+      "fileName": "queries-query-remove-life-lapis-from-shield-s.sql",
+      "sizeBytes": 7621,
+      "sha256": "5569d666d54249c5704556efb0cdbcd2ffe1470bde180db440e98bd37bc128dc"
+    },
+    {
+      "sourcePath": "bin/query/feature/ress char in sql.sql",
+      "fileName": "queries-query-ress-char.sql",
+      "sizeBytes": 2189,
+      "sha256": "6b18e1b122ca68e119390d0b21cea9487e3274d3639eb7a9c4a30a33b79c8c66"
+    },
+    {
+      "sourcePath": "bin/query/feature/Search CharName Inventory For  ItemUID.sql",
+      "fileName": "queries-query-search-charname-inventory-for-itemuid.sql",
+      "sizeBytes": 545,
+      "sha256": "3ee81b9c324d2d4f9b225a69d9a0a958446bd94e4df36f893265604ec8c247af"
+    },
+    {
+      "sourcePath": "bin/query/feature/Search CharName Inventory For  Spesific ItemsUID_Lapis in it.sql",
+      "fileName": "queries-query-search-charname-inventory-for-spesific-item-s-uid-lapis-in-it.sql",
+      "sizeBytes": 642,
+      "sha256": "9391153c760aea3e84a91f14ca8a53cfd7269309cc09d3631522ce67f54d7ef9"
+    },
+    {
+      "sourcePath": "bin/query/feature/Search the owner of MarketID.sql",
+      "fileName": "queries-query-search-the-owner-of-marketid.sql",
+      "sizeBytes": 255,
+      "sha256": "c93c616b2a0c7db800f75c26667c95724b3b91a9e002c9938ce77ab647963d18"
+    },
+    {
+      "sourcePath": "bin/query/feature/Set Dayfly to personal range.sql",
+      "fileName": "queries-query-set-dayfly-to-personal-range.sql",
+      "sizeBytes": 760,
+      "sha256": "1f8ed23455c333c2f045872a66ddc6b49201899155515d852c51126a81fed3dd"
+    },
+    {
+      "sourcePath": "bin/query/feature/Set max Orange stats pr Item.sql",
+      "fileName": "queries-query-set-max-orange-stats-pr-item.sql",
+      "sizeBytes": 10102,
+      "sha256": "c34da64902a94e1446b32cf53391c041ab981667c5fb653d82a115fc5b3673c2"
+    },
+    {
+      "sourcePath": "bin/query/feature/Set max Orange stats to 30.sql",
+      "fileName": "queries-query-set-max-orange-stats-to-30.sql",
+      "sizeBytes": 7895,
+      "sha256": "131a4f01c10fc8879f61108319156b6a190c83859ef184a1d01d6066f4e5c32d"
+    },
+    {
+      "sourcePath": "bin/query/feature/show all accounts with all chars.sql",
+      "fileName": "queries-query-show-all-accounts-with-all-chars.sql",
+      "sizeBytes": 185,
+      "sha256": "42c295437ceadfaf5c2876a41cc3c5e5a00b2872aa9b8dd5c55ae58e4f95e8d4"
+    },
+    {
+      "sourcePath": "bin/query/feature/Static IP GMs.sql",
+      "fileName": "queries-query-static-ip-gm-s.sql",
+      "sizeBytes": 8120,
+      "sha256": "428a2fa5d272d5d69dfeb4d175564beaef47d95918e36f275179f2fd298e7509"
+    },
+    {
+      "sourcePath": "bin/query/feature/Tag Adding.sql",
+      "fileName": "queries-query-tag-adding.sql",
+      "sizeBytes": 88,
+      "sha256": "be1c8677b32df63d71a6d66d7e094f564fa62ecd395da6b1b7f79f4ddec2810f"
+    },
+    {
+      "sourcePath": "bin/query/feature/Toon Only Change.sql",
+      "fileName": "queries-query-toon-only-change.sql",
+      "sizeBytes": 1266,
+      "sha256": "b32357e52209b4706ac021d17db30e02e9d3b0474917a660dadfa48f56c53e56"
+    },
+    {
+      "sourcePath": "bin/query/feature/Try_GameLogin_Taiwan.sql",
+      "fileName": "queries-query-try-gamelogin-taiwan.sql",
+      "sizeBytes": 7128,
+      "sha256": "188b2f9657bb5182b810f2fe14bc62240e4feff4c5e7149ada307a451413a005"
+    },
+    {
+      "sourcePath": "bin/query/feature/Unlock UM At Lv0.sql",
+      "fileName": "queries-query-unlock-um-at-lv0.sql",
+      "sizeBytes": 1662,
+      "sha256": "abb39a722a3e3e5fbabd04e4ec407fa913365469a3bf28f61045d04ad77e20d4"
+    },
+    {
+      "sourcePath": "bin/query/feature/Warehouse lookup.sql",
+      "fileName": "queries-query-warehouse-lookup.sql",
+      "sizeBytes": 1687,
+      "sha256": "e69e4a587d7df6ada36c11ceeb2698df90225e5510368af883e2e1bc16985989"
+    },
+    {
+      "sourcePath": "bin/query/feature/Warehouse.sql",
+      "fileName": "queries-query-warehouse.sql",
+      "sizeBytes": 2542,
+      "sha256": "5b6c5f0762e9a3f78d1fdceee6289570ebd3727d6c4b6382cd5209c5e92f5650"
+    },
+    {
+      "sourcePath": "bin/query/feature/Who is overpricing.sql",
+      "fileName": "queries-query-who-is-overpricing.sql",
+      "sizeBytes": 495,
+      "sha256": "ac550e395f5a2615bd6382629edc0a4f954404ed8933d086e3d646eafe3e20a9"
+    },
+    {
+      "sourcePath": "bin/query/feature/World change.sql",
+      "fileName": "queries-query-world-change.sql",
+      "sizeBytes": 1708,
+      "sha256": "254c7bd10460bebb193d8df66503bc40fdb8eafad62758aabae9dd7617c02e79"
+    },
+    {
+      "sourcePath": "bin/design/interface/hd-loading-shaiya.rar",
+      "fileName": "interface-hd-loading-pictures.rar",
+      "sizeBytes": 2388532,
+      "sha256": "b214ab84b4ad3d15833ebb8105f594a9357841d63248bcce7f8606e12cc0d872"
+    },
+    {
+      "sourcePath": "bin/design/website/Ep4-site.rar",
+      "fileName": "website-ep4-5-original-tr.rar",
+      "sizeBytes": 1534496,
+      "sha256": "cb1d462618d80b8fd76c7472b819883769a5da80fef8e4663277ee8a72ae854b"
+    },
+    {
+      "sourcePath": "bin/design/website/ep8-site.rar",
+      "fileName": "website-ep8-original-tr.rar",
+      "sizeBytes": 2584682,
+      "sha256": "5380ba05619d8b32864674075f314b822f2ba07e9496be8b93e3ce772422b7e7"
+    },
+    {
+      "sourcePath": "bin/design/website/orizon.rar",
+      "fileName": "website-orizon-tr.rar",
+      "sizeBytes": 825568,
+      "sha256": "a8d8ae296dce25839a80dd5d1bf72790b33474bac201e458cf0e0671c63bf350"
+    },
+    {
+      "sourcePath": "bin/design/website/custom-site.rar",
+      "fileName": "website-custom-tr.rar",
+      "sizeBytes": 3277642,
+      "sha256": "9f98407a42b569ceea08712b4630e3b715dbb21ee09b32c72c9270225781dee7"
+    },
+    {
+      "sourcePath": "bin/feature/ep5.4/Fast Reroll.txt",
+      "fileName": "developer-ep5-4-reference-fast-reroll.txt",
+      "sizeBytes": 325,
+      "sha256": "8c05a89877b1bbdfa551d97ec9f64b8b4f34132ca4d67309a7ee90fefc4dc865"
+    },
+    {
+      "sourcePath": "bin/feature/ep5.4/Fast Transition.txt",
+      "fileName": "developer-ep5-4-reference-fast-transition.txt",
+      "sizeBytes": 529,
+      "sha256": "c8397f0a2e94319e3792b3f19d22ed2e00644f74242862025ea59cf601c78780"
+    },
+    {
+      "sourcePath": "bin/feature/ep5.4/Multi-Client.txt",
+      "fileName": "developer-ep5-4-reference-multi-client.txt",
+      "sizeBytes": 81,
+      "sha256": "c78818e175ffdfdb4ab5222c929c5a0b096ba5315d3df7c8fba49a3f1d77a3e9"
+    },
+    {
+      "sourcePath": "bin/feature/ep5.4/Remove Updater.txt",
+      "fileName": "developer-ep5-4-reference-remove-updater.txt",
+      "sizeBytes": 59,
+      "sha256": "3d3db7022c71cfdb2a4fbe552f39fa217444a2d244b4787511b5bd41e34b65df"
+    },
+    {
+      "sourcePath": "bin/feature/ep5.4/Speed Enchant.txt",
+      "fileName": "developer-ep5-4-reference-speed-enchant.txt",
+      "sizeBytes": 134,
+      "sha256": "7365b66816f387b83b9bb8dd6a4b2f9e7a15aa70dfebfdc00c87ece81d4bb1b7"
+    },
+    {
+      "fileName": "queries-complete-pack.zip",
+      "bundleSources": [
+        "bin/query/feature/Add_LoginStatus.sql",
+        "bin/query/feature/Admin Check.sql",
+        "bin/query/feature/Auction House.sql",
+        "bin/query/feature/AuctionBoardOverpricingSearchTest.sql",
+        "bin/query/feature/Backup Databases.sql",
+        "bin/query/feature/Banned_IPs Table.sql",
+        "bin/query/feature/Change Faction of Player.sql",
+        "bin/query/feature/Change Grade of Items.sql",
+        "bin/query/feature/Change Item to Another Item.sql",
+        "bin/query/feature/Change Lapis in Gears to Another.sql",
+        "bin/query/feature/Change Mob Drops and Rate.sql",
+        "bin/query/feature/Change an Item to Item for Character Name.sql",
+        "bin/query/feature/Char&Gear Change.sql",
+        "bin/query/feature/Character Statistics.sql",
+        "bin/query/feature/Check Grades Drop Rate.sql",
+        "bin/query/feature/Check illegal linking of items.sql",
+        "bin/query/feature/Check player chat.sql",
+        "bin/query/feature/Check player gamelog.sql",
+        "bin/query/feature/Delete AH Item Script.sql",
+        "bin/query/feature/Delete Accounts - All traces.sql",
+        "bin/query/feature/Delete Accounts - Inactive 180 days.sql",
+        "bin/query/feature/Delete Auction Board Item.sql",
+        "bin/query/feature/Delete Item From Certain Character.sql",
+        "bin/query/feature/Deleting A Player.sql",
+        "bin/query/feature/Faction change - Keeps race.sql",
+        "bin/query/feature/Find Characters With Certain Item.sql",
+        "bin/query/feature/Find What Items Are In A Certain Grade.sql",
+        "bin/query/feature/FindMobsItems.sql",
+        "bin/query/feature/Finding Character Items.sql",
+        "bin/query/feature/Gearcheck - guildhouse.sql",
+        "bin/query/feature/Gearcheck - player.sql",
+        "bin/query/feature/Gearcheck - warehouse.sql",
+        "bin/query/feature/Global Stat-Skill Reset.sql",
+        "bin/query/feature/Guildhouse lookup.sql",
+        "bin/query/feature/Inventory lookup - player.sql",
+        "bin/query/feature/Link spesific UID item for CharID.sql",
+        "bin/query/feature/Logging of Kills pr Playername.sql",
+        "bin/query/feature/Lookup No of items - GuildWarehouse.sql",
+        "bin/query/feature/Lookup No of items - Warehouse.sql",
+        "bin/query/feature/Lookup No of items.sql",
+        "bin/query/feature/MarketItems lookup.sql",
+        "bin/query/feature/Move Char to ah.sql",
+        "bin/query/feature/Naughty GM Checker.sql",
+        "bin/query/feature/Player lookup pr guild.sql",
+        "bin/query/feature/Query In Account Character Is Blocked By Dupe Fix.sql",
+        "bin/query/feature/Rec Runes Work On Quest Items by Danco.sql",
+        "bin/query/feature/Remove Ap-Per-Min.sql",
+        "bin/query/feature/Remove EXP from GRB and PvP.sql",
+        "bin/query/feature/Remove Guild Penaltys.sql",
+        "bin/query/feature/Remove life lapis from shields.sql",
+        "bin/query/feature/Search CharName Inventory For  ItemUID.sql",
+        "bin/query/feature/Search CharName Inventory For  Spesific ItemsUID_Lapis in it.sql",
+        "bin/query/feature/Search the owner of MarketID.sql",
+        "bin/query/feature/Set Dayfly to personal range.sql",
+        "bin/query/feature/Set max Orange stats pr Item.sql",
+        "bin/query/feature/Set max Orange stats to 30.sql",
+        "bin/query/feature/Static IP GMs.sql",
+        "bin/query/feature/Tag Adding.sql",
+        "bin/query/feature/Toon Only Change.sql",
+        "bin/query/feature/Try_GameLogin_Taiwan.sql",
+        "bin/query/feature/Unlock UM At Lv0.sql",
+        "bin/query/feature/Warehouse lookup.sql",
+        "bin/query/feature/Warehouse.sql",
+        "bin/query/feature/Who is overpricing.sql",
+        "bin/query/feature/World change.sql",
+        "bin/query/feature/gmreroll.sql",
+        "bin/query/feature/ipban query.sql",
+        "bin/query/feature/kick query.sql",
+        "bin/query/feature/ress char in sql.sql",
+        "bin/query/feature/show all accounts with all chars.sql",
+        "bin/query/issue/120K Kill Fix.sql",
+        "bin/query/issue/Bankteller Fix 1.sql",
+        "bin/query/issue/Bankteller Fix 2.sql",
+        "bin/query/issue/Fix Login.sql",
+        "bin/query/issue/GM Account Fix.sql",
+        "bin/query/issue/Name Hack.sql",
+        "bin/query/issue/Name is already use.sql",
+        "bin/query/issue/RESTART after Guild Delete.sql",
+        "bin/query/issue/Rollback.sql",
+        "bin/query/issue/sui-ranger 30K.txt",
+        "LICENSE"
+      ],
+      "sizeBytes": 164896,
+      "sha256": "b33cdf6e85409353889211279465324fc065761ff18bf2b5f892d4503f5ed426"
+    }
+  ]
+}
