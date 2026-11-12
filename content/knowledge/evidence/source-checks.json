@@ -3,107 +3,264 @@
     "id": "producer",
     "url": "https://www.tentonhammer.com/articles/shaiya-online-an-interview-with-producer-joshua-sell.amp",
     "status": 200,
-    "finalUrl": "https://www.tentonhammer.com/articles/shaiya-online-an-interview-with-producer-joshua-sell.amp"
+    "finalUrl": "https://www.tentonhammer.com/articles/shaiya-online-an-interview-with-producer-joshua-sell.amp",
+    "checkedAt": "2026-11-12",
+    "scope": "HTTP availability only; factual review is recorded in each article"
   },
   {
     "id": "imgeneus",
     "url": "https://github.com/aosyatnik/Imgeneus",
     "status": 200,
-    "finalUrl": "https://github.com/aosyatnik/Imgeneus"
+    "finalUrl": "https://github.com/aosyatnik/Imgeneus",
+    "checkedAt": "2026-11-12",
+    "scope": "HTTP availability only; factual review is recorded in each article"
   },
   {
     "id": "parsec",
     "url": "https://github.com/matigramirez/Parsec",
     "status": 200,
-    "finalUrl": "https://github.com/matigramirez/Parsec"
+    "finalUrl": "https://github.com/matigramirez/Parsec",
+    "checkedAt": "2026-11-12",
+    "scope": "HTTP availability only; factual review is recorded in each article"
   },
   {
     "id": "shstudio",
     "url": "https://www.elitepvpers.com/forum/shaiya-pserver-guides-releases/3430120-release-shstudio-0-7-5-a.html",
     "status": 200,
-    "finalUrl": "https://www.elitepvpers.com/forum/shaiya-pserver-guides-releases/3430120-release-shstudio-0-7-5-a.html"
+    "finalUrl": "https://www.elitepvpers.com/forum/shaiya-pserver-guides-releases/3430120-release-shstudio-0-7-5-a.html",
+    "checkedAt": "2026-11-12",
+    "scope": "HTTP availability only; factual review is recorded in each article"
   },
   {
     "id": "ep64",
     "url": "https://github.com/melihxcode/shDeveloperTool/blob/main/content/knowledge/evidence/ep64-inspection.json",
-    "status": "published-with-content"
+    "status": 200,
+    "finalUrl": "https://github.com/melihxcode/shDeveloperTool/blob/main/content/knowledge/evidence/ep64-inspection.json",
+    "checkedAt": "2026-11-12",
+    "scope": "HTTP availability only; factual review is recorded in each article"
   },
   {
     "id": "pack",
     "url": "https://github.com/melihxcode/shDeveloperPack/blob/c70c3e1460945685df6793ffd5819452a44c2188/bin/serverfiles/ep6.4/EP6.4%20ServerFiles%20%7BEssentials%7D%7D.zip",
     "status": 200,
-    "finalUrl": "https://github.com/melihxcode/shDeveloperPack/blob/c70c3e1460945685df6793ffd5819452a44c2188/bin/serverfiles/ep6.4/EP6.4%20ServerFiles%20%7BEssentials%7D%7D.zip"
+    "finalUrl": "https://github.com/melihxcode/shDeveloperPack/blob/c70c3e1460945685df6793ffd5819452a44c2188/bin/serverfiles/ep6.4/EP6.4%20ServerFiles%20%7BEssentials%7D%7D.zip",
+    "checkedAt": "2026-11-12",
+    "scope": "HTTP availability only; factual review is recorded in each article"
   },
   {
     "id": "query-items",
     "url": "https://github.com/melihxcode/shDeveloperPack/blob/c70c3e1460945685df6793ffd5819452a44c2188/bin/query/feature/Char%26Gear%20Change.sql",
     "status": 200,
-    "finalUrl": "https://github.com/melihxcode/shDeveloperPack/blob/c70c3e1460945685df6793ffd5819452a44c2188/bin/query/feature/Char%26Gear%20Change.sql"
+    "finalUrl": "https://github.com/melihxcode/shDeveloperPack/blob/c70c3e1460945685df6793ffd5819452a44c2188/bin/query/feature/Char%26Gear%20Change.sql",
+    "checkedAt": "2026-11-12",
+    "scope": "HTTP availability only; factual review is recorded in each article"
   },
   {
     "id": "query-users",
     "url": "https://github.com/melihxcode/shDeveloperPack/blob/c70c3e1460945685df6793ffd5819452a44c2188/bin/query/feature/Character%20Statistics.sql",
     "status": 200,
-    "finalUrl": "https://github.com/melihxcode/shDeveloperPack/blob/c70c3e1460945685df6793ffd5819452a44c2188/bin/query/feature/Character%20Statistics.sql"
+    "finalUrl": "https://github.com/melihxcode/shDeveloperPack/blob/c70c3e1460945685df6793ffd5819452a44c2188/bin/query/feature/Character%20Statistics.sql",
+    "checkedAt": "2026-11-12",
+    "scope": "HTTP availability only; factual review is recorded in each article"
   },
   {
     "id": "protocol",
     "url": "https://openshaiya.org/docs/packets/incoming/server_select_request.html",
     "status": 200,
-    "finalUrl": "https://openshaiya.org/docs/packets/incoming/server_select_request.html"
+    "finalUrl": "https://openshaiya.org/docs/packets/incoming/server_select_request.html",
+    "checkedAt": "2026-11-12",
+    "scope": "HTTP availability only; factual review is recorded in each article"
   },
   {
     "id": "database",
     "url": "https://learn.microsoft.com/en-us/sql/relational-databases/databases/databases",
     "status": 200,
-    "finalUrl": "https://learn.microsoft.com/en-us/sql/relational-databases/databases/databases?view=sql-server-ver17"
+    "finalUrl": "https://learn.microsoft.com/en-us/sql/relational-databases/databases/databases?view=sql-server-ver17",
+    "checkedAt": "2026-11-12",
+    "scope": "HTTP availability only; factual review is recorded in each article"
   },
   {
     "id": "ssms",
     "url": "https://learn.microsoft.com/en-us/ssms/sql-server-management-studio-ssms",
     "status": 200,
-    "finalUrl": "https://learn.microsoft.com/en-us/ssms/sql-server-management-studio-ssms"
+    "finalUrl": "https://learn.microsoft.com/en-us/ssms/sql-server-management-studio-ssms",
+    "checkedAt": "2026-11-12",
+    "scope": "HTTP availability only; factual review is recorded in each article"
   },
   {
     "id": "backup",
     "url": "https://learn.microsoft.com/en-us/sql/relational-databases/backup-restore/back-up-and-restore-of-sql-server-databases",
     "status": 200,
-    "finalUrl": "https://learn.microsoft.com/en-us/sql/relational-databases/backup-restore/back-up-and-restore-of-sql-server-databases?view=sql-server-ver17"
+    "finalUrl": "https://learn.microsoft.com/en-us/sql/relational-databases/backup-restore/back-up-and-restore-of-sql-server-databases?view=sql-server-ver17",
+    "checkedAt": "2026-11-12",
+    "scope": "HTTP availability only; factual review is recorded in each article"
   },
   {
     "id": "tables",
     "url": "https://learn.microsoft.com/en-us/sql/relational-databases/system-catalog-views/sys-tables-transact-sql",
     "status": 200,
-    "finalUrl": "https://learn.microsoft.com/en-us/sql/relational-databases/system-catalog-views/sys-tables-transact-sql?view=sql-server-ver17"
+    "finalUrl": "https://learn.microsoft.com/en-us/sql/relational-databases/system-catalog-views/sys-tables-transact-sql?view=sql-server-ver17",
+    "checkedAt": "2026-11-12",
+    "scope": "HTTP availability only; factual review is recorded in each article"
   },
   {
     "id": "connections",
     "url": "https://learn.microsoft.com/en-us/troubleshoot/sql/database-engine/connect/resolve-connectivity-errors-overview",
     "status": 200,
-    "finalUrl": "https://learn.microsoft.com/en-us/troubleshoot/sql/database-engine/connect/resolve-connectivity-errors-overview"
+    "finalUrl": "https://learn.microsoft.com/en-us/troubleshoot/sql/database-engine/connect/resolve-connectivity-errors-overview",
+    "checkedAt": "2026-11-12",
+    "scope": "HTTP availability only; factual review is recorded in each article"
   },
   {
     "id": "visualstudio",
     "url": "https://learn.microsoft.com/en-us/visualstudio/get-started/visual-studio-ide",
     "status": 200,
-    "finalUrl": "https://learn.microsoft.com/en-us/visualstudio/get-started/visual-studio-ide?view=visualstudio"
+    "finalUrl": "https://learn.microsoft.com/en-us/visualstudio/get-started/visual-studio-ide?view=visualstudio",
+    "checkedAt": "2026-11-12",
+    "scope": "HTTP availability only; factual review is recorded in each article"
   },
   {
     "id": "vscode",
     "url": "https://code.visualstudio.com/docs/introvideos/basics",
     "status": 200,
-    "finalUrl": "https://code.visualstudio.com/docs/introvideos/basics"
+    "finalUrl": "https://code.visualstudio.com/docs/introvideos/basics",
+    "checkedAt": "2026-11-12",
+    "scope": "HTTP availability only; factual review is recorded in each article"
   },
   {
     "id": "xampp",
     "url": "https://www.apachefriends.org/faq_windows.html",
     "status": 200,
-    "finalUrl": "https://www.apachefriends.org/faq_windows.html"
+    "finalUrl": "https://www.apachefriends.org/faq_windows.html",
+    "checkedAt": "2026-11-12",
+    "scope": "HTTP availability only; factual review is recorded in each article"
   },
   {
     "id": "archive",
     "url": "https://archive.openshaiya.org/",
     "status": 200,
-    "finalUrl": "https://archive.openshaiya.org/"
+    "finalUrl": "https://archive.openshaiya.org/",
+    "checkedAt": "2026-11-12",
+    "scope": "HTTP availability only; factual review is recorded in each article"
+  },
+  {
+    "id": "fawkes",
+    "url": "https://fawkesgames.com/en/shaiya/",
+    "status": 200,
+    "finalUrl": "https://fawkesgames.com/en/shaiya/",
+    "checkedAt": "2026-11-12",
+    "scope": "HTTP availability only; factual review is recorded in each article"
+  },
+  {
+    "id": "sql-files",
+    "url": "https://learn.microsoft.com/en-us/sql/relational-databases/databases/database-files-and-filegroups",
+    "status": 200,
+    "finalUrl": "https://learn.microsoft.com/en-us/sql/relational-databases/databases/database-files-and-filegroups?view=sql-server-ver17",
+    "checkedAt": "2026-11-12",
+    "scope": "HTTP availability only; factual review is recorded in each article"
+  },
+  {
+    "id": "sql-transactions",
+    "url": "https://learn.microsoft.com/en-us/sql/t-sql/language-elements/transactions-transact-sql",
+    "status": 200,
+    "finalUrl": "https://learn.microsoft.com/en-us/sql/t-sql/language-elements/transactions-transact-sql?view=sql-server-ver17",
+    "checkedAt": "2026-11-12",
+    "scope": "HTTP availability only; factual review is recorded in each article"
+  },
+  {
+    "id": "sql-restore-copy",
+    "url": "https://learn.microsoft.com/en-us/sql/relational-databases/backup-restore/restore-a-database-to-a-new-location-sql-server",
+    "status": 200,
+    "finalUrl": "https://learn.microsoft.com/en-us/sql/relational-databases/backup-restore/restore-a-database-to-a-new-location-sql-server?view=sql-server-ver17",
+    "checkedAt": "2026-11-12",
+    "scope": "HTTP availability only; factual review is recorded in each article"
+  },
+  {
+    "id": "sql-verify",
+    "url": "https://learn.microsoft.com/en-us/sql/t-sql/statements/restore-statements-verifyonly-transact-sql",
+    "status": 200,
+    "finalUrl": "https://learn.microsoft.com/en-us/sql/t-sql/statements/restore-statements-verifyonly-transact-sql?view=sql-server-ver17",
+    "checkedAt": "2026-11-12",
+    "scope": "HTTP availability only; factual review is recorded in each article"
+  },
+  {
+    "id": "sql-roles",
+    "url": "https://learn.microsoft.com/en-us/sql/relational-databases/security/authentication-access/database-level-roles",
+    "status": 200,
+    "finalUrl": "https://learn.microsoft.com/en-us/sql/relational-databases/security/authentication-access/database-level-roles?view=sql-server-ver17",
+    "checkedAt": "2026-11-12",
+    "scope": "HTTP availability only; factual review is recorded in each article"
+  },
+  {
+    "id": "sql-18456",
+    "url": "https://learn.microsoft.com/en-us/sql/relational-databases/errors-events/mssqlserver-18456-database-engine-error",
+    "status": 200,
+    "finalUrl": "https://learn.microsoft.com/en-us/sql/relational-databases/errors-events/mssqlserver-18456-database-engine-error?view=sql-server-ver17",
+    "checkedAt": "2026-11-12",
+    "scope": "HTTP availability only; factual review is recorded in each article"
+  },
+  {
+    "id": "sql-4064",
+    "url": "https://learn.microsoft.com/en-us/sql/relational-databases/errors-events/mssqlserver-4064-database-engine-error",
+    "status": 200,
+    "finalUrl": "https://learn.microsoft.com/en-us/sql/relational-databases/errors-events/mssqlserver-4064-database-engine-error?view=sql-server-ver17",
+    "checkedAt": "2026-11-12",
+    "scope": "HTTP availability only; factual review is recorded in each article"
+  },
+  {
+    "id": "parsec-111",
+    "url": "https://github.com/matigramirez/Parsec/releases/tag/v1.1.1",
+    "status": 200,
+    "finalUrl": "https://github.com/matigramirez/Parsec/releases/tag/v1.1.1",
+    "checkedAt": "2026-11-12",
+    "scope": "HTTP availability only; factual review is recorded in each article"
+  },
+  {
+    "id": "parsec-120",
+    "url": "https://github.com/matigramirez/Parsec/releases/tag/v1.2.0",
+    "status": 200,
+    "finalUrl": "https://github.com/matigramirez/Parsec/releases/tag/v1.2.0",
+    "checkedAt": "2026-11-12",
+    "scope": "HTTP availability only; factual review is recorded in each article"
+  },
+  {
+    "id": "parsec-110",
+    "url": "https://github.com/matigramirez/Parsec/releases/tag/v1.1.0",
+    "status": 200,
+    "finalUrl": "https://github.com/matigramirez/Parsec/releases/tag/v1.1.0",
+    "checkedAt": "2026-11-12",
+    "scope": "HTTP availability only; factual review is recorded in each article"
+  },
+  {
+    "id": "windows-services",
+    "url": "https://learn.microsoft.com/en-us/windows/win32/services/service-control-manager",
+    "status": 200,
+    "finalUrl": "https://learn.microsoft.com/en-us/windows/win32/services/service-control-manager",
+    "checkedAt": "2026-11-12",
+    "scope": "HTTP availability only; factual review is recorded in each article"
+  },
+  {
+    "id": "filehash",
+    "url": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/get-filehash?view=powershell-7.5",
+    "status": 200,
+    "finalUrl": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/get-filehash?view=powershell-7.5",
+    "checkedAt": "2026-11-12",
+    "scope": "HTTP availability only; factual review is recorded in each article"
+  },
+  {
+    "id": "git-diff",
+    "url": "https://git-scm.com/docs/git-diff",
+    "status": 200,
+    "finalUrl": "https://git-scm.com/docs/git-diff",
+    "checkedAt": "2026-11-12",
+    "scope": "HTTP availability only; factual review is recorded in each article"
+  },
+  {
+    "id": "vscode-git",
+    "url": "https://code.visualstudio.com/docs/sourcecontrol/overview",
+    "status": 200,
+    "finalUrl": "https://code.visualstudio.com/docs/sourcecontrol/overview",
+    "checkedAt": "2026-11-12",
+    "scope": "HTTP availability only; factual review is recorded in each article"
   }
 ]

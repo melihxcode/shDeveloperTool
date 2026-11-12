@@ -552,6 +552,652 @@
           "code": ""
         }
       ]
+    },
+    {
+      "id": "class-roster",
+      "categoryId": "shaiya",
+      "title": "Classes and faction names",
+      "summary": "The twelve class names in the current publisher overview.",
+      "scope": "Fawkes English overview, reviewed November 2026. Names and balance can differ in other localizations or private builds.",
+      "evidence": "Source-backed overview",
+      "resolutionStatus": "",
+      "reviewedAt": "2026-11-12",
+      "sourceIds": [
+        "fawkes"
+      ],
+      "blocks": [
+        {
+          "heading": "Alliance of Light",
+          "body": "The publisher lists Fighter, Defender, Priest, Archer, Mage and Ranger.",
+          "code": ""
+        },
+        {
+          "heading": "Union of Fury",
+          "body": "The corresponding Fury roster is Warrior, Guardian, Pagan, Assassin, Oracle and Hunter.",
+          "code": ""
+        },
+        {
+          "heading": "For developers",
+          "body": "Keep the client language and target build alongside any class-ID mapping. This roster does not establish database numeric IDs or a universal skill balance.",
+          "code": ""
+        }
+      ]
+    },
+    {
+      "id": "blessing-and-modes",
+      "categoryId": "shaiya",
+      "title": "Faction warfare, blessing and difficulty",
+      "summary": "Separate the published game concepts from build-specific rules.",
+      "scope": "Publisher overview only. Exact mode restrictions, resurrection exceptions, percentages and level caps need a version-specific source.",
+      "evidence": "Source-backed overview",
+      "resolutionStatus": "",
+      "reviewedAt": "2026-11-12",
+      "sourceIds": [
+        "fawkes"
+      ],
+      "blocks": [
+        {
+          "heading": "Faction objectives",
+          "body": "The publisher describes opposing-faction altar destruction as contributing to faction-wide Goddess Blessing buffs.",
+          "code": ""
+        },
+        {
+          "heading": "Difficulty",
+          "body": "Its overview describes several difficulty modes and permanent-death risk in Ultimate Mode. Check the rules and available resurrection items of the actual service before relying on that summary.",
+          "code": ""
+        },
+        {
+          "heading": "Do not infer constants",
+          "body": "The overview is not a specification for blessing formulas, stat points or private-server settings. No such numbers are asserted here.",
+          "code": ""
+        }
+      ]
+    },
+    {
+      "id": "windows-services-and-game-health",
+      "categoryId": "server",
+      "title": "Windows services versus game health",
+      "summary": "A running service and a healthy game session are different checks.",
+      "scope": "Windows service concepts, applied as diagnostic guidance to Shaiya installations that register services.",
+      "evidence": "Workflow guidance",
+      "resolutionStatus": "",
+      "reviewedAt": "2026-11-12",
+      "sourceIds": [
+        "windows-services"
+      ],
+      "blocks": [
+        {
+          "heading": "What Windows tracks",
+          "body": "The Service Control Manager records installed services, starts them and maintains their reported state.",
+          "code": ""
+        },
+        {
+          "heading": "Check the application too",
+          "body": "For a Shaiya test installation, separately check the service state, its recent log and the expected login/game behavior. A Running label alone does not prove that SQL authentication or client compatibility succeeded.",
+          "code": ""
+        },
+        {
+          "heading": "Capture before changing",
+          "body": "Record the failing service name and exact log message. Compare one controlled restart with its timestamps instead of reinstalling every component.",
+          "code": ""
+        }
+      ]
+    },
+    {
+      "id": "ep64-database-routing",
+      "categoryId": "server",
+      "title": "EP6.4: follow database configuration keys",
+      "summary": "Locate the database settings in the inspected server package.",
+      "scope": "Static EP6.4 Essentials inspection; configuration text establishes keys, not all runtime behavior or correct credentials.",
+      "evidence": "Inspected package",
+      "resolutionStatus": "",
+      "reviewedAt": "2026-11-12",
+      "sourceIds": [
+        "ep64"
+      ],
+      "blocks": [
+        {
+          "heading": "Keys observed",
+          "body": "The inspected ps_login.ini has a UserData database key. ps_game.ini has GameDef and GameData; ps_dbAgent.ini has GameData. These are configuration entry names, not credentials to reuse.",
+          "code": ""
+        },
+        {
+          "heading": "Trace a failure",
+          "body": "When a log identifies a database connection failure, locate the corresponding service configuration and compare its intended database with your local deployment. Preserve a copy before editing.",
+          "code": ""
+        },
+        {
+          "heading": "Duplicate templates",
+          "body": "The package contains configuration in multiple directories. Establish which copy the running service reads before changing a value.",
+          "code": ""
+        }
+      ]
+    },
+    {
+      "id": "sql-files-and-logs",
+      "categoryId": "sql",
+      "title": "MDF, NDF and LDF: what the files mean",
+      "summary": "Understand physical database files before moving a server.",
+      "scope": "SQL Server storage concepts; file names alone do not prove the schema or episode of a Shaiya database.",
+      "evidence": "Source-backed overview",
+      "resolutionStatus": "",
+      "reviewedAt": "2026-11-12",
+      "sourceIds": [
+        "sql-files"
+      ],
+      "blocks": [
+        {
+          "heading": "Data and transaction log",
+          "body": "A SQL Server database has data and transaction-log storage. MDF is the recommended extension for the primary data file, NDF for optional secondary files and LDF for the log.",
+          "code": ""
+        },
+        {
+          "heading": "Logical versus physical names",
+          "body": "The name SQL Server uses for a database file and its operating-system path are separate identifiers. Moving a downloaded package to another drive does not automatically update SQL Server file locations.",
+          "code": ""
+        },
+        {
+          "heading": "Practical boundary",
+          "body": "Treat the LDF as database recovery data, not a disposable text log. Use supported backup/restore procedures when preparing a test copy.",
+          "code": ""
+        }
+      ]
+    },
+    {
+      "id": "sql-test-restore",
+      "categoryId": "sql",
+      "title": "Restore a separate test database",
+      "summary": "Create a safe target for inspecting legacy queries.",
+      "scope": "SQL Server backup/restore guidance. This is not an automated Shaiya migration recipe.",
+      "evidence": "Workflow guidance",
+      "resolutionStatus": "",
+      "reviewedAt": "2026-11-12",
+      "sourceIds": [
+        "sql-restore-copy"
+      ],
+      "blocks": [
+        {
+          "heading": "Use another name and location",
+          "body": "SQL Server can restore a backup into a separate database and different file paths. In SSMS, inspect both the target database name and every destination data/log path before starting.",
+          "code": ""
+        },
+        {
+          "heading": "Avoid the live target",
+          "body": "Use a dedicated test instance where possible. Do not select overwrite options merely to bypass a warning; inspect why the backup and target differ.",
+          "code": ""
+        },
+        {
+          "heading": "After restoration",
+          "body": "Review database access and application configuration before connecting a test service. A restored database is not proof that its client and server binaries match.",
+          "code": ""
+        }
+      ]
+    },
+    {
+      "id": "sql-verify-versus-restore",
+      "categoryId": "sql",
+      "title": "Backup verification is not a restore test",
+      "summary": "Know what a successful backup check actually establishes.",
+      "scope": "SQL Server RESTORE VERIFYONLY documentation. No backup is executed by this reader.",
+      "evidence": "Source-backed overview",
+      "resolutionStatus": "",
+      "reviewedAt": "2026-11-12",
+      "sourceIds": [
+        "sql-verify"
+      ],
+      "blocks": [
+        {
+          "heading": "What it checks",
+          "body": "RESTORE VERIFYONLY checks that a backup set is complete and readable without restoring the database.",
+          "code": ""
+        },
+        {
+          "heading": "What it does not prove",
+          "body": "Microsoft explicitly distinguishes this from checking the structure of all data in the backup. Success is not proof that the restored Shaiya application will behave correctly.",
+          "code": ""
+        },
+        {
+          "heading": "Recommended validation",
+          "body": "Keep a separate restoration test and an application smoke-test checklist. Record the backup date, SQL version and test outcome.",
+          "code": ""
+        }
+      ]
+    },
+    {
+      "id": "sql-transactions",
+      "categoryId": "sql",
+      "title": "Transactions, commit and rollback",
+      "summary": "Why reviewing the scope of an UPDATE matters.",
+      "scope": "SQL Server transaction semantics; a database transaction does not coordinate client archives or unrelated game-service memory.",
+      "evidence": "Source-backed overview",
+      "resolutionStatus": "",
+      "reviewedAt": "2026-11-12",
+      "sourceIds": [
+        "sql-transactions"
+      ],
+      "blocks": [
+        {
+          "heading": "The unit of work",
+          "body": "A successful transaction commits its database changes; a rolled-back transaction cancels its changes. SQL Server supports autocommit, explicit and implicit transaction modes.",
+          "code": ""
+        },
+        {
+          "heading": "For query review",
+          "body": "Before running a legacy modification, identify its target database and selection condition. Preview the intended rows on a test copy. Do not assume several pasted statements are one transaction.",
+          "code": ""
+        },
+        {
+          "heading": "Limit of rollback",
+          "body": "Do not present rollback as an undo button for changes already committed or edits to separate client files. Plan the complete test and recovery procedure before a live update.",
+          "code": ""
+        }
+      ]
+    },
+    {
+      "id": "sql-role-scope",
+      "categoryId": "sql",
+      "title": "Database roles and access scope",
+      "summary": "Understand permissions without granting every account full control.",
+      "scope": "General SQL Server roles. Required Shaiya service permissions must be established for the actual package.",
+      "evidence": "Source-backed overview",
+      "resolutionStatus": "",
+      "reviewedAt": "2026-11-12",
+      "sourceIds": [
+        "sql-roles"
+      ],
+      "blocks": [
+        {
+          "heading": "Database-level roles",
+          "body": "Database roles group permissions within a database. SQL Server provides fixed roles and lets administrators define custom roles.",
+          "code": ""
+        },
+        {
+          "heading": "Separate account purposes",
+          "body": "A read-only inspection account, a game-service login and an administrator can have different needs. Do not assume that granting a broad role is the correct response to every connection error.",
+          "code": ""
+        },
+        {
+          "heading": "Check the target",
+          "body": "Review the mapped user and its role membership in the intended database. A role change in one database does not establish the right access in another.",
+          "code": ""
+        }
+      ]
+    },
+    {
+      "id": "parsec-encoding",
+      "categoryId": "client",
+      "title": "Text encoding when reading Shaiya data",
+      "summary": "Recognize encoding as part of the file format.",
+      "scope": "Parsec documented defaults; not a claim that every Shaiya client uses ASCII.",
+      "evidence": "Source-backed overview",
+      "resolutionStatus": "",
+      "reviewedAt": "2026-11-12",
+      "sourceIds": [
+        "parsec"
+      ],
+      "blocks": [
+        {
+          "heading": "Explicit inputs",
+          "body": "Parsec documents ASCII as its default encoding and allows an encoding parameter. An episode choice and a language encoding are different settings.",
+          "code": ""
+        },
+        {
+          "heading": "Preserve the original",
+          "body": "Use an unchanged sample containing non-ASCII text when checking a conversion. Compare the original text after reading and saving a separate copy; a file opening successfully is not enough to prove correct characters.",
+          "code": ""
+        }
+      ]
+    },
+    {
+      "id": "parsec-json-roundtrip",
+      "categoryId": "editing",
+      "title": "Editing structured data through JSON",
+      "summary": "Use an exported document as the starting point.",
+      "scope": "Parsec JSON workflow. Format support and episode coverage remain limited to the library documentation.",
+      "evidence": "Workflow guidance",
+      "resolutionStatus": "",
+      "reviewedAt": "2026-11-12",
+      "sourceIds": [
+        "parsec"
+      ],
+      "blocks": [
+        {
+          "heading": "Preserve fields",
+          "body": "The author recommends exporting an existing parsed file to JSON before editing and importing it again, so its expected fields remain present.",
+          "code": ""
+        },
+        {
+          "heading": "Test a small change",
+          "body": "Keep the original and change one field in a copy. Validate the JSON, import it, reopen the output and compare the intended value. Conversion does not automatically synchronize SQL or another server data file.",
+          "code": ""
+        }
+      ]
+    },
+    {
+      "id": "shstudio-maps",
+      "categoryId": "editing",
+      "title": "Map data: SVMAP and WLD editing areas",
+      "summary": "Know which parts of the editor to inspect.",
+      "scope": "The shStudio author manual. Availability and compatibility depend on the editor and file version.",
+      "evidence": "Source-backed overview",
+      "resolutionStatus": "",
+      "reviewedAt": "2026-11-12",
+      "sourceIds": [
+        "shstudio"
+      ],
+      "blocks": [
+        {
+          "heading": "Server map sections",
+          "body": "The manual documents SVMAP areas for monsters, NPCs, portals, spawns and safe areas.",
+          "code": ""
+        },
+        {
+          "heading": "World content",
+          "body": "It also documents WLD editing for field maps and dungeons. A map change may involve more than one resource; do not replace a WLD file and assume server map behavior is synchronized.",
+          "code": ""
+        },
+        {
+          "heading": "Validation workflow",
+          "body": "Compare one change in a separate test client/server pair, including entry, movement and the edited entity. Keep exact filenames and the editor version with the result.",
+          "code": ""
+        }
+      ]
+    },
+    {
+      "id": "shstudio-workspace-patch",
+      "categoryId": "editing",
+      "title": "Workspace, archive and patch are separate outputs",
+      "summary": "Choose the output you actually intend to distribute.",
+      "scope": "shStudio author manual, with workflow guidance; no universal updater configuration is implied.",
+      "evidence": "Workflow guidance",
+      "resolutionStatus": "",
+      "reviewedAt": "2026-11-12",
+      "sourceIds": [
+        "shstudio"
+      ],
+      "blocks": [
+        {
+          "heading": "Workspace",
+          "body": "The manual describes a workspace as the extracted directory hierarchy of a client archive. It can also work with the SAH/SAF archive pair and generate archives or patches.",
+          "code": ""
+        },
+        {
+          "heading": "Practical check",
+          "body": "Verify where the edited file was saved, then inspect the actual output package. Test it against a clean matching client before distribution. Do not edit the same workspace from two editor instances.",
+          "code": ""
+        }
+      ]
+    },
+    {
+      "id": "hashes-identify-files",
+      "categoryId": "development",
+      "title": "Identify a package with SHA-256",
+      "summary": "Record a file fingerprint alongside its name and version.",
+      "scope": "PowerShell file hashing. Matching a hash identifies bytes; it is not a malware scan or compatibility test.",
+      "evidence": "Source-backed overview",
+      "resolutionStatus": "",
+      "reviewedAt": "2026-11-12",
+      "sourceIds": [
+        "filehash"
+      ],
+      "blocks": [
+        {
+          "heading": "Why names are insufficient",
+          "body": "Two downloads may share an episode label while containing different bytes. Record the publisher URL, file size and SHA-256 when comparing packages.",
+          "code": ""
+        },
+        {
+          "heading": "Read-only example",
+          "body": "Replace the sample path with an actual local archive. Get-FileHash reads the file and reports its digest. Compare it with a value from a trusted publisher.",
+          "code": "Get-FileHash -LiteralPath \"C:\\Shaiya\\package.zip\" -Algorithm SHA256"
+        },
+        {
+          "heading": "Keep the scope clear",
+          "body": "A matching digest verifies the expected file content. It does not prove that an executable is safe or that a client works with your server.",
+          "code": ""
+        }
+      ]
+    },
+    {
+      "id": "git-config-diff",
+      "categoryId": "development",
+      "title": "Review configuration changes with Git",
+      "summary": "Compare before and after without changing either file.",
+      "scope": "Git text comparison guidance. Avoid publishing credentials contained in configuration files.",
+      "evidence": "Source-backed overview",
+      "resolutionStatus": "",
+      "reviewedAt": "2026-11-12",
+      "sourceIds": [
+        "git-diff"
+      ],
+      "blocks": [
+        {
+          "heading": "Compare local copies",
+          "body": "git diff --no-index compares two filesystem paths even outside a repository. It is useful for reviewing changes to a redacted configuration copy.",
+          "code": ""
+        },
+        {
+          "heading": "Read-only example",
+          "body": "The command displays differences. A difference can produce exit code 1; that is expected for this comparison mode.",
+          "code": "git diff --no-index -- \"before.ini\" \"after.ini\""
+        },
+        {
+          "heading": "Keep a meaningful record",
+          "body": "Record why each setting changed and the test result. Binary differences do not automatically explain the meaning of a game-data change.",
+          "code": ""
+        }
+      ]
+    },
+    {
+      "id": "vscode-version-control",
+      "categoryId": "development",
+      "title": "Track scripts and documentation in VS Code",
+      "summary": "Keep a reviewable history of your own project changes.",
+      "scope": "VS Code source-control documentation; recommended workflow for scripts and notes you are authorized to store.",
+      "evidence": "Workflow guidance",
+      "resolutionStatus": "",
+      "reviewedAt": "2026-11-12",
+      "sourceIds": [
+        "vscode-git"
+      ],
+      "blocks": [
+        {
+          "heading": "Review before committing",
+          "body": "VS Code provides source-control views for reviewing changes, staging files and committing with Git.",
+          "code": ""
+        },
+        {
+          "heading": "Organize the project",
+          "body": "Keep your SQL source, documentation and redacted configuration templates in small, purposeful commits. Write the reason for the change rather than only its date.",
+          "code": ""
+        },
+        {
+          "heading": "Exclude local data",
+          "body": "Keep database dumps, private credentials and generated client archives out of ordinary source commits. Review the staged diff before pushing.",
+          "code": ""
+        }
+      ]
+    },
+    {
+      "id": "resolved-parsec-item",
+      "categoryId": "troubleshooting",
+      "title": "Resolved in Parsec: item field serialization",
+      "summary": "A maintainer-documented fix for specific item layouts.",
+      "scope": "Parsec v1.1.1 release notes. The fix was documented by its maintainer; no affected client was run as part of this article review.",
+      "evidence": "Source-backed overview",
+      "resolutionStatus": "Maintainer-confirmed fix",
+      "reviewedAt": "2026-11-12",
+      "sourceIds": [
+        "parsec-111"
+      ],
+      "blocks": [
+        {
+          "heading": "Documented issue and fix",
+          "body": "Version 1.1.1 adds EP6_4 and changes Item ReqLuc to uint for EP6_4 and above. It also corrects Item Range serialization to byte for EP5 and below.",
+          "code": ""
+        },
+        {
+          "heading": "When relevant",
+          "body": "If an older Parsec-based tool mishandles these fields, compare its dependency version with this release. This does not establish that unrelated tools or every corrupt Item.SData have the same cause.",
+          "code": ""
+        },
+        {
+          "heading": "Verify locally",
+          "body": "Test the updated dependency against an original affected sample and reopen a saved copy. Keep the old file until that comparison succeeds.",
+          "code": ""
+        }
+      ]
+    },
+    {
+      "id": "resolved-parsec-sah",
+      "categoryId": "troubleshooting",
+      "title": "Resolved in Parsec: archive paths and DbItemSell",
+      "summary": "Two concrete fixes recorded in version 1.2.0.",
+      "scope": "Parsec v1.2.0 release notes; maintainer confirmation, not a reproduction on the user's client.",
+      "evidence": "Source-backed overview",
+      "resolutionStatus": "Maintainer-confirmed fix",
+      "reviewedAt": "2026-11-12",
+      "sourceIds": [
+        "parsec-120"
+      ],
+      "blocks": [
+        {
+          "heading": "Documented fixes",
+          "body": "The maintainer records a directory-separator correction when modifying SAH and a correction to DbItemSell structure reading/writing.",
+          "code": ""
+        },
+        {
+          "heading": "Use the scope",
+          "body": "Check whether your utility actually uses Parsec and which version it embeds. Updating an unrelated executable does not apply this library fix.",
+          "code": ""
+        },
+        {
+          "heading": "Verification",
+          "body": "On a copy, repeat the failing operation and inspect paths or affected records before promoting the output. Do not reinterpret all archive errors as this particular bug.",
+          "code": ""
+        }
+      ]
+    },
+    {
+      "id": "resolved-parsec-text",
+      "categoryId": "troubleshooting",
+      "title": "Resolved in Parsec: text export and monster records",
+      "summary": "Fixes reported by the maintainer for version 1.1.0.",
+      "scope": "Parsec v1.1.0 release notes. These are library-specific fixes, not a general repair script.",
+      "evidence": "Source-backed overview",
+      "resolutionStatus": "Maintainer-confirmed fix",
+      "reviewedAt": "2026-11-12",
+      "sourceIds": [
+        "parsec-110"
+      ],
+      "blocks": [
+        {
+          "heading": "Published corrections",
+          "body": "The release lists fixes for default CSV encoding, non-ASCII JSON escaping, MonsterRecord structure and reading all DBMonsterData fields.",
+          "code": ""
+        },
+        {
+          "heading": "Check before replacing",
+          "body": "Identify the exact library version used by your tool. Preserve a minimal input that demonstrates the problem and compare exported text and records after updating.",
+          "code": ""
+        },
+        {
+          "heading": "What remains unverified",
+          "body": "No claim is made that this resolves every localization problem or every episode-specific monster layout.",
+          "code": ""
+        }
+      ]
+    },
+    {
+      "id": "resolved-sql-18456",
+      "categoryId": "troubleshooting",
+      "title": "SQL 18456: follow the actual login failure",
+      "summary": "A documented diagnostic route instead of a universal password fix.",
+      "scope": "Microsoft SQL Server guidance. Applies when the underlying database reports error 18456; Shaiya login-screen messages alone do not prove this cause.",
+      "evidence": "Source-backed overview",
+      "resolutionStatus": "Vendor-documented resolution",
+      "reviewedAt": "2026-11-12",
+      "sourceIds": [
+        "sql-18456"
+      ],
+      "blocks": [
+        {
+          "heading": "Meaning",
+          "body": "Error 18456 indicates a rejected authentication attempt. The SQL error log supplies details that can distinguish a missing login, invalid credentials or an unsuitable authentication mode.",
+          "code": ""
+        },
+        {
+          "heading": "Documented resolution",
+          "body": "Confirm the intended SQL instance and account. Follow the resolution for the recorded reason: correct the credentials, establish the intended login/access, or change authentication mode only when the application actually requires it. Mode changes require a SQL service restart.",
+          "code": ""
+        },
+        {
+          "heading": "Verify the result",
+          "body": "Retry the same connection after the targeted correction and inspect the log. Do not distribute passwords or replace every service configuration as a shortcut.",
+          "code": ""
+        }
+      ]
+    },
+    {
+      "id": "resolved-sql-4064",
+      "categoryId": "troubleshooting",
+      "title": "SQL 4064: unavailable default database",
+      "summary": "A default-database problem can look like a login failure.",
+      "scope": "Microsoft SQL Server guidance; not evidence of a broken Shaiya account table.",
+      "evidence": "Source-backed overview",
+      "resolutionStatus": "Vendor-documented resolution",
+      "reviewedAt": "2026-11-12",
+      "sourceIds": [
+        "sql-4064"
+      ],
+      "blocks": [
+        {
+          "heading": "Meaning",
+          "body": "The login cannot open its default database. Causes include unavailable database state, an incorrect name or missing user access.",
+          "code": ""
+        },
+        {
+          "heading": "Documented route",
+          "body": "In SSMS connection options, specify an existing database the account can access. An administrator can then inspect the default database, its state and user mapping, and correct the specific issue.",
+          "code": ""
+        },
+        {
+          "heading": "Completion check",
+          "body": "Reconnect using the intended application database and confirm access. Changing a default database does not repair an offline or damaged database; those causes need their own documented recovery steps.",
+          "code": ""
+        }
+      ]
+    },
+    {
+      "id": "reading-solution-status",
+      "categoryId": "troubleshooting",
+      "title": "How to read a solution status",
+      "summary": "Know what has actually been established before applying advice.",
+      "scope": "Editorial policy for this library. A published fix and a test on your own deployment are different evidence.",
+      "evidence": "Workflow guidance",
+      "resolutionStatus": "",
+      "reviewedAt": "2026-11-12",
+      "sourceIds": [
+        "parsec-111",
+        "sql-18456"
+      ],
+      "blocks": [
+        {
+          "heading": "Maintainer-confirmed fix",
+          "body": "A tool author explicitly lists the correction in a linked release. The article names that version and limits the claim to that tool.",
+          "code": ""
+        },
+        {
+          "heading": "Vendor-documented resolution",
+          "body": "The software vendor documents cause-specific diagnostic and resolution steps. Match the actual error and conditions first.",
+          "code": ""
+        },
+        {
+          "heading": "Community reports",
+          "body": "A community solution needs a traceable report that the proposed change solved the issue, plus its package/version context. Unconfirmed suggestions are not labeled resolved. Even a confirmed report is not proof for every deployment.",
+          "code": ""
+        }
+      ]
     }
   ],
   "sources": [
@@ -662,6 +1308,96 @@
       "title": "OpenShaiya: client and server archive",
       "kind": "Archive inventory · not a compatibility guarantee",
       "url": "https://archive.openshaiya.org/"
+    },
+    {
+      "id": "fawkes",
+      "title": "Shaiya overview and class roster",
+      "kind": "Current publisher overview",
+      "url": "https://fawkesgames.com/en/shaiya/"
+    },
+    {
+      "id": "sql-files",
+      "title": "Database files and filegroups",
+      "kind": "Microsoft SQL Server documentation",
+      "url": "https://learn.microsoft.com/en-us/sql/relational-databases/databases/database-files-and-filegroups"
+    },
+    {
+      "id": "sql-transactions",
+      "title": "Transactions in SQL Server",
+      "kind": "Microsoft SQL Server documentation",
+      "url": "https://learn.microsoft.com/en-us/sql/t-sql/language-elements/transactions-transact-sql"
+    },
+    {
+      "id": "sql-restore-copy",
+      "title": "Restore to a new location",
+      "kind": "Microsoft SQL Server documentation",
+      "url": "https://learn.microsoft.com/en-us/sql/relational-databases/backup-restore/restore-a-database-to-a-new-location-sql-server"
+    },
+    {
+      "id": "sql-verify",
+      "title": "What RESTORE VERIFYONLY checks",
+      "kind": "Microsoft SQL Server documentation",
+      "url": "https://learn.microsoft.com/en-us/sql/t-sql/statements/restore-statements-verifyonly-transact-sql"
+    },
+    {
+      "id": "sql-roles",
+      "title": "Database-level roles",
+      "kind": "Microsoft SQL Server documentation",
+      "url": "https://learn.microsoft.com/en-us/sql/relational-databases/security/authentication-access/database-level-roles"
+    },
+    {
+      "id": "sql-18456",
+      "title": "Error 18456: login failure",
+      "kind": "Microsoft cause-specific resolutions",
+      "url": "https://learn.microsoft.com/en-us/sql/relational-databases/errors-events/mssqlserver-18456-database-engine-error"
+    },
+    {
+      "id": "sql-4064",
+      "title": "Error 4064: default database unavailable",
+      "kind": "Microsoft cause-specific resolutions",
+      "url": "https://learn.microsoft.com/en-us/sql/relational-databases/errors-events/mssqlserver-4064-database-engine-error"
+    },
+    {
+      "id": "parsec-111",
+      "title": "Parsec v1.1.1 fixes",
+      "kind": "Maintainer release notes",
+      "url": "https://github.com/matigramirez/Parsec/releases/tag/v1.1.1"
+    },
+    {
+      "id": "parsec-120",
+      "title": "Parsec v1.2.0 fixes",
+      "kind": "Maintainer release notes",
+      "url": "https://github.com/matigramirez/Parsec/releases/tag/v1.2.0"
+    },
+    {
+      "id": "parsec-110",
+      "title": "Parsec v1.1.0 fixes",
+      "kind": "Maintainer release notes",
+      "url": "https://github.com/matigramirez/Parsec/releases/tag/v1.1.0"
+    },
+    {
+      "id": "windows-services",
+      "title": "Service control manager",
+      "kind": "Microsoft Windows documentation",
+      "url": "https://learn.microsoft.com/en-us/windows/win32/services/service-control-manager"
+    },
+    {
+      "id": "filehash",
+      "title": "Get-FileHash",
+      "kind": "Microsoft PowerShell documentation",
+      "url": "https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/get-filehash?view=powershell-7.5"
+    },
+    {
+      "id": "git-diff",
+      "title": "Comparing changes with git diff",
+      "kind": "Git project documentation",
+      "url": "https://git-scm.com/docs/git-diff"
+    },
+    {
+      "id": "vscode-git",
+      "title": "Source control in VS Code",
+      "kind": "Microsoft editor documentation",
+      "url": "https://code.visualstudio.com/docs/sourcecontrol/overview"
     }
   ]
 }
