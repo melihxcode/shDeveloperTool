@@ -1,0 +1,667 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-11-12",
+  "categories": [
+    {
+      "id": "shaiya",
+      "name": "Shaiya",
+      "description": "History, factions, gameplay foundations and episode context."
+    },
+    {
+      "id": "server",
+      "name": "Server Side",
+      "description": "Services, configuration files and build compatibility."
+    },
+    {
+      "id": "sql",
+      "name": "SQL & Database",
+      "description": "Storage, schema discovery, backups and management tools."
+    },
+    {
+      "id": "client",
+      "name": "Client Side",
+      "description": "Resource archives, file formats and matching builds."
+    },
+    {
+      "id": "editing",
+      "name": "Editing Tools",
+      "description": "Purpose-built editors and repeatable editing workflows."
+    },
+    {
+      "id": "development",
+      "name": "Development Tools",
+      "description": "IDEs, code editors and website development tools."
+    },
+    {
+      "id": "troubleshooting",
+      "name": "Troubleshooting",
+      "description": "Connection checks and useful problem reports."
+    }
+  ],
+  "articles": [
+    {
+      "id": "origins",
+      "categoryId": "shaiya",
+      "title": "Origins and historical context",
+      "summary": "Separate the original game, regional publishing and community projects.",
+      "scope": "Historical North American producer account from May 2008. This is not a worldwide release chronology.",
+      "evidence": "Source-backed overview",
+      "reviewedAt": "2026-11-12",
+      "sourceIds": [
+        "producer"
+      ],
+      "blocks": [
+        {
+          "heading": "Developer and regional launch",
+          "body": "Producer Joshua Sell identified the Korean company SonoV as Shaiya's developer and described a December 2007 commercial opening in his North American interview. This date is not presented here as the original Korean launch.",
+          "code": ""
+        },
+        {
+          "heading": "What still needs verification",
+          "body": "An exact Korean launch chronology and later regional publishing changes require additional primary sources. They are intentionally not filled in from unsourced timelines.",
+          "code": ""
+        }
+      ]
+    },
+    {
+      "id": "factions-and-play",
+      "categoryId": "shaiya",
+      "title": "Factions, roles and progression",
+      "summary": "A compact introduction to the historical game structure.",
+      "scope": "Historical description from 2008; class balance, level caps and progression rules can differ on later or customized servers.",
+      "evidence": "Source-backed overview",
+      "reviewedAt": "2026-11-12",
+      "sourceIds": [
+        "producer"
+      ],
+      "blocks": [
+        {
+          "heading": "The two factions",
+          "body": "Alliance of Light includes Humans and Elves; Union of Fury includes Vail and Nordein. Historical class pairs cover melee damage, tanking, ranged damage, stealth, healing and magic.",
+          "code": ""
+        },
+        {
+          "heading": "PvE and PvP",
+          "body": "Quests, monsters, experience and equipment support progression; faction conflict and battlegrounds support PvP. The producer also described faction blessings.",
+          "code": ""
+        },
+        {
+          "heading": "Difficulty modes",
+          "body": "The historical interview discusses Easy, Normal, Hard and Ultimate modes, including a character-loss risk in Ultimate. Check your service's current rules rather than assuming those historical conditions still apply.",
+          "code": ""
+        }
+      ]
+    },
+    {
+      "id": "languages-and-versions",
+      "categoryId": "shaiya",
+      "title": "Programming languages and episode labels",
+      "summary": "Distinguish documented community code from the original proprietary game.",
+      "scope": "The complete original technology stack is not established by the sources reviewed for this edition.",
+      "evidence": "Source-backed overview",
+      "reviewedAt": "2026-11-12",
+      "sourceIds": [
+        "imgeneus",
+        "parsec",
+        "archive"
+      ],
+      "blocks": [
+        {
+          "heading": "What can be stated",
+          "body": "Imgeneus describes itself as a C#/.NET server project. Parsec is a .NET library for Shaiya formats. Those statements describe these community projects, not the language of every original client and server component.",
+          "code": ""
+        },
+        {
+          "heading": "Episode is not a complete compatibility specification",
+          "body": "Record the episode label, region, file version and exact package alongside a project. The archive separates regional builds. An episode name alone does not establish matching binaries, data layouts or configuration.",
+          "code": ""
+        }
+      ]
+    },
+    {
+      "id": "server-components",
+      "categoryId": "server",
+      "title": "ps_Game and companion services",
+      "summary": "Read the service layout before changing a server installation.",
+      "scope": "Static inspection of the EP6.4 Essentials archive identified in the sources. Service internals and startup behavior were not executed or reverse-engineered.",
+      "evidence": "Inspected package",
+      "reviewedAt": "2026-11-12",
+      "sourceIds": [
+        "ep64",
+        "pack"
+      ],
+      "blocks": [
+        {
+          "heading": "The game-service configuration",
+          "body": "The inspected PSM_Client/Bin/Config/ps_game.ini has SERVER, CONNECTION, DB and GAMEINFO sections. It references Session, DBAgent, UserLog and GameLog connections, plus GameDef and GameData database settings. This shows the game service is part of a multi-component installation, not a standalone executable with all data embedded.",
+          "code": ""
+        },
+        {
+          "heading": "Companion configuration files",
+          "body": "ps_login.ini contains a UserData database setting and Session/UserLog connections. ps_dbAgent.ini contains a GameData setting. ps_session.ini contains a GAMESERVERS section. These are confirmed configuration references; exact authentication, persistence and session logic still depends on the binaries.",
+          "code": ""
+        },
+        {
+          "heading": "A useful starting checklist",
+          "body": "Identify the actual running executable and the configuration path it reads. Keep the package inventory with your project. A familiar service name does not prove that an executable copied from another episode is compatible.",
+          "code": ""
+        }
+      ]
+    },
+    {
+      "id": "server-settings",
+      "categoryId": "server",
+      "title": "Configuration files and endpoints",
+      "summary": "Understand which values need local review without copying somebody else's credentials.",
+      "scope": "EP6.4 Essentials configuration keys only. No credentials, addresses or fixed port prescriptions are reproduced.",
+      "evidence": "Inspected package",
+      "reviewedAt": "2026-11-12",
+      "sourceIds": [
+        "ep64",
+        "pack"
+      ],
+      "blocks": [
+        {
+          "heading": "Keys to locate",
+          "body": "The inspected ps_game.ini contains ServerPort, GamePublicIP and GameVersion. It also contains database and companion-service connection settings. Review each in the context of your own package; a listening port and a publicly advertised address serve different configuration purposes.",
+          "code": ""
+        },
+        {
+          "heading": "Working copies versus deployment templates",
+          "body": "This archive contains configuration under both PSM_Client/Bin/Config and PSM_Server/ShaiyaServerPatch/Config. Finding two files with the same name does not establish which one a running process uses. Confirm the working directory and deployment mechanism before editing.",
+          "code": ""
+        },
+        {
+          "heading": "Recommended editing workflow",
+          "body": "Back up the exact file, record the previous value locally, change one setting, and inspect the relevant log after a controlled restart. Keep passwords out of screenshots and shared issue reports. This is guidance, not a tested installation recipe.",
+          "code": ""
+        }
+      ]
+    },
+    {
+      "id": "server-version",
+      "categoryId": "server",
+      "title": "GameVersion, build and protocol",
+      "summary": "A version field is not a universal episode conversion switch.",
+      "scope": "EP6.4 configuration inspection plus community protocol documentation. No universal GameVersion number is asserted.",
+      "evidence": "Inspected package",
+      "reviewedAt": "2026-11-12",
+      "sourceIds": [
+        "ep64",
+        "protocol"
+      ],
+      "blocks": [
+        {
+          "heading": "Two different observations",
+          "body": "GameVersion is present in the inspected game-service configuration. OpenShaiya documents a client version field in ServerSelectRequest. These observations do not prove that every release uses the same number, comparison rule or packet layout.",
+          "code": ""
+        },
+        {
+          "heading": "When investigating a mismatch",
+          "body": "Record the complete client build and server package. Compare the package documentation and logs before changing values. Making a version check pass would not, by itself, convert item structures, packet layouts or map data between episodes.",
+          "code": ""
+        }
+      ]
+    },
+    {
+      "id": "sql-purpose",
+      "categoryId": "sql",
+      "title": "SQL Server, databases and SSMS",
+      "summary": "Separate the storage engine, the data and the management application.",
+      "scope": "SQL Server concepts; Shaiya examples refer only to the inspected legacy scripts and package.",
+      "evidence": "Source-backed overview",
+      "reviewedAt": "2026-11-12",
+      "sourceIds": [
+        "database",
+        "ssms",
+        "query-items",
+        "query-users"
+      ],
+      "blocks": [
+        {
+          "heading": "The three layers",
+          "body": "SQL Server is the database service. Its databases contain structured objects such as tables and stored procedures; table rows hold records. SSMS is a management application used to connect to the service and inspect or administer it. Installing SSMS alone does not install a Shaiya database.",
+          "code": ""
+        },
+        {
+          "heading": "Names found in this collection",
+          "body": "The inspected scripts reference PS_UserData.dbo.Users_Master, PS_GameData.dbo.Chars, PS_GameData.dbo.CharItems and PS_GameDefs.dbo.Items. These are examples from this collection, not a promise that every server uses the same schema.",
+          "code": ""
+        },
+        {
+          "heading": "Why the distinction matters",
+          "body": "A connection can succeed while the expected database or object is absent. Confirm the SQL instance, database and object names separately before treating a problem as a game-client failure.",
+          "code": ""
+        }
+      ]
+    },
+    {
+      "id": "sql-data-model",
+      "categoryId": "sql",
+      "title": "Characters, item definitions and item records",
+      "summary": "Read the actual schema before writing a query.",
+      "scope": "Object references verified in the linked legacy scripts; keys, constraints and synchronization behavior require inspection of your database.",
+      "evidence": "Inspected package",
+      "reviewedAt": "2026-11-12",
+      "sourceIds": [
+        "query-items",
+        "query-users",
+        "tables"
+      ],
+      "blocks": [
+        {
+          "heading": "Definition and ownership are different questions",
+          "body": "The collection references both PS_GameDefs.dbo.Items and PS_GameData.dbo.CharItems, alongside Chars. Treat an item definition and a character-owned item record as different concepts. Do not assume that a display name, item type and unique owned-item identifier can be used interchangeably.",
+          "code": ""
+        },
+        {
+          "heading": "Inspect before joining or updating",
+          "body": "Read column types, indexes and any relevant procedures in your own test database. The scripts in the collection are historical examples, not validated migrations. Editing a row does not establish when a running game service will reload or overwrite it.",
+          "code": ""
+        },
+        {
+          "heading": "Read-only discovery example",
+          "body": "In SSMS, first select the intended test database. This query lists the user tables visible to your account. It changes no data and is shown for reading/copying only; shDeveloperTools does not connect to SQL or execute it. An incomplete list can reflect permissions.",
+          "code": "SELECT name\nFROM sys.tables\nORDER BY name;"
+        }
+      ]
+    },
+    {
+      "id": "sql-backups",
+      "categoryId": "sql",
+      "title": "Backups and safe changes",
+      "summary": "A useful backup is one you can restore.",
+      "scope": "General SQL Server guidance; no backup or restore was performed against a Shaiya server.",
+      "evidence": "Workflow guidance",
+      "reviewedAt": "2026-11-12",
+      "sourceIds": [
+        "backup"
+      ],
+      "blocks": [
+        {
+          "heading": "Plan the restore as well as the backup",
+          "body": "Use SQL Server's backup facilities and keep copies separate from the working database. Practice restoring to a separate test environment, then check that the expected data is available. A file existing on disk does not demonstrate a successful recovery.",
+          "code": ""
+        },
+        {
+          "heading": "Before changing game data",
+          "body": "Record which database and server a change targets. Test the query against a restored copy, review its selection criteria, and plan how to recover. Coordinate changes with the game services so that active writes do not undermine the intended result.",
+          "code": ""
+        },
+        {
+          "heading": "What this app does today",
+          "body": "This library explains the workflow. It does not currently schedule SQL backups, run queries or restore databases. Those would be separate features with explicit connection and operation controls.",
+          "code": ""
+        }
+      ]
+    },
+    {
+      "id": "client-archives",
+      "categoryId": "client",
+      "title": "data.sah, data.saf and client resources",
+      "summary": "Start with the archive pair and an episode-aware reader.",
+      "scope": "Community format documentation and observed OpenShaiya client inventories; not an official specification for every episode.",
+      "evidence": "Source-backed overview",
+      "reviewedAt": "2026-11-12",
+      "sourceIds": [
+        "parsec",
+        "archive"
+      ],
+      "blocks": [
+        {
+          "heading": "The archive pair",
+          "body": "Shaiya tooling treats data.sah and data.saf together when loading resource archives. Parsec documents extraction, rebuilding and patching of this pair. Preserve matching copies instead of replacing one file from an unrelated client.",
+          "code": ""
+        },
+        {
+          "heading": "Reader compatibility",
+          "body": "Parsec documents format testing for Episodes 5, 6 and 8 and cautions that other episodes may differ. A parser successfully opening a file is a starting point, not proof that every field can be edited correctly.",
+          "code": ""
+        }
+      ]
+    },
+    {
+      "id": "client-layouts",
+      "categoryId": "client",
+      "title": "SData and episode-dependent layouts",
+      "summary": "Recognize resource names without assuming universal binary structures.",
+      "scope": "The linked Parsec documentation describes its own supported formats and tested episodes.",
+      "evidence": "Source-backed overview",
+      "reviewedAt": "2026-11-12",
+      "sourceIds": [
+        "parsec"
+      ],
+      "blocks": [
+        {
+          "heading": "Examples of supported formats",
+          "body": "Parsec lists Item.SData, Skill.SData, Monster.SData, NpcQuest.SData and several world/model formats. It also distinguishes older SData handling from Episode 8 variants.",
+          "code": ""
+        },
+        {
+          "heading": "Choose explicit assumptions",
+          "body": "Select the intended episode and text encoding when the tool supports those choices. Export a small sample and check the resulting fields before planning a bulk transformation. Keep this work on a copy.",
+          "code": ""
+        }
+      ]
+    },
+    {
+      "id": "client-build-matching",
+      "categoryId": "client",
+      "title": "Matching a client to a server",
+      "summary": "Keep build identity with your development files.",
+      "scope": "Recommended workflow based on regional archive organization and community protocol documentation.",
+      "evidence": "Workflow guidance",
+      "reviewedAt": "2026-11-12",
+      "sourceIds": [
+        "archive",
+        "protocol"
+      ],
+      "blocks": [
+        {
+          "heading": "Record a reproducible baseline",
+          "body": "Keep the original download URL, archive size and a local SHA-256 alongside the region, episode label and intended server package. Record any patches separately. This makes later comparisons more useful than a folder named latest.",
+          "code": ""
+        },
+        {
+          "heading": "Do not confuse different versions",
+          "body": "An updater's patch number, an executable's file version and a protocol version are not automatically the same identifier. OpenShaiya documents a protocol version field; the archive also uses regional and build labels. Confirm which identifier a particular configuration actually expects.",
+          "code": ""
+        }
+      ]
+    },
+    {
+      "id": "shstudio-introduction",
+      "categoryId": "editing",
+      "title": "What shStudio is for",
+      "summary": "A purpose-built editor with version-specific capabilities.",
+      "scope": "Summary of the tool author's release/manual thread. It is not a compatibility test of every shStudio download in this library.",
+      "evidence": "Source-backed overview",
+      "reviewedAt": "2026-11-12",
+      "sourceIds": [
+        "shstudio"
+      ],
+      "blocks": [
+        {
+          "heading": "Documented responsibilities",
+          "body": "The author describes shStudio as a multi-purpose editor for client and server configuration resources. The manual covers workspaces, archives, server files, SQL connections and editors for resources including items and skills.",
+          "code": ""
+        },
+        {
+          "heading": "Choose a matching release",
+          "body": "Check the manual and release notes for the actual editor build you use. Do not assume that the newest editor supports every old or customized file. Start with a workspace copy and inspect exported output before applying changes to a server.",
+          "code": ""
+        }
+      ]
+    },
+    {
+      "id": "editing-workflow",
+      "categoryId": "editing",
+      "title": "A repeatable editing workflow",
+      "summary": "Make a small change you can compare and undo.",
+      "scope": "Workflow recommendation; each file format and editor still needs its own compatibility check.",
+      "evidence": "Workflow guidance",
+      "reviewedAt": "2026-11-12",
+      "sourceIds": [
+        "shstudio",
+        "parsec"
+      ],
+      "blocks": [
+        {
+          "heading": "Keep an original and a working copy",
+          "body": "Record the archive and editor versions. Make one small edit in a copy, save to a new output, and compare the changed files. Avoid mixing a bulk format conversion with balance changes in the same experiment.",
+          "code": ""
+        },
+        {
+          "heading": "Validate in a test environment",
+          "body": "Reopen the output in a compatible reader, then test its intended behavior with the matching client and server. A successful export does not prove that gameplay, text encoding or linked resources are correct. Keep a short change log so the result can be reproduced.",
+          "code": ""
+        }
+      ]
+    },
+    {
+      "id": "visual-studio",
+      "categoryId": "development",
+      "title": "Visual Studio and source projects",
+      "summary": "Use an IDE for projects whose source code you actually have.",
+      "scope": "Official Visual Studio capabilities; suggested Shaiya-related uses are development ideas, not included app features.",
+      "evidence": "Source-backed overview",
+      "reviewedAt": "2026-11-12",
+      "sourceIds": [
+        "visualstudio",
+        "imgeneus"
+      ],
+      "blocks": [
+        {
+          "heading": "What the IDE provides",
+          "body": "Visual Studio combines source editing, building, debugging and testing. It is appropriate for your own desktop utilities, services and compatible source projects. Imgeneus is one example of a community Shaiya server implemented in C#/.NET.",
+          "code": ""
+        },
+        {
+          "heading": "A useful boundary",
+          "body": "Downloading a compiled game executable does not supply the original editable source project. Plan new utilities around documented formats and source you can inspect; installing an IDE alone does not make an arbitrary executable rebuildable.",
+          "code": ""
+        }
+      ]
+    },
+    {
+      "id": "visual-studio-code",
+      "categoryId": "development",
+      "title": "VS Code for configuration and documentation",
+      "summary": "Keep small text changes easy to review.",
+      "scope": "Official VS Code overview; suggested workflow for your local project copies.",
+      "evidence": "Source-backed overview",
+      "reviewedAt": "2026-11-12",
+      "sourceIds": [
+        "vscode"
+      ],
+      "blocks": [
+        {
+          "heading": "Useful everyday tasks",
+          "body": "VS Code is a code editor suitable for text-oriented work such as JSON catalogs, configuration copies, scripts and documentation. Its project navigation and editing tools help keep related files together.",
+          "code": ""
+        },
+        {
+          "heading": "Use the right tool for the data",
+          "body": "A text editor is not a Shaiya binary-format editor. Use a compatible parser for binary resources. For configuration and catalog work, keep changes small and validate the result before distributing it. Extensions and runtimes are separate dependencies, not automatically provided by opening a file.",
+          "code": ""
+        }
+      ]
+    },
+    {
+      "id": "xampp-web-development",
+      "categoryId": "development",
+      "title": "XAMPP and website development",
+      "summary": "Understand the web stack separately from the game database.",
+      "scope": "Apache Friends Windows FAQ; database connections for a specific Shaiya website require that website's own documentation.",
+      "evidence": "Source-backed overview",
+      "reviewedAt": "2026-11-12",
+      "sourceIds": [
+        "xampp",
+        "database"
+      ],
+      "blocks": [
+        {
+          "heading": "What XAMPP supplies",
+          "body": "XAMPP supplies a local web-development stack and a control panel for its services. Apache Friends documents that its database distribution uses MariaDB rather than Microsoft SQL Server.",
+          "code": ""
+        },
+        {
+          "heading": "How this relates to Shaiya",
+          "body": "A website template using Microsoft SQL Server needs a compatible driver and connection setup; installing XAMPP does not supply the game's SQL Server databases. Review the template's PHP and database requirements before choosing a stack. This library does not connect a website to a game server automatically.",
+          "code": ""
+        }
+      ]
+    },
+    {
+      "id": "sql-connection-troubleshooting",
+      "categoryId": "troubleshooting",
+      "title": "When SQL will not connect",
+      "summary": "Separate the error category before changing settings.",
+      "scope": "Microsoft connectivity guidance plus inspected EP6.4 database configuration keys. No universal port or credential is prescribed.",
+      "evidence": "Workflow guidance",
+      "reviewedAt": "2026-11-12",
+      "sourceIds": [
+        "connections",
+        "ep64"
+      ],
+      "blocks": [
+        {
+          "heading": "Collect the exact failure",
+          "body": "Record which component failed, when it failed, and the error text with credentials removed. Check the SQL instance and service state, endpoint/name resolution, authentication, network rules and TLS requirements. Different causes require different fixes.",
+          "code": ""
+        },
+        {
+          "heading": "Compare the application configuration",
+          "body": "The inspected package has distinct UserData, GameData and GameDef connection settings. A successful login in SSMS does not establish that each game service uses the same endpoint, identity or database. Compare those settings deliberately.",
+          "code": ""
+        },
+        {
+          "heading": "Change one variable at a time",
+          "body": "Retest the same connection after each change. Keep the prior configuration available. Avoid replacing several binaries or changing unrelated ports while diagnosing a single database error.",
+          "code": ""
+        }
+      ]
+    },
+    {
+      "id": "reporting-a-problem",
+      "categoryId": "troubleshooting",
+      "title": "A useful development problem report",
+      "summary": "Give enough context to reproduce the issue.",
+      "scope": "Suggested reporting checklist; it does not diagnose or repair a running server.",
+      "evidence": "Workflow guidance",
+      "reviewedAt": "2026-11-12",
+      "sourceIds": [
+        "archive",
+        "backup",
+        "connections"
+      ],
+      "blocks": [
+        {
+          "heading": "Include the baseline",
+          "body": "State the episode and region, source archive, client/server build, operating system, SQL version and tool version. Describe the expected behavior, the observed behavior and the smallest steps that reproduce it.",
+          "code": ""
+        },
+        {
+          "heading": "Include relevant evidence",
+          "body": "Attach the exact error and a short sanitized log excerpt. Mention the last change and whether the issue also occurs with the untouched baseline. Do not include passwords, connection secrets or player records.",
+          "code": ""
+        },
+        {
+          "heading": "Before trying a proposed fix",
+          "body": "Keep a recoverable copy and test the proposed change in a separate environment. A suggestion for another episode or database layout is not automatically a fix for yours.",
+          "code": ""
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "producer",
+      "title": "Joshua Sell: Shaiya producer interview, 13 May 2008",
+      "kind": "First-hand historical interview",
+      "url": "https://www.tentonhammer.com/articles/shaiya-online-an-interview-with-producer-joshua-sell.amp"
+    },
+    {
+      "id": "imgeneus",
+      "title": "Imgeneus: project README",
+      "kind": "Project author documentation · community implementation",
+      "url": "https://github.com/aosyatnik/Imgeneus"
+    },
+    {
+      "id": "parsec",
+      "title": "Parsec: formats, episodes and encoding",
+      "kind": "Project author documentation · community tooling",
+      "url": "https://github.com/matigramirez/Parsec"
+    },
+    {
+      "id": "shstudio",
+      "title": "shStudio: author release post and manual",
+      "kind": "Tool author documentation · version-dependent",
+      "url": "https://www.elitepvpers.com/forum/shaiya-pserver-guides-releases/3430120-release-shstudio-0-7-5-a.html"
+    },
+    {
+      "id": "ep64",
+      "title": "EP6.4 Essentials configuration inspection",
+      "kind": "Inspected package · paths and keys, not a runtime test",
+      "url": "https://github.com/melihxcode/shDeveloperTool/blob/main/content/knowledge/evidence/ep64-inspection.json"
+    },
+    {
+      "id": "pack",
+      "title": "EP6.4 Essentials archive at the inspected source revision",
+      "kind": "Pinned source archive · shDeveloperPack",
+      "url": "https://github.com/melihxcode/shDeveloperPack/blob/c70c3e1460945685df6793ffd5819452a44c2188/bin/serverfiles/ep6.4/EP6.4%20ServerFiles%20%7BEssentials%7D%7D.zip"
+    },
+    {
+      "id": "query-items",
+      "title": "Char & Gear Change: database references",
+      "kind": "Inspected legacy SQL text · do not execute as a tutorial",
+      "url": "https://github.com/melihxcode/shDeveloperPack/blob/c70c3e1460945685df6793ffd5819452a44c2188/bin/query/feature/Char%26Gear%20Change.sql"
+    },
+    {
+      "id": "query-users",
+      "title": "Character Statistics: account database reference",
+      "kind": "Inspected legacy SQL text",
+      "url": "https://github.com/melihxcode/shDeveloperPack/blob/c70c3e1460945685df6793ffd5819452a44c2188/bin/query/feature/Character%20Statistics.sql"
+    },
+    {
+      "id": "protocol",
+      "title": "OpenShaiya: ServerSelectRequest",
+      "kind": "Community protocol documentation · build-dependent",
+      "url": "https://openshaiya.org/docs/packets/incoming/server_select_request.html"
+    },
+    {
+      "id": "database",
+      "title": "Microsoft: SQL Server databases",
+      "kind": "Official product documentation",
+      "url": "https://learn.microsoft.com/en-us/sql/relational-databases/databases/databases"
+    },
+    {
+      "id": "ssms",
+      "title": "Microsoft: SQL Server Management Studio",
+      "kind": "Official product documentation",
+      "url": "https://learn.microsoft.com/en-us/ssms/sql-server-management-studio-ssms"
+    },
+    {
+      "id": "backup",
+      "title": "Microsoft: SQL Server backup and restore",
+      "kind": "Official product documentation",
+      "url": "https://learn.microsoft.com/en-us/sql/relational-databases/backup-restore/back-up-and-restore-of-sql-server-databases"
+    },
+    {
+      "id": "tables",
+      "title": "Microsoft: sys.tables",
+      "kind": "Official SQL reference",
+      "url": "https://learn.microsoft.com/en-us/sql/relational-databases/system-catalog-views/sys-tables-transact-sql"
+    },
+    {
+      "id": "connections",
+      "title": "Microsoft: troubleshooting SQL connectivity",
+      "kind": "Official troubleshooting reference",
+      "url": "https://learn.microsoft.com/en-us/troubleshoot/sql/database-engine/connect/resolve-connectivity-errors-overview"
+    },
+    {
+      "id": "visualstudio",
+      "title": "Microsoft: What is Visual Studio?",
+      "kind": "Official product documentation",
+      "url": "https://learn.microsoft.com/en-us/visualstudio/get-started/visual-studio-ide"
+    },
+    {
+      "id": "vscode",
+      "title": "Microsoft: getting started with VS Code",
+      "kind": "Official product documentation",
+      "url": "https://code.visualstudio.com/docs/introvideos/basics"
+    },
+    {
+      "id": "xampp",
+      "title": "Apache Friends: XAMPP for Windows FAQ",
+      "kind": "Official product documentation",
+      "url": "https://www.apachefriends.org/faq_windows.html"
+    },
+    {
+      "id": "archive",
+      "title": "OpenShaiya: client and server archive",
+      "kind": "Archive inventory · not a compatibility guarantee",
+      "url": "https://archive.openshaiya.org/"
+    }
+  ]
+}

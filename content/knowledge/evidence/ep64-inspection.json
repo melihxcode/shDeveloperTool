@@ -1,0 +1,99 @@
+{
+  "sourceRepository": "melihxcode/shDeveloperPack",
+  "sourceCommit": "c70c3e1460945685df6793ffd5819452a44c2188",
+  "archivePath": "bin/serverfiles/ep6.4/EP6.4 ServerFiles {Essentials}}.zip",
+  "archiveSha256": "5deea85aa49f3ddb6079736060ccb5adb6de2bf75dbe3899697886e67a808bd7",
+  "reviewedAt": "2026-11-12",
+  "scope": "Static inspection of the EP6.4 Essentials archive. Key names and paths confirmed; runtime semantics were not tested. No configurations, credentials or endpoints copied; no executable or SQL was run.",
+  "files": [
+    {
+      "path": "Server Side/ShaiyaServer/PSM_Client/Bin/Config/ps_dbAgent.ini",
+      "sha256": "075ba83534debb56033a7badd5f114057d7b1404f857e3e6ea9168faa22026d0",
+      "sectionsAndKeys": [
+        "[SERVER]",
+        "ServerName",
+        "ServerPort",
+        "MaxConnection",
+        "[DB]",
+        "GameData",
+        "[LOGFILE]",
+        "Replace",
+        "Append",
+        "[MONITOR]",
+        "Enable",
+        "Port"
+      ]
+    },
+    {
+      "path": "Server Side/ShaiyaServer/PSM_Client/Bin/Config/ps_game.ini",
+      "sha256": "89f370e23af4fcac4824d8fe779f7e544b48f2bd96799e22f1743f73141780ba",
+      "sectionsAndKeys": [
+        "[SERVER]",
+        "ServerName",
+        "ServerPort",
+        "MaxConnection",
+        "[CONNECTION]",
+        "Session",
+        "UserLog",
+        "DBAgent",
+        "GameLog",
+        "[DB]",
+        "GameDef",
+        "GameData",
+        "[GAMEINFO]",
+        "GameName",
+        "GamePublicIP",
+        "GameVersion",
+        "GameLogDBID",
+        "[LOGFILE]",
+        "Replace",
+        "Append",
+        "[MONITOR]",
+        "Enable",
+        "Port"
+      ]
+    },
+    {
+      "path": "Server Side/ShaiyaServer/PSM_Client/Bin/Config/ps_login.ini",
+      "sha256": "565d026bcba27abac78bfe81fbd15abab1a71450478f5c0ea83ef10f0bc3966d",
+      "sectionsAndKeys": [
+        "[SERVER]",
+        "ServerName",
+        "ServerPort",
+        "MaxConnection",
+        "[CONNECTION]",
+        "Session",
+        "UserLog",
+        "[DB]",
+        "UserData",
+        "[LOGFILE]",
+        "Replace",
+        "Append",
+        "[MONITOR]",
+        "Enable",
+        "Port"
+      ]
+    },
+    {
+      "path": "Server Side/ShaiyaServer/PSM_Client/Bin/Config/ps_session.ini",
+      "sha256": "c4f706d89269334a208d5d3a1e2dee53f880305d9b5ee292d488b4763bd00513",
+      "sectionsAndKeys": [
+        "[SERVER]",
+        "ServerName",
+        "ServerPort",
+        "MaxConnection",
+        "[CONNECTION]",
+        "UserLog",
+        "[GAMESERVERS]",
+        "GameServerCount",
+        "Game01",
+        "[LOGFILE]",
+        "Replace",
+        "Append",
+        "[MONITOR]",
+        "Enable",
+        "Port"
+      ]
+    }
+  ]
+}

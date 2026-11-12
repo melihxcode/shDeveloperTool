@@ -1,0 +1,109 @@
+[
+  {
+    "id": "producer",
+    "url": "https://www.tentonhammer.com/articles/shaiya-online-an-interview-with-producer-joshua-sell.amp",
+    "status": 200,
+    "finalUrl": "https://www.tentonhammer.com/articles/shaiya-online-an-interview-with-producer-joshua-sell.amp"
+  },
+  {
+    "id": "imgeneus",
+    "url": "https://github.com/aosyatnik/Imgeneus",
+    "status": 200,
+    "finalUrl": "https://github.com/aosyatnik/Imgeneus"
+  },
+  {
+    "id": "parsec",
+    "url": "https://github.com/matigramirez/Parsec",
+    "status": 200,
+    "finalUrl": "https://github.com/matigramirez/Parsec"
+  },
+  {
+    "id": "shstudio",
+    "url": "https://www.elitepvpers.com/forum/shaiya-pserver-guides-releases/3430120-release-shstudio-0-7-5-a.html",
+    "status": 200,
+    "finalUrl": "https://www.elitepvpers.com/forum/shaiya-pserver-guides-releases/3430120-release-shstudio-0-7-5-a.html"
+  },
+  {
+    "id": "ep64",
+    "url": "https://github.com/melihxcode/shDeveloperTool/blob/main/content/knowledge/evidence/ep64-inspection.json",
+    "status": "published-with-content"
+  },
+  {
+    "id": "pack",
+    "url": "https://github.com/melihxcode/shDeveloperPack/blob/c70c3e1460945685df6793ffd5819452a44c2188/bin/serverfiles/ep6.4/EP6.4%20ServerFiles%20%7BEssentials%7D%7D.zip",
+    "status": 200,
+    "finalUrl": "https://github.com/melihxcode/shDeveloperPack/blob/c70c3e1460945685df6793ffd5819452a44c2188/bin/serverfiles/ep6.4/EP6.4%20ServerFiles%20%7BEssentials%7D%7D.zip"
+  },
+  {
+    "id": "query-items",
+    "url": "https://github.com/melihxcode/shDeveloperPack/blob/c70c3e1460945685df6793ffd5819452a44c2188/bin/query/feature/Char%26Gear%20Change.sql",
+    "status": 200,
+    "finalUrl": "https://github.com/melihxcode/shDeveloperPack/blob/c70c3e1460945685df6793ffd5819452a44c2188/bin/query/feature/Char%26Gear%20Change.sql"
+  },
+  {
+    "id": "query-users",
+    "url": "https://github.com/melihxcode/shDeveloperPack/blob/c70c3e1460945685df6793ffd5819452a44c2188/bin/query/feature/Character%20Statistics.sql",
+    "status": 200,
+    "finalUrl": "https://github.com/melihxcode/shDeveloperPack/blob/c70c3e1460945685df6793ffd5819452a44c2188/bin/query/feature/Character%20Statistics.sql"
+  },
+  {
+    "id": "protocol",
+    "url": "https://openshaiya.org/docs/packets/incoming/server_select_request.html",
+    "status": 200,
+    "finalUrl": "https://openshaiya.org/docs/packets/incoming/server_select_request.html"
+  },
+  {
+    "id": "database",
+    "url": "https://learn.microsoft.com/en-us/sql/relational-databases/databases/databases",
+    "status": 200,
+    "finalUrl": "https://learn.microsoft.com/en-us/sql/relational-databases/databases/databases?view=sql-server-ver17"
+  },
+  {
+    "id": "ssms",
+    "url": "https://learn.microsoft.com/en-us/ssms/sql-server-management-studio-ssms",
+    "status": 200,
+    "finalUrl": "https://learn.microsoft.com/en-us/ssms/sql-server-management-studio-ssms"
+  },
+  {
+    "id": "backup",
+    "url": "https://learn.microsoft.com/en-us/sql/relational-databases/backup-restore/back-up-and-restore-of-sql-server-databases",
+    "status": 200,
+    "finalUrl": "https://learn.microsoft.com/en-us/sql/relational-databases/backup-restore/back-up-and-restore-of-sql-server-databases?view=sql-server-ver17"
+  },
+  {
+    "id": "tables",
+    "url": "https://learn.microsoft.com/en-us/sql/relational-databases/system-catalog-views/sys-tables-transact-sql",
+    "status": 200,
+    "finalUrl": "https://learn.microsoft.com/en-us/sql/relational-databases/system-catalog-views/sys-tables-transact-sql?view=sql-server-ver17"
+  },
+  {
+    "id": "connections",
+    "url": "https://learn.microsoft.com/en-us/troubleshoot/sql/database-engine/connect/resolve-connectivity-errors-overview",
+    "status": 200,
+    "finalUrl": "https://learn.microsoft.com/en-us/troubleshoot/sql/database-engine/connect/resolve-connectivity-errors-overview"
+  },
+  {
+    "id": "visualstudio",
+    "url": "https://learn.microsoft.com/en-us/visualstudio/get-started/visual-studio-ide",
+    "status": 200,
+    "finalUrl": "https://learn.microsoft.com/en-us/visualstudio/get-started/visual-studio-ide?view=visualstudio"
+  },
+  {
+    "id": "vscode",
+    "url": "https://code.visualstudio.com/docs/introvideos/basics",
+    "status": 200,
+    "finalUrl": "https://code.visualstudio.com/docs/introvideos/basics"
+  },
+  {
+    "id": "xampp",
+    "url": "https://www.apachefriends.org/faq_windows.html",
+    "status": 200,
+    "finalUrl": "https://www.apachefriends.org/faq_windows.html"
+  },
+  {
+    "id": "archive",
+    "url": "https://archive.openshaiya.org/",
+    "status": 200,
+    "finalUrl": "https://archive.openshaiya.org/"
+  }
+]
