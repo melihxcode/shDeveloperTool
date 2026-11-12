@@ -1,5 +1,18 @@
 [
   {
+    "version": "0.1.10",
+    "date": "2026-11-12",
+    "title": "A source-backed knowledge library",
+    "changes": [
+      "Information now opens a live knowledge library with seven categories: Shaiya, Server Side, SQL & Database, Client Side, Editing Tools, Development Tools and Troubleshooting.",
+      "Added 19 introductory articles with named sources, review dates, scope notes and clear distinctions between documented information, inspected packages and recommended workflows.",
+      "Category cards open a separate dark-and-gold reader with a topic menu, category selection, article search, source links and readable code examples. Close the reader or press Esc to return to your workspace.",
+      "Knowledge content loads from GitHub and can be expanded without a new app release. Validated saved content remains available offline; invalid updates do not replace the last good copy.",
+      "EP6.4 service/configuration articles are based on static package inspection. Original-game technology and unverified historical dates are not asserted as facts. No server, SQL query or example command is executed by the reader.",
+      "Added schema/search/cache tests and Windows reader checks covering category navigation, empty search results, source visibility and returning to the main window."
+    ]
+  },
+  {
     "version": "0.1.9",
     "date": "2026-11-12",
     "title": "Refreshed tools & cleaner window controls",
