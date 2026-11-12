@@ -33,5 +33,1156 @@
       "name": "Website"
     }
   ],
-  "files": []
+  "files": [
+    {
+      "id": "client-episode-3-0-client-ru",
+      "categoryId": "client",
+      "name": "Episode 3.0 Client - RU",
+      "fileName": "client-episode-3-0-client-ru.zip",
+      "url": "https://archive.openshaiya.org/shaiya-ru/clients/ep3.zip",
+      "episode": "Episode 3.0",
+      "sizeBytes": 1222540577
+    },
+    {
+      "id": "client-episode-4-5-client-ru",
+      "categoryId": "client",
+      "name": "Episode 4.5 Client - RU",
+      "fileName": "client-episode-4-5-client-ru.zip",
+      "url": "https://archive.openshaiya.org/shaiya-ru/clients/ep4.5.zip",
+      "episode": "Episode 4.5",
+      "sizeBytes": 1372736314
+    },
+    {
+      "id": "client-episode-5-4-client-fr",
+      "categoryId": "client",
+      "name": "Episode 5.4 Client - FR",
+      "fileName": "client-episode-5-4-client-fr.zip",
+      "url": "https://archive.openshaiya.org/shaiya-fr/clients/ep5.4.zip",
+      "episode": "Episode 5.4",
+      "sizeBytes": 1596429182
+    },
+    {
+      "id": "client-episode-6-3-client-en",
+      "categoryId": "client",
+      "name": "Episode 6.3 Client - EN",
+      "fileName": "client-episode-6-3-client-en.zip",
+      "url": "https://archive.openshaiya.org/shaiya-phoenix/clients/ep6.3.zip",
+      "episode": "Episode 6.3",
+      "sizeBytes": 1844776597
+    },
+    {
+      "id": "client-episode-8-client-cn",
+      "categoryId": "client",
+      "name": "Episode 8 Client - CN",
+      "fileName": "client-episode-8-client-cn.zip",
+      "url": "https://archive.openshaiya.org/shaiya-cn/archived/ep8.zip",
+      "episode": "Episode 8",
+      "sizeBytes": 1532507269
+    },
+    {
+      "id": "client-episode-8-client-kr",
+      "categoryId": "client",
+      "name": "Episode 8 Client - KR",
+      "fileName": "client-episode-8-client-kr.zip",
+      "url": "https://archive.openshaiya.org/shaiya-kr/clients/ep8.zip",
+      "episode": "Episode 8",
+      "sizeBytes": 2032162284
+    },
+    {
+      "id": "server-episode-3-0-server-files",
+      "categoryId": "server",
+      "name": "Episode 3.0 Server Files",
+      "fileName": "server-episode-3-0-server-files.zip",
+      "url": "https://archive.openshaiya.org/server/ep3.zip",
+      "episode": "Episode 3.0",
+      "sizeBytes": 8739248
+    },
+    {
+      "id": "server-episode-4-5-server-files",
+      "categoryId": "server",
+      "name": "Episode 4.5 Server Files",
+      "fileName": "server-episode-4-5-server-files.rar",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/server-episode-4-5-server-files.rar",
+      "episode": "Episode 4.5",
+      "sizeBytes": 20176653,
+      "sha256": "6a00f88cc920b95b4bbfe2afccdc83664d28a9a619e5366ea56f1abc25668d39"
+    },
+    {
+      "id": "server-episode-5-4-server-files",
+      "categoryId": "server",
+      "name": "Episode 5.4 Server Files",
+      "fileName": "server-episode-5-4-server-files.zip",
+      "url": "https://archive.openshaiya.org/server/ep5.4.zip",
+      "episode": "Episode 5.4",
+      "sizeBytes": 14099213
+    },
+    {
+      "id": "server-episode-6-4-server-files",
+      "categoryId": "server",
+      "name": "Episode 6.4 Server Files",
+      "fileName": "server-episode-6-4-server-files.zip",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/server-episode-6-4-server-files.zip",
+      "episode": "Episode 6.4",
+      "sizeBytes": 25631289,
+      "sha256": "5deea85aa49f3ddb6079736060ccb5adb6de2bf75dbe3899697886e67a808bd7"
+    },
+    {
+      "id": "sql-programs-sql-server-2008-r2-express-32-bit",
+      "categoryId": "sql-programs",
+      "name": "SQL Server 2008 R2 Express (32-bit)",
+      "fileName": "sql-programs-sql-server-2008-r2-express-32-bit.exe",
+      "url": "https://download.microsoft.com/download/0/4/B/04BE03CD-EAF3-4797-9D8D-2E08E316C998/SQLEXPR_x86_ENU.exe",
+      "bit": "32-bit",
+      "sizeBytes": 115763632
+    },
+    {
+      "id": "sql-programs-sql-server-2008-r2-express-64-bit",
+      "categoryId": "sql-programs",
+      "name": "SQL Server 2008 R2 Express (64-bit)",
+      "fileName": "sql-programs-sql-server-2008-r2-express-64-bit.exe",
+      "url": "https://download.microsoft.com/download/0/4/B/04BE03CD-EAF3-4797-9D8D-2E08E316C998/SQLEXPR_x64_ENU.exe",
+      "bit": "64-bit",
+      "sizeBytes": 128331696
+    },
+    {
+      "id": "sql-programs-sql-server-2008-r2-ssms-32-bit",
+      "categoryId": "sql-programs",
+      "name": "SQL Server 2008 R2 SSMS (32-bit)",
+      "fileName": "sql-programs-sql-server-2008-r2-ssms-32-bit.exe",
+      "url": "https://download.microsoft.com/download/0/4/B/04BE03CD-EAF3-4797-9D8D-2E08E316C998/SQLManagementStudio_x86_ENU.exe",
+      "bit": "32-bit",
+      "sizeBytes": 165938632
+    },
+    {
+      "id": "sql-programs-sql-server-2008-r2-ssms-64-bit",
+      "categoryId": "sql-programs",
+      "name": "SQL Server 2008 R2 SSMS (64-bit)",
+      "fileName": "sql-programs-sql-server-2008-r2-ssms-64-bit.exe",
+      "url": "https://download.microsoft.com/download/0/4/B/04BE03CD-EAF3-4797-9D8D-2E08E316C998/SQLManagementStudio_x64_ENU.exe",
+      "bit": "64-bit",
+      "sizeBytes": 168845768
+    },
+    {
+      "id": "sql-programs-sql-server-2012-express-32-bit",
+      "categoryId": "sql-programs",
+      "name": "SQL Server 2012 Express (32-bit)",
+      "fileName": "sql-programs-sql-server-2012-express-32-bit.exe",
+      "url": "https://download.microsoft.com/download/0/1/E/01E0D693-2B4F-4442-9713-27A796B327BD/SQLEXPR_x86_ENU.exe",
+      "bit": "32-bit",
+      "sizeBytes": 274628920
+    },
+    {
+      "id": "sql-programs-sql-server-2012-express-64-bit",
+      "categoryId": "sql-programs",
+      "name": "SQL Server 2012 Express (64-bit)",
+      "fileName": "sql-programs-sql-server-2012-express-64-bit.exe",
+      "url": "https://download.microsoft.com/download/0/1/E/01E0D693-2B4F-4442-9713-27A796B327BD/SQLEXPR_x64_ENU.exe",
+      "bit": "64-bit",
+      "sizeBytes": 310443304
+    },
+    {
+      "id": "sql-programs-sql-server-2012-ssms-32-bit",
+      "categoryId": "sql-programs",
+      "name": "SQL Server 2012 SSMS (32-bit)",
+      "fileName": "sql-programs-sql-server-2012-ssms-32-bit.exe",
+      "url": "https://download.microsoft.com/download/0/1/E/01E0D693-2B4F-4442-9713-27A796B327BD/SQLManagementStudio_x86_ENU.exe",
+      "bit": "32-bit",
+      "sizeBytes": 1010111096
+    },
+    {
+      "id": "sql-programs-sql-server-2012-ssms-64-bit",
+      "categoryId": "sql-programs",
+      "name": "SQL Server 2012 SSMS (64-bit)",
+      "fileName": "sql-programs-sql-server-2012-ssms-64-bit.exe",
+      "url": "https://download.microsoft.com/download/0/1/E/01E0D693-2B4F-4442-9713-27A796B327BD/SQLManagementStudio_x64_ENU.exe",
+      "bit": "64-bit",
+      "sizeBytes": 996342608
+    },
+    {
+      "id": "sql-programs-sql-server-management-studio-current-installer",
+      "categoryId": "sql-programs",
+      "name": "SQL Server Management Studio - Current installer",
+      "fileName": "sql-programs-sql-server-management-studio-current-installer.exe",
+      "url": "https://aka.ms/ssmsfullsetup",
+      "bit": "64-bit"
+    },
+    {
+      "id": "sql-programs-sql-server-management-studio-standalone-installer",
+      "categoryId": "sql-programs",
+      "name": "SQL Server Management Studio - Standalone installer",
+      "fileName": "sql-programs-sql-server-management-studio-standalone-installer.exe",
+      "url": "https://download.microsoft.com/download/D/D/4/DD495084-ADA7-4827-ADD3-FC566EC05B90/SSMS-Setup-ENU.exe",
+      "bit": "64-bit",
+      "sizeBytes": 846140744
+    },
+    {
+      "id": "queries-complete-pack",
+      "categoryId": "queries",
+      "name": "00 - Complete SQL Query Pack (80 files)",
+      "fileName": "queries-complete-pack.zip",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-complete-pack.zip",
+      "sizeBytes": 164896,
+      "sha256": "b33cdf6e85409353889211279465324fc065761ff18bf2b5f892d4503f5ed426"
+    },
+    {
+      "id": "queries-fix-120k-kill",
+      "categoryId": "queries",
+      "name": "Fix - 120K Kill",
+      "fileName": "queries-fix-120k-kill.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-fix-120k-kill.sql",
+      "sizeBytes": 2836,
+      "sha256": "ee108f69b62b3a6b6bf7f18e36ea96c2b55d6602f234b0c3cf4bce5d377e7c2a"
+    },
+    {
+      "id": "queries-fix-bankteller-dc-variant-1",
+      "categoryId": "queries",
+      "name": "Fix - Bankteller DC - Variant 1",
+      "fileName": "queries-fix-bankteller-dc-variant-1.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-fix-bankteller-dc-variant-1.sql",
+      "sizeBytes": 3414,
+      "sha256": "71ab8f95dfb2f4f1d1f75f008e3a96375ba343cabc574b3f97e7862d79f92890"
+    },
+    {
+      "id": "queries-fix-bankteller-dc-variant-2",
+      "categoryId": "queries",
+      "name": "Fix - Bankteller DC - Variant 2",
+      "fileName": "queries-fix-bankteller-dc-variant-2.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-fix-bankteller-dc-variant-2.sql",
+      "sizeBytes": 1956,
+      "sha256": "ea3e717b29aac7955046dd8b12c4467703ea880cc5122112d7a0eefb9d886dc0"
+    },
+    {
+      "id": "queries-fix-fix-login",
+      "categoryId": "queries",
+      "name": "Fix - Fix Login",
+      "fileName": "queries-fix-fix-login.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-fix-fix-login.sql",
+      "sizeBytes": 3081,
+      "sha256": "513f13b0a9f258b9c26d7348c60359c38bee0b0a7dfb8abdc7b4003ce647c1c8"
+    },
+    {
+      "id": "queries-fix-gm-account-fix",
+      "categoryId": "queries",
+      "name": "Fix - GM Account Fix",
+      "fileName": "queries-fix-gm-account-fix.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-fix-gm-account-fix.sql",
+      "sizeBytes": 158,
+      "sha256": "ea1f2ae65acbae6634f3c005c09e63f394ad4ab00f42c2323ec852eeba4a7b79"
+    },
+    {
+      "id": "queries-fix-guild-delete-after-reset",
+      "categoryId": "queries",
+      "name": "Fix - Guild Delete After Reset",
+      "fileName": "queries-fix-guild-delete-after-reset.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-fix-guild-delete-after-reset.sql",
+      "sizeBytes": 1005,
+      "sha256": "72795c5a9c54fd017dc465eadf6eb3af051e1cb1727fb0497b875b4364352d88"
+    },
+    {
+      "id": "queries-fix-name-hack",
+      "categoryId": "queries",
+      "name": "Fix - Name Hack",
+      "fileName": "queries-fix-name-hack.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-fix-name-hack.sql",
+      "sizeBytes": 344,
+      "sha256": "687cb478ada87c0db7a1d2f76c6914255bb932bd365df6effd9c58ab9833a659"
+    },
+    {
+      "id": "queries-fix-name-is-already-use",
+      "categoryId": "queries",
+      "name": "Fix - Name is already use",
+      "fileName": "queries-fix-name-is-already-use.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-fix-name-is-already-use.sql",
+      "sizeBytes": 686,
+      "sha256": "92ca41bc9f57e072efc1420146ce1006433b4cce7bc13265531079286df14877"
+    },
+    {
+      "id": "queries-fix-rollback",
+      "categoryId": "queries",
+      "name": "Fix - Rollback",
+      "fileName": "queries-fix-rollback.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-fix-rollback.sql",
+      "sizeBytes": 622,
+      "sha256": "20c63ad79526ac71b9c8be53948e8538f3ccbbc5b756a2793bfe12ce0f78cf99"
+    },
+    {
+      "id": "queries-fix-sui-ranger-30k-reference",
+      "categoryId": "queries",
+      "name": "Fix - Sui-Ranger 30K (reference)",
+      "fileName": "queries-fix-sui-ranger-30k-reference.txt",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-fix-sui-ranger-30k-reference.txt",
+      "sizeBytes": 59,
+      "sha256": "c352fa1e45e1afec3fa88f17c32c2ff27fe882dba525eeabfb725ca210691168"
+    },
+    {
+      "id": "queries-query-add-loginstatus",
+      "categoryId": "queries",
+      "name": "Query - Add LoginStatus",
+      "fileName": "queries-query-add-loginstatus.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-query-add-loginstatus.sql",
+      "sizeBytes": 327,
+      "sha256": "0147215d7afc1ea88a2f20e3192b3d028f27fb6b0b516b6539a9d2ab99f1b868"
+    },
+    {
+      "id": "queries-query-admin-check",
+      "categoryId": "queries",
+      "name": "Query - Admin Check",
+      "fileName": "queries-query-admin-check.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-query-admin-check.sql",
+      "sizeBytes": 1405,
+      "sha256": "32c3545bd92bd4af04885ea6e301b1d92b41ba9e873bf5fe28952e53f387e67c"
+    },
+    {
+      "id": "queries-query-auction-board-overpricing-search-test",
+      "categoryId": "queries",
+      "name": "Query - Auction Board Overpricing Search Test",
+      "fileName": "queries-query-auction-board-overpricing-search-test.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-query-auction-board-overpricing-search-test.sql",
+      "sizeBytes": 282,
+      "sha256": "892dbf79120634413da4ecd58fd8653ffd6c641cf8a20d00014ded8c2d4c168d"
+    },
+    {
+      "id": "queries-query-auction-house",
+      "categoryId": "queries",
+      "name": "Query - Auction House",
+      "fileName": "queries-query-auction-house.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-query-auction-house.sql",
+      "sizeBytes": 2892,
+      "sha256": "4023e693f29f4f5edcd9458962a64ebc6014c45a7ad50fee8c1c2ebb611e28cf"
+    },
+    {
+      "id": "queries-query-backup-databases",
+      "categoryId": "queries",
+      "name": "Query - Backup Databases",
+      "fileName": "queries-query-backup-databases.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-query-backup-databases.sql",
+      "sizeBytes": 868,
+      "sha256": "b1c9daab0cfff542cff5a4f888b49138c408ca93700000353d01e03b5b511071"
+    },
+    {
+      "id": "queries-query-banned-ips-table",
+      "categoryId": "queries",
+      "name": "Query - Banned_IPs Table",
+      "fileName": "queries-query-banned-ips-table.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-query-banned-ips-table.sql",
+      "sizeBytes": 668,
+      "sha256": "e1451afcddf52cb033010aa59c1d0dcc9e6cf7872af3694846ed2e849d2c3551"
+    },
+    {
+      "id": "queries-query-change-an-item-to-item-for-character-name",
+      "categoryId": "queries",
+      "name": "Query - Change an Item to Item for Character Name",
+      "fileName": "queries-query-change-an-item-to-item-for-character-name.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-query-change-an-item-to-item-for-character-name.sql",
+      "sizeBytes": 2273,
+      "sha256": "fa3546984d045ee9d1eebd0ef538b19ef402b81e8fb8837757a03d351934156d"
+    },
+    {
+      "id": "queries-query-change-faction-of-player",
+      "categoryId": "queries",
+      "name": "Query - Change Faction of Player",
+      "fileName": "queries-query-change-faction-of-player.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-query-change-faction-of-player.sql",
+      "sizeBytes": 77,
+      "sha256": "136b35403742fd30292de89fcf6476d048c1ae788bdfeec55d1141bedc38cf4c"
+    },
+    {
+      "id": "queries-query-change-grade-of-items",
+      "categoryId": "queries",
+      "name": "Query - Change Grade of Items",
+      "fileName": "queries-query-change-grade-of-items.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-query-change-grade-of-items.sql",
+      "sizeBytes": 149,
+      "sha256": "0b1ff0f705bb333022d8f7a29f23befdc6de5170311780ded06eeb63d96849e9"
+    },
+    {
+      "id": "queries-query-change-item-to-another-item",
+      "categoryId": "queries",
+      "name": "Query - Change Item to Another Item",
+      "fileName": "queries-query-change-item-to-another-item.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-query-change-item-to-another-item.sql",
+      "sizeBytes": 76,
+      "sha256": "3447c84a4f24b01070575cc528e938572563c742791edb275b7998223ab2a58d"
+    },
+    {
+      "id": "queries-query-change-lapis-in-gears-to-another",
+      "categoryId": "queries",
+      "name": "Query - Change Lapis in Gears to Another",
+      "fileName": "queries-query-change-lapis-in-gears-to-another.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-query-change-lapis-in-gears-to-another.sql",
+      "sizeBytes": 72,
+      "sha256": "11ea8a904582ca3e2308c056a1dc7de3cd06dcf730fe921838971695288ee88d"
+    },
+    {
+      "id": "queries-query-change-mob-drops-and-rate",
+      "categoryId": "queries",
+      "name": "Query - Change Mob Drops and Rate",
+      "fileName": "queries-query-change-mob-drops-and-rate.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-query-change-mob-drops-and-rate.sql",
+      "sizeBytes": 216,
+      "sha256": "e751382629550c273e573527eb58f0ccff34aec0893924576eb0d9c117b1a581"
+    },
+    {
+      "id": "queries-query-char-gear-change",
+      "categoryId": "queries",
+      "name": "Query - Char&Gear Change",
+      "fileName": "queries-query-char-gear-change.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-query-char-gear-change.sql",
+      "sizeBytes": 8339,
+      "sha256": "05daacae2df838896b2ccf4fa384c4a07463ee5732b71239f2de4f8901498643"
+    },
+    {
+      "id": "queries-query-character-statistics",
+      "categoryId": "queries",
+      "name": "Query - Character Statistics",
+      "fileName": "queries-query-character-statistics.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-query-character-statistics.sql",
+      "sizeBytes": 12414,
+      "sha256": "9f0d12c1fedc7b66062c07abdab71eb9a583b008fcb668df854a1753d24ee676"
+    },
+    {
+      "id": "queries-query-check-grade-s-drop-rate",
+      "categoryId": "queries",
+      "name": "Query - Check Grade's Drop Rate",
+      "fileName": "queries-query-check-grade-s-drop-rate.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-query-check-grade-s-drop-rate.sql",
+      "sizeBytes": 69,
+      "sha256": "deb7fe7c5c9e76b5d0888a7637d9362912e50fba350d18b10171abfc8ee016f0"
+    },
+    {
+      "id": "queries-query-check-illegal-linking-of-items",
+      "categoryId": "queries",
+      "name": "Query - Check Illegal Linking of Items",
+      "fileName": "queries-query-check-illegal-linking-of-items.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-query-check-illegal-linking-of-items.sql",
+      "sizeBytes": 7328,
+      "sha256": "c8db07820577beaf9342e77022822fb30c6a01b39265e22e48d25b6085c21e40"
+    },
+    {
+      "id": "queries-query-check-player-chat",
+      "categoryId": "queries",
+      "name": "Query - Check Player Chat",
+      "fileName": "queries-query-check-player-chat.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-query-check-player-chat.sql",
+      "sizeBytes": 582,
+      "sha256": "96762c5ea7282810318580fe8923c88f6c5b42f35618ad1ecb1b73bc49d41548"
+    },
+    {
+      "id": "queries-query-check-player-gamelog",
+      "categoryId": "queries",
+      "name": "Query - Check Player GameLog",
+      "fileName": "queries-query-check-player-gamelog.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-query-check-player-gamelog.sql",
+      "sizeBytes": 586,
+      "sha256": "f13a34b4ffdcba2f1e885c20bd960d2db6474e92a33ebb4c6d0a39503ecb796a"
+    },
+    {
+      "id": "queries-query-delete-accounts-all-traces",
+      "categoryId": "queries",
+      "name": "Query - Delete Accounts - All Traces",
+      "fileName": "queries-query-delete-accounts-all-traces.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-query-delete-accounts-all-traces.sql",
+      "sizeBytes": 1778,
+      "sha256": "16756556b235d9c796aaae3175e78aede3098f16429bcec76877a5f829956edb"
+    },
+    {
+      "id": "queries-query-delete-accounts-inactive-180-days",
+      "categoryId": "queries",
+      "name": "Query - Delete Accounts - Inactive 180 Days",
+      "fileName": "queries-query-delete-accounts-inactive-180-days.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-query-delete-accounts-inactive-180-days.sql",
+      "sizeBytes": 2040,
+      "sha256": "b90b5c79016df371c30e8964d95c6fd8fa82ae6ce7443193da63f13f34227765"
+    },
+    {
+      "id": "queries-query-delete-ah-item-script",
+      "categoryId": "queries",
+      "name": "Query - Delete AH Item Script",
+      "fileName": "queries-query-delete-ah-item-script.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-query-delete-ah-item-script.sql",
+      "sizeBytes": 135,
+      "sha256": "74a1885ec1cc760a09a6b017f09840914df139dd5bda9b031f6acc0429f9758c"
+    },
+    {
+      "id": "queries-query-delete-auction-board-item",
+      "categoryId": "queries",
+      "name": "Query - Delete Auction Board Item",
+      "fileName": "queries-query-delete-auction-board-item.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-query-delete-auction-board-item.sql",
+      "sizeBytes": 592,
+      "sha256": "d5da71e6bd4910a637d49169441fb5af52069c38f01c7d2783382874e3d66697"
+    },
+    {
+      "id": "queries-query-delete-item-from-certain-character",
+      "categoryId": "queries",
+      "name": "Query - Delete Item From Certain Character",
+      "fileName": "queries-query-delete-item-from-certain-character.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-query-delete-item-from-certain-character.sql",
+      "sizeBytes": 76,
+      "sha256": "a8cb91b85b8de74e84081c211313e4f01eaff3351129c91d48263223047bd45e"
+    },
+    {
+      "id": "queries-query-deleting-a-player",
+      "categoryId": "queries",
+      "name": "Query - Deleting A Player",
+      "fileName": "queries-query-deleting-a-player.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-query-deleting-a-player.sql",
+      "sizeBytes": 3355,
+      "sha256": "5e7558c7f1acf500c0c8a40ced7822720e734d60643adf9d5114fc776d592b79"
+    },
+    {
+      "id": "queries-query-faction-change-keeps-race",
+      "categoryId": "queries",
+      "name": "Query - Faction Change - Keeps Race",
+      "fileName": "queries-query-faction-change-keeps-race.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-query-faction-change-keeps-race.sql",
+      "sizeBytes": 1708,
+      "sha256": "254c7bd10460bebb193d8df66503bc40fdb8eafad62758aabae9dd7617c02e79"
+    },
+    {
+      "id": "queries-query-find-characters-with-certain-item",
+      "categoryId": "queries",
+      "name": "Query - Find Characters With Certain Item",
+      "fileName": "queries-query-find-characters-with-certain-item.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-query-find-characters-with-certain-item.sql",
+      "sizeBytes": 67,
+      "sha256": "bbc5014fb769be68d551fec901ff9808c227a23f890d9456f7b7ae174681b37e"
+    },
+    {
+      "id": "queries-query-find-what-items-are-in-a-certain-grade",
+      "categoryId": "queries",
+      "name": "Query - Find What Items Are In A Certain Grade",
+      "fileName": "queries-query-find-what-items-are-in-a-certain-grade.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-query-find-what-items-are-in-a-certain-grade.sql",
+      "sizeBytes": 64,
+      "sha256": "0acdce2a141a1d56300dacf6b829176bcc73661a574b0d50587ffab7ec7e6820"
+    },
+    {
+      "id": "queries-query-finding-character-items",
+      "categoryId": "queries",
+      "name": "Query - Finding Character Items",
+      "fileName": "queries-query-finding-character-items.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-query-finding-character-items.sql",
+      "sizeBytes": 8786,
+      "sha256": "d1e9fb5f7639acb552b47fa9987b6933517f7e1e45db0c4bb23c83b098c4b0fb"
+    },
+    {
+      "id": "queries-query-findmobsitems",
+      "categoryId": "queries",
+      "name": "Query - FindMobsItems",
+      "fileName": "queries-query-findmobsitems.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-query-findmobsitems.sql",
+      "sizeBytes": 381,
+      "sha256": "a5f020f45fa9de0847590f21f2e398709c673a15e7b3b17649d325b83523022a"
+    },
+    {
+      "id": "queries-query-gearcheck-guildhouse",
+      "categoryId": "queries",
+      "name": "Query - Gearcheck - Guildhouse",
+      "fileName": "queries-query-gearcheck-guildhouse.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-query-gearcheck-guildhouse.sql",
+      "sizeBytes": 1697,
+      "sha256": "6431009ae0d18be351f436e05c555f7cbb44c7525656d943646ffca293085181"
+    },
+    {
+      "id": "queries-query-gearcheck-player",
+      "categoryId": "queries",
+      "name": "Query - Gearcheck - Player",
+      "fileName": "queries-query-gearcheck-player.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-query-gearcheck-player.sql",
+      "sizeBytes": 1686,
+      "sha256": "4375742ad19248d6cf3c1bdc7326b18beb666e0d98d06883f522fe26dbac24ab"
+    },
+    {
+      "id": "queries-query-gearcheck-warehouse",
+      "categoryId": "queries",
+      "name": "Query - Gearcheck - Warehouse",
+      "fileName": "queries-query-gearcheck-warehouse.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-query-gearcheck-warehouse.sql",
+      "sizeBytes": 1705,
+      "sha256": "efa3e5dd20091555abbdc658ea2ddad43ede3f7268cad849728765b817469900"
+    },
+    {
+      "id": "queries-query-global-stat-skill-reset",
+      "categoryId": "queries",
+      "name": "Query - Global Stat-Skill Reset",
+      "fileName": "queries-query-global-stat-skill-reset.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-query-global-stat-skill-reset.sql",
+      "sizeBytes": 608,
+      "sha256": "5fe58ca3450fe7c702ac3cb7efa3974d98ce426d1332bb25fc56979a3f882dc1"
+    },
+    {
+      "id": "queries-query-gm-reroll",
+      "categoryId": "queries",
+      "name": "Query - GM Reroll",
+      "fileName": "queries-query-gm-reroll.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-query-gm-reroll.sql",
+      "sizeBytes": 130,
+      "sha256": "29928a8beebbd8771aeb1f8db48a33b1968bdc1a519b0f0aad459bcf29c99a52"
+    },
+    {
+      "id": "queries-query-guildhouse-lookup",
+      "categoryId": "queries",
+      "name": "Query - Guildhouse - Lookup",
+      "fileName": "queries-query-guildhouse-lookup.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-query-guildhouse-lookup.sql",
+      "sizeBytes": 1684,
+      "sha256": "05de18ca2d7da87735aa121c6a86d218a4049a216b50cfb3ff9898a5cbd41d75"
+    },
+    {
+      "id": "queries-query-inventory-lookup-player",
+      "categoryId": "queries",
+      "name": "Query - Inventory Lookup - Player",
+      "fileName": "queries-query-inventory-lookup-player.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-query-inventory-lookup-player.sql",
+      "sizeBytes": 1687,
+      "sha256": "24a86d705faa67507fa7cc8ea127e4bb023e838cd3a8f2216d4e086aa7f3a941"
+    },
+    {
+      "id": "queries-query-ip-ban-query",
+      "categoryId": "queries",
+      "name": "Query - IP Ban Query",
+      "fileName": "queries-query-ip-ban-query.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-query-ip-ban-query.sql",
+      "sizeBytes": 76,
+      "sha256": "b6f6e9ca74ce1dec2479381df80f87db9c0b298670b10c893062794a6c284220"
+    },
+    {
+      "id": "queries-query-kick-query",
+      "categoryId": "queries",
+      "name": "Query - Kick Query",
+      "fileName": "queries-query-kick-query.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-query-kick-query.sql",
+      "sizeBytes": 6206,
+      "sha256": "dfc575e238afa5a38cffe44cd2c7340128617e7e9e2b0c5db78b2280b2c56c83"
+    },
+    {
+      "id": "queries-query-link-spesific-uid-item-for-charid",
+      "categoryId": "queries",
+      "name": "Query - Link Spesific UID Item for CharID",
+      "fileName": "queries-query-link-spesific-uid-item-for-charid.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-query-link-spesific-uid-item-for-charid.sql",
+      "sizeBytes": 711,
+      "sha256": "3fd5f827bc4f804ef045b5e8b62ff35c0b2bbbeb2d62f737700a5605a27e7cc7"
+    },
+    {
+      "id": "queries-query-logging-of-kills-pr-playername",
+      "categoryId": "queries",
+      "name": "Query - Logging of Kills pr Playername",
+      "fileName": "queries-query-logging-of-kills-pr-playername.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-query-logging-of-kills-pr-playername.sql",
+      "sizeBytes": 1062,
+      "sha256": "26d5087d1449153576e7e1508ec156f174090d447e438dcc4fb1714702ca316f"
+    },
+    {
+      "id": "queries-query-lookup-no-of-items",
+      "categoryId": "queries",
+      "name": "Query - Lookup No of Items",
+      "fileName": "queries-query-lookup-no-of-items.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-query-lookup-no-of-items.sql",
+      "sizeBytes": 595,
+      "sha256": "2143e199327e36e50990100731a939da477c8dfb4c8db0f32fc694c2915e15b1"
+    },
+    {
+      "id": "queries-query-lookup-no-of-items-guildwarehouse",
+      "categoryId": "queries",
+      "name": "Query - Lookup No of items - GuildWarehouse",
+      "fileName": "queries-query-lookup-no-of-items-guildwarehouse.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-query-lookup-no-of-items-guildwarehouse.sql",
+      "sizeBytes": 565,
+      "sha256": "714e305eff1ea90ebb62b6c67b1ef1a6da0b6b0237cd9970c56fa933a316aa3a"
+    },
+    {
+      "id": "queries-query-lookup-no-of-items-warehouse",
+      "categoryId": "queries",
+      "name": "Query - Lookup No of Items - Warehouse",
+      "fileName": "queries-query-lookup-no-of-items-warehouse.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-query-lookup-no-of-items-warehouse.sql",
+      "sizeBytes": 461,
+      "sha256": "25966026b59d97c856e089fef74fa0e7994fa79f1bb53e2d2f1a39756667d95f"
+    },
+    {
+      "id": "queries-query-marketitems-lookup",
+      "categoryId": "queries",
+      "name": "Query - MarketItems Lookup",
+      "fileName": "queries-query-marketitems-lookup.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-query-marketitems-lookup.sql",
+      "sizeBytes": 457,
+      "sha256": "b13cad93423762d1f911f75ee012ed7f257605b8430ef19b8b267ecdfc58a57e"
+    },
+    {
+      "id": "queries-query-move-char-to-ah",
+      "categoryId": "queries",
+      "name": "Query - Move Char to AH",
+      "fileName": "queries-query-move-char-to-ah.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-query-move-char-to-ah.sql",
+      "sizeBytes": 392,
+      "sha256": "5fff231e4d953655e0ceaa8928a7e0321cc821c0452fd45f18197aeaf4db5142"
+    },
+    {
+      "id": "queries-query-naughty-gm-checker",
+      "categoryId": "queries",
+      "name": "Query - Naughty GM Checker",
+      "fileName": "queries-query-naughty-gm-checker.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-query-naughty-gm-checker.sql",
+      "sizeBytes": 88,
+      "sha256": "91ff50b41628240f1c1ce9be7ad748cf55abe3db800fd87914c53832f504d304"
+    },
+    {
+      "id": "queries-query-player-lookup-pr-guild",
+      "categoryId": "queries",
+      "name": "Query - Player Lookup pr Guild",
+      "fileName": "queries-query-player-lookup-pr-guild.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-query-player-lookup-pr-guild.sql",
+      "sizeBytes": 346,
+      "sha256": "c06a54c980b1852b20dcb096c642257b349fedb7558d4e1bccab65cb81e75cac"
+    },
+    {
+      "id": "queries-query-query-in-account-character-is-blocked-by-dupe-fix",
+      "categoryId": "queries",
+      "name": "Query - Query In Account Character Is Blocked By Dupe Fix",
+      "fileName": "queries-query-query-in-account-character-is-blocked-by-dupe-fix.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-query-query-in-account-character-is-blocked-by-dupe-fix.sql",
+      "sizeBytes": 149,
+      "sha256": "986ab5520efcd74ddce7dec5f3c0f63e787bf62493a59c53c26f69a80322e74a"
+    },
+    {
+      "id": "queries-query-rec-runes-work-on-quest-items",
+      "categoryId": "queries",
+      "name": "Query - Rec Runes Work On Quest Items",
+      "fileName": "queries-query-rec-runes-work-on-quest-items.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-query-rec-runes-work-on-quest-items.sql",
+      "sizeBytes": 73,
+      "sha256": "0cf4485036d51962b3d0481301a7d2d0c36727f7975b9856b17af6a1c5d1effb"
+    },
+    {
+      "id": "queries-query-remove-ap-per-min",
+      "categoryId": "queries",
+      "name": "Query - Remove Ap per Min",
+      "fileName": "queries-query-remove-ap-per-min.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-query-remove-ap-per-min.sql",
+      "sizeBytes": 4630,
+      "sha256": "56e1591aed1bf331cba4f0cddbf9af065cd45b6c0ce9374098d61c655dd4d32c"
+    },
+    {
+      "id": "queries-query-remove-exp-from-grb-and-pvp",
+      "categoryId": "queries",
+      "name": "Query - Remove EXP from GRB and PvP",
+      "fileName": "queries-query-remove-exp-from-grb-and-pvp.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-query-remove-exp-from-grb-and-pvp.sql",
+      "sizeBytes": 282,
+      "sha256": "c46ef5d723449d7f461c6006446df2c2dcceb50eb1491c3c0bebbd97ef6ab5f3"
+    },
+    {
+      "id": "queries-query-remove-guild-penalty-s",
+      "categoryId": "queries",
+      "name": "Query - Remove Guild Penalty's",
+      "fileName": "queries-query-remove-guild-penalty-s.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-query-remove-guild-penalty-s.sql",
+      "sizeBytes": 109,
+      "sha256": "c14057046db0fc752fff0c07c55fe50f84774ccd2a0f01f4026894584e9ddd1d"
+    },
+    {
+      "id": "queries-query-remove-life-lapis-from-shield-s",
+      "categoryId": "queries",
+      "name": "Query - Remove Life Lapis from Shield`s",
+      "fileName": "queries-query-remove-life-lapis-from-shield-s.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-query-remove-life-lapis-from-shield-s.sql",
+      "sizeBytes": 7621,
+      "sha256": "5569d666d54249c5704556efb0cdbcd2ffe1470bde180db440e98bd37bc128dc"
+    },
+    {
+      "id": "queries-query-ress-char",
+      "categoryId": "queries",
+      "name": "Query - Ress Char",
+      "fileName": "queries-query-ress-char.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-query-ress-char.sql",
+      "sizeBytes": 2189,
+      "sha256": "6b18e1b122ca68e119390d0b21cea9487e3274d3639eb7a9c4a30a33b79c8c66"
+    },
+    {
+      "id": "queries-query-search-charname-inventory-for-itemuid",
+      "categoryId": "queries",
+      "name": "Query - Search CharName Inventory For ItemUID",
+      "fileName": "queries-query-search-charname-inventory-for-itemuid.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-query-search-charname-inventory-for-itemuid.sql",
+      "sizeBytes": 545,
+      "sha256": "3ee81b9c324d2d4f9b225a69d9a0a958446bd94e4df36f893265604ec8c247af"
+    },
+    {
+      "id": "queries-query-search-charname-inventory-for-spesific-item-s-uid-lapis-in-it",
+      "categoryId": "queries",
+      "name": "Query - Search CharName Inventory For Spesific Item's UID + Lapis in it",
+      "fileName": "queries-query-search-charname-inventory-for-spesific-item-s-uid-lapis-in-it.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-query-search-charname-inventory-for-spesific-item-s-uid-lapis-in-it.sql",
+      "sizeBytes": 642,
+      "sha256": "9391153c760aea3e84a91f14ca8a53cfd7269309cc09d3631522ce67f54d7ef9"
+    },
+    {
+      "id": "queries-query-search-the-owner-of-marketid",
+      "categoryId": "queries",
+      "name": "Query - Search the Owner of MarketID",
+      "fileName": "queries-query-search-the-owner-of-marketid.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-query-search-the-owner-of-marketid.sql",
+      "sizeBytes": 255,
+      "sha256": "c93c616b2a0c7db800f75c26667c95724b3b91a9e002c9938ce77ab647963d18"
+    },
+    {
+      "id": "queries-query-set-dayfly-to-personal-range",
+      "categoryId": "queries",
+      "name": "Query - Set Dayfly to Personal Range",
+      "fileName": "queries-query-set-dayfly-to-personal-range.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-query-set-dayfly-to-personal-range.sql",
+      "sizeBytes": 760,
+      "sha256": "1f8ed23455c333c2f045872a66ddc6b49201899155515d852c51126a81fed3dd"
+    },
+    {
+      "id": "queries-query-set-max-orange-stats-pr-item",
+      "categoryId": "queries",
+      "name": "Query - Set Max Orange stats pr Item",
+      "fileName": "queries-query-set-max-orange-stats-pr-item.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-query-set-max-orange-stats-pr-item.sql",
+      "sizeBytes": 10102,
+      "sha256": "c34da64902a94e1446b32cf53391c041ab981667c5fb653d82a115fc5b3673c2"
+    },
+    {
+      "id": "queries-query-set-max-orange-stats-to-30",
+      "categoryId": "queries",
+      "name": "Query - Set Max Orange Stats to 30",
+      "fileName": "queries-query-set-max-orange-stats-to-30.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-query-set-max-orange-stats-to-30.sql",
+      "sizeBytes": 7895,
+      "sha256": "131a4f01c10fc8879f61108319156b6a190c83859ef184a1d01d6066f4e5c32d"
+    },
+    {
+      "id": "queries-query-show-all-accounts-with-all-chars",
+      "categoryId": "queries",
+      "name": "Query - Show All Accounts with All Chars",
+      "fileName": "queries-query-show-all-accounts-with-all-chars.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-query-show-all-accounts-with-all-chars.sql",
+      "sizeBytes": 185,
+      "sha256": "42c295437ceadfaf5c2876a41cc3c5e5a00b2872aa9b8dd5c55ae58e4f95e8d4"
+    },
+    {
+      "id": "queries-query-static-ip-gm-s",
+      "categoryId": "queries",
+      "name": "Query - Static IP GM`s",
+      "fileName": "queries-query-static-ip-gm-s.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-query-static-ip-gm-s.sql",
+      "sizeBytes": 8120,
+      "sha256": "428a2fa5d272d5d69dfeb4d175564beaef47d95918e36f275179f2fd298e7509"
+    },
+    {
+      "id": "queries-query-tag-adding",
+      "categoryId": "queries",
+      "name": "Query - Tag Adding",
+      "fileName": "queries-query-tag-adding.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-query-tag-adding.sql",
+      "sizeBytes": 88,
+      "sha256": "be1c8677b32df63d71a6d66d7e094f564fa62ecd395da6b1b7f79f4ddec2810f"
+    },
+    {
+      "id": "queries-query-toon-only-change",
+      "categoryId": "queries",
+      "name": "Query - Toon Only Change",
+      "fileName": "queries-query-toon-only-change.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-query-toon-only-change.sql",
+      "sizeBytes": 1266,
+      "sha256": "b32357e52209b4706ac021d17db30e02e9d3b0474917a660dadfa48f56c53e56"
+    },
+    {
+      "id": "queries-query-try-gamelogin-taiwan",
+      "categoryId": "queries",
+      "name": "Query - Try_GameLogin_Taiwan",
+      "fileName": "queries-query-try-gamelogin-taiwan.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-query-try-gamelogin-taiwan.sql",
+      "sizeBytes": 7128,
+      "sha256": "188b2f9657bb5182b810f2fe14bc62240e4feff4c5e7149ada307a451413a005"
+    },
+    {
+      "id": "queries-query-unlock-um-at-lv0",
+      "categoryId": "queries",
+      "name": "Query - Unlock UM At Lv0",
+      "fileName": "queries-query-unlock-um-at-lv0.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-query-unlock-um-at-lv0.sql",
+      "sizeBytes": 1662,
+      "sha256": "abb39a722a3e3e5fbabd04e4ec407fa913365469a3bf28f61045d04ad77e20d4"
+    },
+    {
+      "id": "queries-query-warehouse",
+      "categoryId": "queries",
+      "name": "Query - Warehouse",
+      "fileName": "queries-query-warehouse.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-query-warehouse.sql",
+      "sizeBytes": 2542,
+      "sha256": "5b6c5f0762e9a3f78d1fdceee6289570ebd3727d6c4b6382cd5209c5e92f5650"
+    },
+    {
+      "id": "queries-query-warehouse-lookup",
+      "categoryId": "queries",
+      "name": "Query - Warehouse Lookup",
+      "fileName": "queries-query-warehouse-lookup.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-query-warehouse-lookup.sql",
+      "sizeBytes": 1687,
+      "sha256": "e69e4a587d7df6ada36c11ceeb2698df90225e5510368af883e2e1bc16985989"
+    },
+    {
+      "id": "queries-query-who-is-overpricing",
+      "categoryId": "queries",
+      "name": "Query - Who is Overpricing",
+      "fileName": "queries-query-who-is-overpricing.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-query-who-is-overpricing.sql",
+      "sizeBytes": 495,
+      "sha256": "ac550e395f5a2615bd6382629edc0a4f954404ed8933d086e3d646eafe3e20a9"
+    },
+    {
+      "id": "queries-query-world-change",
+      "categoryId": "queries",
+      "name": "Query - World Change",
+      "fileName": "queries-query-world-change.sql",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/queries-query-world-change.sql",
+      "sizeBytes": 1708,
+      "sha256": "254c7bd10460bebb193d8df66503bc40fdb8eafad62758aabae9dd7617c02e79"
+    },
+    {
+      "id": "editors-saheditor",
+      "categoryId": "editors",
+      "name": "SahEditor",
+      "fileName": "editors-saheditor.zip",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/editors-saheditor.zip",
+      "sizeBytes": 5378919,
+      "sha256": "f0e3c98508a1a66c9f05a643f8680361f0f9e8f66652ad53d4de50ff9c4cc73f"
+    },
+    {
+      "id": "editors-shaiya-data-file-tool",
+      "categoryId": "editors",
+      "name": "Shaiya Data File Tool",
+      "fileName": "editors-shaiya-data-file-tool.rar",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/editors-shaiya-data-file-tool.rar",
+      "sizeBytes": 874043,
+      "sha256": "32141da698310e372058deb5c680769a23e4c38094f6421155866eb75cb23a23"
+    },
+    {
+      "id": "editors-shaiya-make-tool",
+      "categoryId": "editors",
+      "name": "Shaiya Make Tool",
+      "fileName": "editors-shaiya-make-tool.rar",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/editors-shaiya-make-tool.rar",
+      "sizeBytes": 1412539,
+      "sha256": "0c841c54934f2931af0fe3e59edbd93e4c963cebeaf880c75dbf4fc098bbd01d"
+    },
+    {
+      "id": "editors-shaiya-patcher",
+      "categoryId": "editors",
+      "name": "Shaiya Patcher",
+      "fileName": "editors-shaiya-patcher.rar",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/editors-shaiya-patcher.rar",
+      "sizeBytes": 9363,
+      "sha256": "39b25e4dac80f45c427852016fa8cbd05895cea40c61e0d647a382ec88e8c317"
+    },
+    {
+      "id": "editors-shstudio-old-version",
+      "categoryId": "editors",
+      "name": "shStudio - Old Version",
+      "fileName": "editors-shstudio-old-version.rar",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/editors-shstudio-old-version.rar",
+      "sizeBytes": 320455,
+      "sha256": "ba60b43045aae444783dac4c9f0b33c7e76527f03f5b69e9b81253b003cf6d13"
+    },
+    {
+      "id": "editors-shstudio-0-7-5-1",
+      "categoryId": "editors",
+      "name": "shStudio 0.7.5.1",
+      "fileName": "editors-shstudio-0-7-5-1.zip",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/editors-shstudio-0-7-5-1.zip",
+      "sizeBytes": 796151,
+      "sha256": "04a5ba6a3471dd7fec6b9d9009ee109a1263e0983ae0e61c3cefe257b9cab1de"
+    },
+    {
+      "id": "editors-shstudio-0-7-5-5",
+      "categoryId": "editors",
+      "name": "shStudio 0.7.5.5",
+      "fileName": "editors-shstudio-0-7-5-5.zip",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/editors-shstudio-0-7-5-5.zip",
+      "sizeBytes": 827120,
+      "sha256": "c0dd0639a988a0574e95a3dbb433ee365d553ef3aa916b8fb1933b0953c7a41d"
+    },
+    {
+      "id": "editors-shstudio-0-8-0-1",
+      "categoryId": "editors",
+      "name": "shStudio 0.8.0.1",
+      "fileName": "editors-shstudio-0-8-0-1.zip",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/editors-shstudio-0-8-0-1.zip",
+      "sizeBytes": 845001,
+      "sha256": "fb4e3d136c47bce8c774196cc72c02244adaf6d5e10bfab4d47862b71b682a0c"
+    },
+    {
+      "id": "editors-shstudio-0-8-0-2",
+      "categoryId": "editors",
+      "name": "shStudio 0.8.0.2",
+      "fileName": "editors-shstudio-0-8-0-2.zip",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/editors-shstudio-0-8-0-2.zip",
+      "sizeBytes": 810118,
+      "sha256": "402614043e21c3343fe67a4d7e35597dad9642624987ff638088156b0aa7575c"
+    },
+    {
+      "id": "editors-shstudio2-0-8-0-3",
+      "categoryId": "editors",
+      "name": "shStudio2 0.8.0.3",
+      "fileName": "editors-shstudio2-0-8-0-3.zip",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/editors-shstudio2-0-8-0-3.zip",
+      "sizeBytes": 808449,
+      "sha256": "70c963e65b5ab011b1c13ed7d3a9b416115ab70beca21f5701863ca755676427"
+    },
+    {
+      "id": "developer-cheat-engine-legacy-installer",
+      "categoryId": "developer",
+      "name": "Cheat Engine - Legacy installer",
+      "fileName": "developer-cheat-engine-legacy-installer.exe",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/developer-cheat-engine-legacy-installer.exe",
+      "sizeBytes": 3351888,
+      "sha256": "9b8480581ffd010c93c4504d0bb5dcd8c2eba5c57812e399da8c6c58024a4903"
+    },
+    {
+      "id": "developer-ep5-4-reference-fast-reroll",
+      "categoryId": "developer",
+      "name": "EP5.4 Reference - Fast Reroll",
+      "fileName": "developer-ep5-4-reference-fast-reroll.txt",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/developer-ep5-4-reference-fast-reroll.txt",
+      "sizeBytes": 325,
+      "sha256": "8c05a89877b1bbdfa551d97ec9f64b8b4f34132ca4d67309a7ee90fefc4dc865"
+    },
+    {
+      "id": "developer-ep5-4-reference-fast-transition",
+      "categoryId": "developer",
+      "name": "EP5.4 Reference - Fast Transition",
+      "fileName": "developer-ep5-4-reference-fast-transition.txt",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/developer-ep5-4-reference-fast-transition.txt",
+      "sizeBytes": 529,
+      "sha256": "c8397f0a2e94319e3792b3f19d22ed2e00644f74242862025ea59cf601c78780"
+    },
+    {
+      "id": "developer-ep5-4-reference-multi-client",
+      "categoryId": "developer",
+      "name": "EP5.4 Reference - Multi-Client",
+      "fileName": "developer-ep5-4-reference-multi-client.txt",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/developer-ep5-4-reference-multi-client.txt",
+      "sizeBytes": 81,
+      "sha256": "c78818e175ffdfdb4ab5222c929c5a0b096ba5315d3df7c8fba49a3f1d77a3e9"
+    },
+    {
+      "id": "developer-ep5-4-reference-remove-updater",
+      "categoryId": "developer",
+      "name": "EP5.4 Reference - Remove Updater",
+      "fileName": "developer-ep5-4-reference-remove-updater.txt",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/developer-ep5-4-reference-remove-updater.txt",
+      "sizeBytes": 59,
+      "sha256": "3d3db7022c71cfdb2a4fbe552f39fa217444a2d244b4787511b5bd41e34b65df"
+    },
+    {
+      "id": "developer-ep5-4-reference-speed-enchant",
+      "categoryId": "developer",
+      "name": "EP5.4 Reference - Speed Enchant",
+      "fileName": "developer-ep5-4-reference-speed-enchant.txt",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/developer-ep5-4-reference-speed-enchant.txt",
+      "sizeBytes": 134,
+      "sha256": "7365b66816f387b83b9bb8dd6a4b2f9e7a15aa70dfebfdc00c87ece81d4bb1b7"
+    },
+    {
+      "id": "developer-hxd-hex-editor",
+      "categoryId": "developer",
+      "name": "HxD Hex Editor",
+      "fileName": "developer-hxd-hex-editor.zip",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/developer-hxd-hex-editor.zip",
+      "sizeBytes": 3348036,
+      "sha256": "5065041c7b03c24b9533a5b32b33db58f2b4924cd84bed41834ff2db51c1cb7c"
+    },
+    {
+      "id": "developer-ollydbg-1-10",
+      "categoryId": "developer",
+      "name": "OllyDbg 1.10",
+      "fileName": "developer-ollydbg-1-10.zip",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/developer-ollydbg-1-10.zip",
+      "sizeBytes": 1333471,
+      "sha256": "73b1770f28893dab22196eb58d45ede8ddf5444009960ccc0107d09881a7cd1e"
+    },
+    {
+      "id": "developer-visual-studio-legacy-bootstrapper",
+      "categoryId": "developer",
+      "name": "Visual Studio - Legacy bootstrapper",
+      "fileName": "developer-visual-studio-legacy-bootstrapper.exe",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/developer-visual-studio-legacy-bootstrapper.exe",
+      "sizeBytes": 3951168,
+      "sha256": "eabb25899ce2e8ee2ea58637a2dfdf32d13cb6bcc910cd7cfc6cd7241203a6e4"
+    },
+    {
+      "id": "developer-visual-studio-code-1-83-1-32-bit",
+      "categoryId": "developer",
+      "name": "Visual Studio Code 1.83.1 (32-bit)",
+      "fileName": "developer-visual-studio-code-1-83-1-32-bit.exe",
+      "url": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/f1b07bd25dfad64b0167beb15359ae573aecd2cc/VSCodeSetup-ia32-1.83.1.exe",
+      "sizeBytes": 91074856
+    },
+    {
+      "id": "developer-visual-studio-code-1-84-2-64-bit",
+      "categoryId": "developer",
+      "name": "Visual Studio Code 1.84.2 (64-bit)",
+      "fileName": "developer-visual-studio-code-1-84-2-64-bit.exe",
+      "url": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/VSCodeSetup-x64-1.84.2.exe",
+      "sizeBytes": 94619016
+    },
+    {
+      "id": "developer-xampp-8-1-17-64-bit",
+      "categoryId": "developer",
+      "name": "XAMPP 8.1.17 (64-bit)",
+      "fileName": "developer-xampp-8-1-17-64-bit.exe",
+      "url": "https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/8.1.17/xampp-windows-x64-8.1.17-0-VS16-installer.exe",
+      "sizeBytes": 154220552
+    },
+    {
+      "id": "interface-hd-loading-pictures",
+      "categoryId": "interface",
+      "name": "HD Loading Pictures",
+      "fileName": "interface-hd-loading-pictures.rar",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/interface-hd-loading-pictures.rar",
+      "sizeBytes": 2388532,
+      "sha256": "b214ab84b4ad3d15833ebb8105f594a9357841d63248bcce7f8606e12cc0d872"
+    },
+    {
+      "id": "website-custom-tr",
+      "categoryId": "website",
+      "name": "Custom {TR}",
+      "fileName": "website-custom-tr.rar",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/website-custom-tr.rar",
+      "sizeBytes": 3277642,
+      "sha256": "9f98407a42b569ceea08712b4630e3b715dbb21ee09b32c72c9270225781dee7"
+    },
+    {
+      "id": "website-ep4-5-original-tr",
+      "categoryId": "website",
+      "name": "EP4.5 Original {TR}",
+      "fileName": "website-ep4-5-original-tr.rar",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/website-ep4-5-original-tr.rar",
+      "sizeBytes": 1534496,
+      "sha256": "cb1d462618d80b8fd76c7472b819883769a5da80fef8e4663277ee8a72ae854b"
+    },
+    {
+      "id": "website-ep8-original-tr",
+      "categoryId": "website",
+      "name": "EP8 Original {TR}",
+      "fileName": "website-ep8-original-tr.rar",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/website-ep8-original-tr.rar",
+      "sizeBytes": 2584682,
+      "sha256": "5380ba05619d8b32864674075f314b822f2ba07e9496be8b93e3ce772422b7e7"
+    },
+    {
+      "id": "website-orizon-tr",
+      "categoryId": "website",
+      "name": "Orizon {TR}",
+      "fileName": "website-orizon-tr.rar",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/website-orizon-tr.rar",
+      "sizeBytes": 825568,
+      "sha256": "a8d8ae296dce25839a80dd5d1bf72790b33474bac201e458cf0e0671c63bf350"
+    }
+  ]
 }

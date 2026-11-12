@@ -1,0 +1,170 @@
+[
+  {
+    "id": "client-episode-3-0-client-ru",
+    "url": "https://archive.openshaiya.org/shaiya-ru/clients/ep3.zip",
+    "result": "pass",
+    "status": 206,
+    "range": "bytes 65536-131071/1222540577",
+    "resumable": true
+  },
+  {
+    "id": "client-episode-4-5-client-ru",
+    "url": "https://archive.openshaiya.org/shaiya-ru/clients/ep4.5.zip",
+    "result": "pass",
+    "status": 206,
+    "range": "bytes 65536-131071/1372736314",
+    "resumable": true
+  },
+  {
+    "id": "client-episode-5-4-client-fr",
+    "url": "https://archive.openshaiya.org/shaiya-fr/clients/ep5.4.zip",
+    "result": "pass",
+    "status": 206,
+    "range": "bytes 65536-131071/1596429182",
+    "resumable": true
+  },
+  {
+    "id": "client-episode-6-3-client-en",
+    "url": "https://archive.openshaiya.org/shaiya-phoenix/clients/ep6.3.zip",
+    "result": "pass",
+    "status": 206,
+    "range": "bytes 65536-131071/1844776597",
+    "resumable": true
+  },
+  {
+    "id": "client-episode-8-client-cn",
+    "url": "https://archive.openshaiya.org/shaiya-cn/archived/ep8.zip",
+    "result": "pass",
+    "status": 206,
+    "range": "bytes 65536-131071/1532507269",
+    "resumable": true
+  },
+  {
+    "id": "client-episode-8-client-kr",
+    "url": "https://archive.openshaiya.org/shaiya-kr/clients/ep8.zip",
+    "result": "pass",
+    "status": 206,
+    "range": "bytes 65536-131071/2032162284",
+    "resumable": true
+  },
+  {
+    "id": "server-episode-3-0-server-files",
+    "url": "https://archive.openshaiya.org/server/ep3.zip",
+    "result": "pass",
+    "status": 206,
+    "range": "bytes 65536-131071/8739248",
+    "resumable": true
+  },
+  {
+    "id": "server-episode-5-4-server-files",
+    "url": "https://archive.openshaiya.org/server/ep5.4.zip",
+    "result": "pass",
+    "status": 206,
+    "range": "bytes 65536-131071/14099213",
+    "resumable": true
+  },
+  {
+    "id": "sql-programs-sql-server-2008-r2-express-32-bit",
+    "url": "https://download.microsoft.com/download/0/4/B/04BE03CD-EAF3-4797-9D8D-2E08E316C998/SQLEXPR_x86_ENU.exe",
+    "result": "pass",
+    "status": 206,
+    "range": "bytes 65536-131071/115763632",
+    "resumable": true
+  },
+  {
+    "id": "sql-programs-sql-server-2008-r2-express-64-bit",
+    "url": "https://download.microsoft.com/download/0/4/B/04BE03CD-EAF3-4797-9D8D-2E08E316C998/SQLEXPR_x64_ENU.exe",
+    "result": "pass",
+    "status": 206,
+    "range": "bytes 65536-131071/128331696",
+    "resumable": true
+  },
+  {
+    "id": "sql-programs-sql-server-2008-r2-ssms-32-bit",
+    "url": "https://download.microsoft.com/download/0/4/B/04BE03CD-EAF3-4797-9D8D-2E08E316C998/SQLManagementStudio_x86_ENU.exe",
+    "result": "pass",
+    "status": 206,
+    "range": "bytes 65536-131071/165938632",
+    "resumable": true
+  },
+  {
+    "id": "sql-programs-sql-server-2008-r2-ssms-64-bit",
+    "url": "https://download.microsoft.com/download/0/4/B/04BE03CD-EAF3-4797-9D8D-2E08E316C998/SQLManagementStudio_x64_ENU.exe",
+    "result": "pass",
+    "status": 206,
+    "range": "bytes 65536-131071/168845768",
+    "resumable": true
+  },
+  {
+    "id": "sql-programs-sql-server-2012-express-32-bit",
+    "url": "https://download.microsoft.com/download/0/1/E/01E0D693-2B4F-4442-9713-27A796B327BD/SQLEXPR_x86_ENU.exe",
+    "result": "pass",
+    "status": 206,
+    "range": "bytes 65536-131071/274628920",
+    "resumable": true
+  },
+  {
+    "id": "sql-programs-sql-server-2012-express-64-bit",
+    "url": "https://download.microsoft.com/download/0/1/E/01E0D693-2B4F-4442-9713-27A796B327BD/SQLEXPR_x64_ENU.exe",
+    "result": "pass",
+    "status": 206,
+    "range": "bytes 65536-131071/310443304",
+    "resumable": true
+  },
+  {
+    "id": "sql-programs-sql-server-2012-ssms-32-bit",
+    "url": "https://download.microsoft.com/download/0/1/E/01E0D693-2B4F-4442-9713-27A796B327BD/SQLManagementStudio_x86_ENU.exe",
+    "result": "pass",
+    "status": 206,
+    "range": "bytes 65536-131071/1010111096",
+    "resumable": true
+  },
+  {
+    "id": "sql-programs-sql-server-2012-ssms-64-bit",
+    "url": "https://download.microsoft.com/download/0/1/E/01E0D693-2B4F-4442-9713-27A796B327BD/SQLManagementStudio_x64_ENU.exe",
+    "result": "pass",
+    "status": 206,
+    "range": "bytes 65536-131071/996342608",
+    "resumable": true
+  },
+  {
+    "id": "sql-programs-sql-server-management-studio-current-installer",
+    "url": "https://aka.ms/ssmsfullsetup",
+    "result": "pass",
+    "status": 206,
+    "range": "bytes 65536-131071/5994632",
+    "resumable": true
+  },
+  {
+    "id": "sql-programs-sql-server-management-studio-standalone-installer",
+    "url": "https://download.microsoft.com/download/D/D/4/DD495084-ADA7-4827-ADD3-FC566EC05B90/SSMS-Setup-ENU.exe",
+    "result": "pass",
+    "status": 206,
+    "range": "bytes 65536-131071/846140744",
+    "resumable": true
+  },
+  {
+    "id": "developer-visual-studio-code-1-83-1-32-bit",
+    "url": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/f1b07bd25dfad64b0167beb15359ae573aecd2cc/VSCodeSetup-ia32-1.83.1.exe",
+    "result": "pass",
+    "status": 206,
+    "range": "bytes 65536-131071/91074856",
+    "resumable": true
+  },
+  {
+    "id": "developer-visual-studio-code-1-84-2-64-bit",
+    "url": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/VSCodeSetup-x64-1.84.2.exe",
+    "result": "pass",
+    "status": 206,
+    "range": "bytes 65536-131071/94619016",
+    "resumable": true
+  },
+  {
+    "id": "developer-xampp-8-1-17-64-bit",
+    "url": "https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/8.1.17/xampp-windows-x64-8.1.17-0-VS16-installer.exe",
+    "result": "pass",
+    "status": 206,
+    "range": "bytes 65536-131071/154220552",
+    "resumable": true
+  }
+]
