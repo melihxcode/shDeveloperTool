@@ -1,0 +1,213 @@
+{
+  "source": "https://archive.openshaiya.org/",
+  "checkedAt": "2026-11-12",
+  "addedClients": 11,
+  "addedServers": 0,
+  "existingUrlsSkipped": 8,
+  "serverComparison": {
+    "method": "Compared stored size/CRC32 metadata in inner Omega SFX RAR and OpenShaiya ZIP; archive comments skipped, no executable run. Not a full integrity test.",
+    "existingOmegaInnerEntries": 843,
+    "existingUniqueSignatures": 410,
+    "archiveUniqueSignatures": 392,
+    "sharedSignatures": 392,
+    "archiveOnlySignatures": 0,
+    "existingOnlySignatures": 18
+  },
+  "method": "HTTPS partial downloads verified ZIP headers, exact size and nonzero byte ranges; ZIP central directories were read and data.saf/data.sah presence checked. Full archive CRC/SHA256 and compatibility were not tested; nothing executed. Standalone game.exe and patch histories were excluded. Episode labels follow the archive, not an asserted cross-region equivalence. Original US and Fawkes v68 episode is unspecified.",
+  "records": [
+    {
+      "Key": "server/ep3.zip",
+      "Size": "8739248",
+      "ETag": "\"e5a638a06dd8a5c29c29cdbddd4e0131-2\"",
+      "url": "https://archive.openshaiya.org/server/ep3.zip",
+      "result": "already_in_catalog",
+      "action": "omitted_existing_url"
+    },
+    {
+      "Key": "server/ep4.5.zip",
+      "Size": "28290321",
+      "ETag": "\"5ea6685ee3ae146f7e3481ff9867cdc8-4\"",
+      "url": "https://archive.openshaiya.org/server/ep4.5.zip",
+      "result": "verified",
+      "entryCount": 803,
+      "action": "omitted_existing_omega_contains_all_unique_content"
+    },
+    {
+      "Key": "server/ep5.4.zip",
+      "Size": "14099213",
+      "ETag": "\"fdf26fc5f0655d7118ace36bed9ca3fe\"",
+      "url": "https://archive.openshaiya.org/server/ep5.4.zip",
+      "result": "already_in_catalog",
+      "action": "omitted_existing_url"
+    },
+    {
+      "Key": "shaiya-us/original.zip",
+      "Size": "976090692",
+      "ETag": "\"a933b997a7cb950991322ea891b3343e-117\"",
+      "url": "https://archive.openshaiya.org/shaiya-us/original.zip",
+      "result": "verified",
+      "entryCount": 13,
+      "action": "added",
+      "catalogId": "client-original-us-archive",
+      "directoryFingerprint": "01e44ec2dce45a6b01f562b78275b41ce018220cfe5abda35aa28e068f330563"
+    },
+    {
+      "Key": "shaiya-cn/archived/ep10.zip",
+      "Size": "1804628258",
+      "ETag": "\"17003b3f0e9d6c04a2aa483cad067a08-216\"",
+      "url": "https://archive.openshaiya.org/shaiya-cn/archived/ep10.zip",
+      "result": "verified",
+      "entryCount": 45,
+      "action": "added",
+      "catalogId": "client-episode-10-cn-openshaiya",
+      "directoryFingerprint": "ba50450e2a93113989e07b4e53bae339f09e644b3a75103fdc5190e5658e6df1"
+    },
+    {
+      "Key": "shaiya-cn/archived/ep11.zip",
+      "Size": "2304527486",
+      "ETag": "\"ea6888f6ebbac018e4219697a3e9611f-275\"",
+      "url": "https://archive.openshaiya.org/shaiya-cn/archived/ep11.zip",
+      "result": "verified",
+      "entryCount": 117,
+      "action": "added",
+      "catalogId": "client-episode-11-cn-openshaiya",
+      "directoryFingerprint": "073ac656aeb9642b560affe92838e0ebd1afa55c9ce61938bac1b9e80045526d"
+    },
+    {
+      "Key": "shaiya-cn/archived/ep12.zip",
+      "Size": "2409252547",
+      "ETag": "\"85d650e7252316eb32d40d7a1f932efd-288\"",
+      "url": "https://archive.openshaiya.org/shaiya-cn/archived/ep12.zip",
+      "result": "verified",
+      "entryCount": 117,
+      "action": "added",
+      "catalogId": "client-episode-12-cn-openshaiya",
+      "directoryFingerprint": "b997e22e88dfd04149526fa6d0edbef33b0bda7ffe4276598067ece39229a80b"
+    },
+    {
+      "Key": "shaiya-cn/archived/ep13.zip",
+      "Size": "2566910688",
+      "ETag": "\"a16e48500d9f994c3ab7e4bddea1105f-306\"",
+      "url": "https://archive.openshaiya.org/shaiya-cn/archived/ep13.zip",
+      "result": "verified",
+      "entryCount": 117,
+      "action": "added",
+      "catalogId": "client-episode-13-cn-openshaiya",
+      "directoryFingerprint": "8d58957151ec2a13bf157233d7de7d2b4bb92a6fff935d5b5a319f69538fd143"
+    },
+    {
+      "Key": "shaiya-cn/archived/ep4.zip",
+      "Size": "1144974514",
+      "ETag": "\"fb50af779b0847e41a3ed3261e4a6202-137\"",
+      "url": "https://archive.openshaiya.org/shaiya-cn/archived/ep4.zip",
+      "result": "verified",
+      "entryCount": 36,
+      "action": "added",
+      "catalogId": "client-episode-4-cn-openshaiya",
+      "directoryFingerprint": "2876380beed7906a2abd1dc3724461855bcddc508b045a08cc4010ea5e319672"
+    },
+    {
+      "Key": "shaiya-cn/archived/ep5.zip",
+      "Size": "1250942250",
+      "ETag": "\"2a2f95e31eb8abd4674799764870b20b-150\"",
+      "url": "https://archive.openshaiya.org/shaiya-cn/archived/ep5.zip",
+      "result": "verified",
+      "entryCount": 35,
+      "action": "added",
+      "catalogId": "client-episode-5-cn-openshaiya",
+      "directoryFingerprint": "0305876c85e14f6ebc016517798db93f2fcca73a8f46d5d5552fc1901f813cd2"
+    },
+    {
+      "Key": "shaiya-cn/archived/ep6.zip",
+      "Size": "1275244237",
+      "ETag": "\"3c83151dd5aa8ab233e64c09e5a1ec46-153\"",
+      "url": "https://archive.openshaiya.org/shaiya-cn/archived/ep6.zip",
+      "result": "verified",
+      "entryCount": 43,
+      "action": "added",
+      "catalogId": "client-episode-6-cn-openshaiya",
+      "directoryFingerprint": "cec010c409d75ca9317d09916db36a18d9992b81078961fb76275db983896074"
+    },
+    {
+      "Key": "shaiya-cn/archived/ep7.zip",
+      "Size": "1455735722",
+      "ETag": "\"5e8273d90fc095bebf3f449573b000f0-174\"",
+      "url": "https://archive.openshaiya.org/shaiya-cn/archived/ep7.zip",
+      "result": "verified",
+      "entryCount": 46,
+      "action": "added",
+      "catalogId": "client-episode-7-cn-openshaiya",
+      "directoryFingerprint": "affcee91716bbf6dd415c0aa3e67b2b45876acd8314219e71ed7c5c10f25448f"
+    },
+    {
+      "Key": "shaiya-cn/archived/ep8.zip",
+      "Size": "1532507269",
+      "ETag": "\"49d5325f31fb20c50eb69b3b5e8cfb6d-183\"",
+      "url": "https://archive.openshaiya.org/shaiya-cn/archived/ep8.zip",
+      "result": "already_in_catalog",
+      "action": "omitted_existing_url"
+    },
+    {
+      "Key": "shaiya-cn/archived/ep9.zip",
+      "Size": "1635557664",
+      "ETag": "\"fce8c727f9ba4c9efeba1d6461e6225a-195\"",
+      "url": "https://archive.openshaiya.org/shaiya-cn/archived/ep9.zip",
+      "result": "verified",
+      "entryCount": 42,
+      "action": "added",
+      "catalogId": "client-episode-9-cn-openshaiya",
+      "directoryFingerprint": "856f4895027def250743d27c7e66bc0912a8a0e7354b52acc3a11b990e922a20"
+    },
+    {
+      "Key": "shaiya-fawkes/full-clients/v68.zip",
+      "Size": "3208434707",
+      "ETag": "\"5f892d7bdadf079c95d4d3e8cc7ceb92-383\"",
+      "url": "https://archive.openshaiya.org/shaiya-fawkes/full-clients/v68.zip",
+      "result": "verified",
+      "entryCount": 24,
+      "action": "added",
+      "catalogId": "client-fawkes-v68-multilanguage",
+      "directoryFingerprint": "72032690d7ff0c5fc68e07d470cca5412f97d435fba9958219574df87e2f084f"
+    },
+    {
+      "Key": "shaiya-fr/clients/ep5.4.zip",
+      "Size": "1596429182",
+      "ETag": "\"a74fb40501a6b84f5d5115c9c4578b44-191\"",
+      "url": "https://archive.openshaiya.org/shaiya-fr/clients/ep5.4.zip",
+      "result": "already_in_catalog",
+      "action": "omitted_existing_url"
+    },
+    {
+      "Key": "shaiya-kr/clients/ep8.zip",
+      "Size": "2032162284",
+      "ETag": "\"f8317feced57726d761a3c5d41a34344-243\"",
+      "url": "https://archive.openshaiya.org/shaiya-kr/clients/ep8.zip",
+      "result": "already_in_catalog",
+      "action": "omitted_existing_url"
+    },
+    {
+      "Key": "shaiya-phoenix/clients/ep6.3.zip",
+      "Size": "1844776597",
+      "ETag": "\"f53857680c3912031422eb694e6e9986-220\"",
+      "url": "https://archive.openshaiya.org/shaiya-phoenix/clients/ep6.3.zip",
+      "result": "already_in_catalog",
+      "action": "omitted_existing_url"
+    },
+    {
+      "Key": "shaiya-ru/clients/ep3.zip",
+      "Size": "1222540577",
+      "ETag": "\"e0e86ba9eb6168fc809e7e12d40637f2-146\"",
+      "url": "https://archive.openshaiya.org/shaiya-ru/clients/ep3.zip",
+      "result": "already_in_catalog",
+      "action": "omitted_existing_url"
+    },
+    {
+      "Key": "shaiya-ru/clients/ep4.5.zip",
+      "Size": "1372736314",
+      "ETag": "\"7f74578b742605ba27a47ffd847f5ffa-164\"",
+      "url": "https://archive.openshaiya.org/shaiya-ru/clients/ep4.5.zip",
+      "result": "already_in_catalog",
+      "action": "omitted_existing_url"
+    }
+  ]
+}

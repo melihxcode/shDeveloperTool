@@ -44,6 +44,15 @@
       "sizeBytes": 1222540577
     },
     {
+      "id": "client-episode-4-cn-openshaiya",
+      "categoryId": "client",
+      "name": "Episode 4 Client - CN",
+      "episode": "Episode 4",
+      "fileName": "client-episode-4-cn-openshaiya.zip",
+      "url": "https://archive.openshaiya.org/shaiya-cn/archived/ep4.zip",
+      "sizeBytes": 1144974514
+    },
+    {
       "id": "client-episode-4-5-client-ru",
       "categoryId": "client",
       "name": "Episode 4.5 Client - RU",
@@ -51,6 +60,15 @@
       "url": "https://archive.openshaiya.org/shaiya-ru/clients/ep4.5.zip",
       "episode": "Episode 4.5",
       "sizeBytes": 1372736314
+    },
+    {
+      "id": "client-episode-5-cn-openshaiya",
+      "categoryId": "client",
+      "name": "Episode 5 Client - CN",
+      "episode": "Episode 5",
+      "fileName": "client-episode-5-cn-openshaiya.zip",
+      "url": "https://archive.openshaiya.org/shaiya-cn/archived/ep5.zip",
+      "sizeBytes": 1250942250
     },
     {
       "id": "client-episode-5-4-client-fr",
@@ -62,6 +80,15 @@
       "sizeBytes": 1596429182
     },
     {
+      "id": "client-episode-6-cn-openshaiya",
+      "categoryId": "client",
+      "name": "Episode 6 Client - CN",
+      "episode": "Episode 6",
+      "fileName": "client-episode-6-cn-openshaiya.zip",
+      "url": "https://archive.openshaiya.org/shaiya-cn/archived/ep6.zip",
+      "sizeBytes": 1275244237
+    },
+    {
       "id": "client-episode-6-3-client-en",
       "categoryId": "client",
       "name": "Episode 6.3 Client - EN",
@@ -69,6 +96,15 @@
       "url": "https://archive.openshaiya.org/shaiya-phoenix/clients/ep6.3.zip",
       "episode": "Episode 6.3",
       "sizeBytes": 1844776597
+    },
+    {
+      "id": "client-episode-7-cn-openshaiya",
+      "categoryId": "client",
+      "name": "Episode 7 Client - CN",
+      "episode": "Episode 7",
+      "fileName": "client-episode-7-cn-openshaiya.zip",
+      "url": "https://archive.openshaiya.org/shaiya-cn/archived/ep7.zip",
+      "sizeBytes": 1455735722
     },
     {
       "id": "client-episode-8-client-cn",
@@ -87,6 +123,69 @@
       "url": "https://archive.openshaiya.org/shaiya-kr/clients/ep8.zip",
       "episode": "Episode 8",
       "sizeBytes": 2032162284
+    },
+    {
+      "id": "client-episode-9-cn-openshaiya",
+      "categoryId": "client",
+      "name": "Episode 9 Client - CN",
+      "episode": "Episode 9",
+      "fileName": "client-episode-9-cn-openshaiya.zip",
+      "url": "https://archive.openshaiya.org/shaiya-cn/archived/ep9.zip",
+      "sizeBytes": 1635557664
+    },
+    {
+      "id": "client-episode-10-cn-openshaiya",
+      "categoryId": "client",
+      "name": "Episode 10 Client - CN",
+      "episode": "Episode 10",
+      "fileName": "client-episode-10-cn-openshaiya.zip",
+      "url": "https://archive.openshaiya.org/shaiya-cn/archived/ep10.zip",
+      "sizeBytes": 1804628258
+    },
+    {
+      "id": "client-episode-11-cn-openshaiya",
+      "categoryId": "client",
+      "name": "Episode 11 Client - CN",
+      "episode": "Episode 11",
+      "fileName": "client-episode-11-cn-openshaiya.zip",
+      "url": "https://archive.openshaiya.org/shaiya-cn/archived/ep11.zip",
+      "sizeBytes": 2304527486
+    },
+    {
+      "id": "client-episode-12-cn-openshaiya",
+      "categoryId": "client",
+      "name": "Episode 12 Client - CN",
+      "episode": "Episode 12",
+      "fileName": "client-episode-12-cn-openshaiya.zip",
+      "url": "https://archive.openshaiya.org/shaiya-cn/archived/ep12.zip",
+      "sizeBytes": 2409252547
+    },
+    {
+      "id": "client-episode-13-cn-openshaiya",
+      "categoryId": "client",
+      "name": "Episode 13 Client - CN",
+      "episode": "Episode 13",
+      "fileName": "client-episode-13-cn-openshaiya.zip",
+      "url": "https://archive.openshaiya.org/shaiya-cn/archived/ep13.zip",
+      "sizeBytes": 2566910688
+    },
+    {
+      "id": "client-fawkes-v68-multilanguage",
+      "categoryId": "client",
+      "name": "Fawkes v68 Full Client - Multilanguage",
+      "episode": "Unspecified",
+      "fileName": "client-fawkes-v68-multilanguage.zip",
+      "url": "https://archive.openshaiya.org/shaiya-fawkes/full-clients/v68.zip",
+      "sizeBytes": 3208434707
+    },
+    {
+      "id": "client-original-us-archive",
+      "categoryId": "client",
+      "name": "Original Client Archive - US (EN)",
+      "episode": "Unspecified",
+      "fileName": "client-original-us-archive.zip",
+      "url": "https://archive.openshaiya.org/shaiya-us/original.zip",
+      "sizeBytes": 976090692
     },
     {
       "id": "server-episode-3-0-server-files",

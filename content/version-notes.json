@@ -36,7 +36,13 @@
       "Added — Website (4): Custom {TR}; EP4.5 Original {TR}; EP8 Original {TR}; Orizon {TR}.",
       "Verification: all 107 hosted assets were downloaded again from their new public links and matched their expected sizes and SHA-256 hashes. All 128 catalog entries passed the application's parser and category filters.",
       "All 21 external links passed file-signature and HTTP range checks. Large external files were not downloaded in full; programs, installers and SQL queries were not executed.",
-      "Resource releases are kept separate from stable application updates. Added a publishing guide covering release uploads, category selection, JSON entries, file sizes and SHA-256 values, plus a detailed migration audit."
+      "Resource releases are kept separate from stable application updates. Added a publishing guide covering release uploads, category selection, JSON entries, file sizes and SHA-256 values, plus a detailed migration audit.",
+      "2026-11-12 — OpenShaiya archive expansion: added 11 distinct full-client downloads. The library now contains 139 entries, including 17 clients and 4 server packages; no application reinstall is needed.",
+      "Added — Chinese client archives: Episode 4, 5, 6, 7, 9, 10, 11, 12 and 13. Episode labels follow the CN archive and do not imply compatibility with other regions' servers.",
+      "Added — Original Client Archive - US (EN), and Fawkes v68 Full Client - Multilanguage. Their episode could not be confirmed, so both are listed under Unspecified rather than assigned a guessed episode.",
+      "Skipped 8 existing archive URLs. The OpenShaiya EP4.5 server ZIP was also omitted: all 392 unique size/CRC32 content signatures were already present inside the existing Omega package. Standalone game.exe files and patch histories were not presented as full clients.",
+      "New client links passed HTTPS ZIP-signature, total-size and nonzero byte-range checks. ZIP directories contain data.saf and data.sah. Large archives were not fully downloaded or executed; full integrity and server compatibility remain untested.",
+      "Files remain hosted at OpenShaiya, including the downloads larger than 2 GB. Refresh Files and Version Notes to see the expanded catalog and this history."
     ]
   },
   {
