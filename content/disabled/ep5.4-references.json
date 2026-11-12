@@ -1,0 +1,56 @@
+{
+  "description": "Not loaded by the app. To restore, copy selected files into content/files-catalog.json files array, preserving unique IDs.",
+  "categories": [
+    {
+      "id": "developer",
+      "name": "Developer Programs"
+    }
+  ],
+  "files": [
+    {
+      "id": "developer-ep5-4-reference-fast-reroll",
+      "categoryId": "developer",
+      "name": "EP5.4 Reference - Fast Reroll",
+      "fileName": "developer-ep5-4-reference-fast-reroll.txt",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/developer-ep5-4-reference-fast-reroll.txt",
+      "sizeBytes": 325,
+      "sha256": "8c05a89877b1bbdfa551d97ec9f64b8b4f34132ca4d67309a7ee90fefc4dc865"
+    },
+    {
+      "id": "developer-ep5-4-reference-fast-transition",
+      "categoryId": "developer",
+      "name": "EP5.4 Reference - Fast Transition",
+      "fileName": "developer-ep5-4-reference-fast-transition.txt",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/developer-ep5-4-reference-fast-transition.txt",
+      "sizeBytes": 529,
+      "sha256": "c8397f0a2e94319e3792b3f19d22ed2e00644f74242862025ea59cf601c78780"
+    },
+    {
+      "id": "developer-ep5-4-reference-multi-client",
+      "categoryId": "developer",
+      "name": "EP5.4 Reference - Multi-Client",
+      "fileName": "developer-ep5-4-reference-multi-client.txt",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/developer-ep5-4-reference-multi-client.txt",
+      "sizeBytes": 81,
+      "sha256": "c78818e175ffdfdb4ab5222c929c5a0b096ba5315d3df7c8fba49a3f1d77a3e9"
+    },
+    {
+      "id": "developer-ep5-4-reference-remove-updater",
+      "categoryId": "developer",
+      "name": "EP5.4 Reference - Remove Updater",
+      "fileName": "developer-ep5-4-reference-remove-updater.txt",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/developer-ep5-4-reference-remove-updater.txt",
+      "sizeBytes": 59,
+      "sha256": "3d3db7022c71cfdb2a4fbe552f39fa217444a2d244b4787511b5bd41e34b65df"
+    },
+    {
+      "id": "developer-ep5-4-reference-speed-enchant",
+      "categoryId": "developer",
+      "name": "EP5.4 Reference - Speed Enchant",
+      "fileName": "developer-ep5-4-reference-speed-enchant.txt",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/developer-ep5-4-reference-speed-enchant.txt",
+      "sizeBytes": 134,
+      "sha256": "7365b66816f387b83b9bb8dd6a4b2f9e7a15aa70dfebfdc00c87ece81d4bb1b7"
+    }
+  ]
+}

@@ -298,21 +298,24 @@
       "sizeBytes": 996342608
     },
     {
-      "id": "sql-programs-sql-server-management-studio-current-installer",
+      "id": "sql-programs-sql-server-2019-express-64-bit",
       "categoryId": "sql-programs",
-      "name": "SQL Server Management Studio - Current installer",
-      "fileName": "sql-programs-sql-server-management-studio-current-installer.exe",
-      "url": "https://aka.ms/ssmsfullsetup",
+      "name": "SQL Server 2019 Express (64-bit)",
+      "fileName": "sql-programs-sql-server-2019-express-64-bit.exe",
+      "url": "https://download.microsoft.com/download/926a8db2-3ad9-444c-8b37-8376e9256e9d/SQL2019-SSEI-Expr.exe",
+      "sizeBytes": 5841264,
+      "sha256": "37cc32717aba3b6633071ec176c6728e05570cfa5cf4c67f54421a0a2b4493c2",
       "bit": "64-bit"
     },
     {
-      "id": "sql-programs-sql-server-management-studio-standalone-installer",
+      "id": "sql-programs-ssms-22-64-bit",
       "categoryId": "sql-programs",
-      "name": "SQL Server Management Studio - Standalone installer",
-      "fileName": "sql-programs-sql-server-management-studio-standalone-installer.exe",
-      "url": "https://download.microsoft.com/download/D/D/4/DD495084-ADA7-4827-ADD3-FC566EC05B90/SSMS-Setup-ENU.exe",
-      "bit": "64-bit",
-      "sizeBytes": 846140744
+      "name": "SSMS 22 - SQL Server 2019 compatible (64-bit)",
+      "fileName": "sql-programs-ssms-22-64-bit.exe",
+      "url": "https://download.visualstudio.microsoft.com/download/pr/4aa37a90-1dc9-4507-9e7b-49134341b6c4/740dc34296300addbdd65d216f33bd29eba0584f6704fc478116626687151c87/vs_SSMS.exe",
+      "sizeBytes": 5994632,
+      "sha256": "740dc34296300addbdd65d216f33bd29eba0584f6704fc478116626687151c87",
+      "bit": "64-bit"
     },
     {
       "id": "queries-complete-pack",
@@ -1143,51 +1146,6 @@
       "sha256": "9b8480581ffd010c93c4504d0bb5dcd8c2eba5c57812e399da8c6c58024a4903"
     },
     {
-      "id": "developer-ep5-4-reference-fast-reroll",
-      "categoryId": "developer",
-      "name": "EP5.4 Reference - Fast Reroll",
-      "fileName": "developer-ep5-4-reference-fast-reroll.txt",
-      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/developer-ep5-4-reference-fast-reroll.txt",
-      "sizeBytes": 325,
-      "sha256": "8c05a89877b1bbdfa551d97ec9f64b8b4f34132ca4d67309a7ee90fefc4dc865"
-    },
-    {
-      "id": "developer-ep5-4-reference-fast-transition",
-      "categoryId": "developer",
-      "name": "EP5.4 Reference - Fast Transition",
-      "fileName": "developer-ep5-4-reference-fast-transition.txt",
-      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/developer-ep5-4-reference-fast-transition.txt",
-      "sizeBytes": 529,
-      "sha256": "c8397f0a2e94319e3792b3f19d22ed2e00644f74242862025ea59cf601c78780"
-    },
-    {
-      "id": "developer-ep5-4-reference-multi-client",
-      "categoryId": "developer",
-      "name": "EP5.4 Reference - Multi-Client",
-      "fileName": "developer-ep5-4-reference-multi-client.txt",
-      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/developer-ep5-4-reference-multi-client.txt",
-      "sizeBytes": 81,
-      "sha256": "c78818e175ffdfdb4ab5222c929c5a0b096ba5315d3df7c8fba49a3f1d77a3e9"
-    },
-    {
-      "id": "developer-ep5-4-reference-remove-updater",
-      "categoryId": "developer",
-      "name": "EP5.4 Reference - Remove Updater",
-      "fileName": "developer-ep5-4-reference-remove-updater.txt",
-      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/developer-ep5-4-reference-remove-updater.txt",
-      "sizeBytes": 59,
-      "sha256": "3d3db7022c71cfdb2a4fbe552f39fa217444a2d244b4787511b5bd41e34b65df"
-    },
-    {
-      "id": "developer-ep5-4-reference-speed-enchant",
-      "categoryId": "developer",
-      "name": "EP5.4 Reference - Speed Enchant",
-      "fileName": "developer-ep5-4-reference-speed-enchant.txt",
-      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/developer-ep5-4-reference-speed-enchant.txt",
-      "sizeBytes": 134,
-      "sha256": "7365b66816f387b83b9bb8dd6a4b2f9e7a15aa70dfebfdc00c87ece81d4bb1b7"
-    },
-    {
       "id": "developer-hxd-hex-editor",
       "categoryId": "developer",
       "name": "HxD Hex Editor",
@@ -1206,37 +1164,30 @@
       "sha256": "73b1770f28893dab22196eb58d45ede8ddf5444009960ccc0107d09881a7cd1e"
     },
     {
-      "id": "developer-visual-studio-legacy-bootstrapper",
+      "id": "developer-vscode-1-146-0-64-bit",
       "categoryId": "developer",
-      "name": "Visual Studio - Legacy bootstrapper",
-      "fileName": "developer-visual-studio-legacy-bootstrapper.exe",
-      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/developer-visual-studio-legacy-bootstrapper.exe",
-      "sizeBytes": 3951168,
-      "sha256": "eabb25899ce2e8ee2ea58637a2dfdf32d13cb6bcc910cd7cfc6cd7241203a6e4"
+      "name": "Visual Studio Code 1.146.0 (64-bit)",
+      "fileName": "developer-vscode-1-146-0-64-bit.exe",
+      "url": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/69047191fc427f2f92828279aae1d90d8eeda7ab/VSCodeSetup-x64-1.146.0.exe",
+      "sizeBytes": 286108016,
+      "sha256": "972fcb16d819532a25af8dc1976e1c80508e080bf56eb65bfd6a35eed983a35b"
     },
     {
-      "id": "developer-visual-studio-code-1-83-1-32-bit",
+      "id": "developer-visual-studio-community-2026",
       "categoryId": "developer",
-      "name": "Visual Studio Code 1.83.1 (32-bit)",
-      "fileName": "developer-visual-studio-code-1-83-1-32-bit.exe",
-      "url": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/f1b07bd25dfad64b0167beb15359ae573aecd2cc/VSCodeSetup-ia32-1.83.1.exe",
-      "sizeBytes": 91074856
+      "name": "Visual Studio Community 2026 (Stable)",
+      "fileName": "developer-visual-studio-community-2026.exe",
+      "url": "https://download.visualstudio.microsoft.com/download/pr/4aa37a90-1dc9-4507-9e7b-49134341b6c4/a3f7b3f162889aa48512368fe2f87e0cb0e55beff19e0e860bddf26f6f92766b/vs_Community.exe",
+      "sizeBytes": 5995016,
+      "sha256": "a3f7b3f162889aa48512368fe2f87e0cb0e55beff19e0e860bddf26f6f92766b"
     },
     {
-      "id": "developer-visual-studio-code-1-84-2-64-bit",
+      "id": "developer-xampp-8-5-12-64-bit",
       "categoryId": "developer",
-      "name": "Visual Studio Code 1.84.2 (64-bit)",
-      "fileName": "developer-visual-studio-code-1-84-2-64-bit.exe",
-      "url": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/VSCodeSetup-x64-1.84.2.exe",
-      "sizeBytes": 94619016
-    },
-    {
-      "id": "developer-xampp-8-1-17-64-bit",
-      "categoryId": "developer",
-      "name": "XAMPP 8.1.17 (64-bit)",
-      "fileName": "developer-xampp-8-1-17-64-bit.exe",
-      "url": "https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/8.1.17/xampp-windows-x64-8.1.17-0-VS16-installer.exe",
-      "sizeBytes": 154220552
+      "name": "XAMPP 8.5.12 (64-bit)",
+      "fileName": "developer-xampp-8-5-12-64-bit.exe",
+      "url": "https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/8.5.12/xampp-windows-x64-8.5.12-0-VS17-installer.exe",
+      "sizeBytes": 200178909
     },
     {
       "id": "interface-hd-loading-pictures",

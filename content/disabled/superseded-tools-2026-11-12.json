@@ -1,0 +1,55 @@
+{
+  "description": "Superseded tools kept for reference only. VS Code 32-bit support ended at 1.83.",
+  "files": [
+    {
+      "id": "sql-programs-sql-server-management-studio-current-installer",
+      "categoryId": "sql-programs",
+      "name": "SQL Server Management Studio - Current installer",
+      "fileName": "sql-programs-sql-server-management-studio-current-installer.exe",
+      "url": "https://aka.ms/ssmsfullsetup",
+      "bit": "64-bit"
+    },
+    {
+      "id": "sql-programs-sql-server-management-studio-standalone-installer",
+      "categoryId": "sql-programs",
+      "name": "SQL Server Management Studio - Standalone installer",
+      "fileName": "sql-programs-sql-server-management-studio-standalone-installer.exe",
+      "url": "https://download.microsoft.com/download/D/D/4/DD495084-ADA7-4827-ADD3-FC566EC05B90/SSMS-Setup-ENU.exe",
+      "bit": "64-bit",
+      "sizeBytes": 846140744
+    },
+    {
+      "id": "developer-visual-studio-legacy-bootstrapper",
+      "categoryId": "developer",
+      "name": "Visual Studio - Legacy bootstrapper",
+      "fileName": "developer-visual-studio-legacy-bootstrapper.exe",
+      "url": "https://github.com/melihxcode/shDeveloperTool/releases/download/resources-2026-11-12/developer-visual-studio-legacy-bootstrapper.exe",
+      "sizeBytes": 3951168,
+      "sha256": "eabb25899ce2e8ee2ea58637a2dfdf32d13cb6bcc910cd7cfc6cd7241203a6e4"
+    },
+    {
+      "id": "developer-visual-studio-code-1-83-1-32-bit",
+      "categoryId": "developer",
+      "name": "Visual Studio Code 1.83.1 (32-bit)",
+      "fileName": "developer-visual-studio-code-1-83-1-32-bit.exe",
+      "url": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/f1b07bd25dfad64b0167beb15359ae573aecd2cc/VSCodeSetup-ia32-1.83.1.exe",
+      "sizeBytes": 91074856
+    },
+    {
+      "id": "developer-visual-studio-code-1-84-2-64-bit",
+      "categoryId": "developer",
+      "name": "Visual Studio Code 1.84.2 (64-bit)",
+      "fileName": "developer-visual-studio-code-1-84-2-64-bit.exe",
+      "url": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/VSCodeSetup-x64-1.84.2.exe",
+      "sizeBytes": 94619016
+    },
+    {
+      "id": "developer-xampp-8-1-17-64-bit",
+      "categoryId": "developer",
+      "name": "XAMPP 8.1.17 (64-bit)",
+      "fileName": "developer-xampp-8-1-17-64-bit.exe",
+      "url": "https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/8.1.17/xampp-windows-x64-8.1.17-0-VS16-installer.exe",
+      "sizeBytes": 154220552
+    }
+  ]
+}

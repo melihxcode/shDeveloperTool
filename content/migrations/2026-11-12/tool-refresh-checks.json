@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-12",
+  "sources": [
+    "https://www.microsoft.com/en-us/download/details.aspx?id=108837",
+    "https://learn.microsoft.com/en-us/ssms/install/install",
+    "https://visualstudio.microsoft.com/downloads/",
+    "https://www.apachefriends.org/download.html",
+    "https://update.code.visualstudio.com/api/update/win32-x64/stable/latest"
+  ],
+  "checks": [
+    {
+      "tool": "sql2019",
+      "sourceUrl": "https://download.microsoft.com/download/926a8db2-3ad9-444c-8b37-8376e9256e9d/SQL2019-SSEI-Expr.exe",
+      "url": "https://download.microsoft.com/download/926a8db2-3ad9-444c-8b37-8376e9256e9d/SQL2019-SSEI-Expr.exe",
+      "sizeBytes": 5841264,
+      "sha256": "37cc32717aba3b6633071ec176c6728e05570cfa5cf4c67f54421a0a2b4493c2",
+      "result": "pass"
+    },
+    {
+      "tool": "ssms",
+      "sourceUrl": "https://aka.ms/ssms/22/release/vs_SSMS.exe",
+      "url": "https://download.visualstudio.microsoft.com/download/pr/4aa37a90-1dc9-4507-9e7b-49134341b6c4/740dc34296300addbdd65d216f33bd29eba0584f6704fc478116626687151c87/vs_SSMS.exe",
+      "sizeBytes": 5994632,
+      "sha256": "740dc34296300addbdd65d216f33bd29eba0584f6704fc478116626687151c87",
+      "result": "pass"
+    },
+    {
+      "tool": "visualstudio",
+      "sourceUrl": "https://aka.ms/vs/18/stable/vs_community.exe",
+      "url": "https://download.visualstudio.microsoft.com/download/pr/4aa37a90-1dc9-4507-9e7b-49134341b6c4/a3f7b3f162889aa48512368fe2f87e0cb0e55beff19e0e860bddf26f6f92766b/vs_Community.exe",
+      "sizeBytes": 5995016,
+      "sha256": "a3f7b3f162889aa48512368fe2f87e0cb0e55beff19e0e860bddf26f6f92766b",
+      "result": "pass"
+    },
+    {
+      "tool": "xampp",
+      "sourceUrl": "https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/8.5.12/xampp-windows-x64-8.5.12-0-VS17-installer.exe",
+      "url": "https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/8.5.12/xampp-windows-x64-8.5.12-0-VS17-installer.exe",
+      "sizeBytes": 200178909,
+      "result": "pass"
+    },
+    {
+      "tool": "vscode",
+      "sourceUrl": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/69047191fc427f2f92828279aae1d90d8eeda7ab/VSCodeSetup-x64-1.146.0.exe",
+      "url": "https://vscode.download.prss.microsoft.com/dbazure/download/stable/69047191fc427f2f92828279aae1d90d8eeda7ab/VSCodeSetup-x64-1.146.0.exe",
+      "sizeBytes": 286108016,
+      "result": "pass"
+    }
+  ],
+  "scope": "Executable signatures and HTTP ranges checked. Small bootstrappers fully hashed; VS Code hash provided by official update API. No installer executed."
+}
