@@ -305,17 +305,19 @@
       "url": "https://download.microsoft.com/download/926a8db2-3ad9-444c-8b37-8376e9256e9d/SQL2019-SSEI-Expr.exe",
       "sizeBytes": 5841264,
       "sha256": "37cc32717aba3b6633071ec176c6728e05570cfa5cf4c67f54421a0a2b4493c2",
-      "bit": "64-bit"
+      "bit": "64-bit",
+      "description": "SQL Server 2019 Express Database Engine installer. Install SSMS separately to browse databases and run queries."
     },
     {
-      "id": "sql-programs-ssms-22-64-bit",
+      "id": "sql-programs-ssms-19-3-64-bit",
       "categoryId": "sql-programs",
-      "name": "SSMS 22 - SQL Server 2019 compatible (64-bit)",
-      "fileName": "sql-programs-ssms-22-64-bit.exe",
-      "url": "https://download.visualstudio.microsoft.com/download/pr/4aa37a90-1dc9-4507-9e7b-49134341b6c4/740dc34296300addbdd65d216f33bd29eba0584f6704fc478116626687151c87/vs_SSMS.exe",
-      "sizeBytes": 5994632,
-      "sha256": "740dc34296300addbdd65d216f33bd29eba0584f6704fc478116626687151c87",
-      "bit": "64-bit"
+      "name": "SSMS 19.3 - SQL Server Management Studio",
+      "description": "Standalone SSMS 19.3 installer for 64-bit Windows. Database administration tools; SQL Server Database Engine is installed separately.",
+      "fileName": "SSMS-19.3-Setup-ENU.exe",
+      "url": "https://download.microsoft.com/download/7/7/3/7738e337-ed99-40ea-b8ae-f639162c83c3/SSMS-Setup-ENU.exe",
+      "bit": "64-bit",
+      "sizeBytes": 678289744,
+      "sha256": "afd3a8f6aabf903845bc7866d2650c83d47f659f480bb71453f74a8ded8010f7"
     },
     {
       "id": "queries-complete-pack",

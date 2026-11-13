@@ -1,0 +1,16 @@
+{
+  "archivedAt": "2026-11-13",
+  "reason": "Owner requested the SSMS 19.3 standalone installer instead of SSMS 22.",
+  "files": [
+    {
+      "id": "sql-programs-ssms-22-64-bit",
+      "categoryId": "sql-programs",
+      "name": "SSMS 22 - SQL Server 2019 compatible (64-bit)",
+      "fileName": "sql-programs-ssms-22-64-bit.exe",
+      "url": "https://download.visualstudio.microsoft.com/download/pr/4aa37a90-1dc9-4507-9e7b-49134341b6c4/740dc34296300addbdd65d216f33bd29eba0584f6704fc478116626687151c87/vs_SSMS.exe",
+      "sizeBytes": 5994632,
+      "sha256": "740dc34296300addbdd65d216f33bd29eba0584f6704fc478116626687151c87",
+      "bit": "64-bit"
+    }
+  ]
+}

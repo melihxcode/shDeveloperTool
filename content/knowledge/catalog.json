@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-12",
+  "updatedAt": "2026-11-13",
   "categories": [
     {
       "id": "shaiya",
@@ -561,19 +561,19 @@
       "scope": "Fawkes English overview, reviewed November 2026. Names and balance can differ in other localizations or private builds.",
       "evidence": "Source-backed overview",
       "resolutionStatus": "",
-      "reviewedAt": "2026-11-12",
+      "reviewedAt": "2026-11-13",
       "sourceIds": [
         "fawkes"
       ],
       "blocks": [
         {
           "heading": "Alliance of Light",
-          "body": "The publisher lists Fighter, Defender, Priest, Archer, Mage and Ranger.",
+          "body": "Fighter: melee combat. Defender: frontline defense. Priest: healing and resurrection. Archer: precision ranged combat. Mage: offensive magic. Ranger: scouting and traps in Fawkes's introductory wording.",
           "code": ""
         },
         {
           "heading": "Union of Fury",
-          "body": "The corresponding Fury roster is Warrior, Guardian, Pagan, Assassin, Oracle and Hunter.",
+          "body": "Warrior: aggressive close combat. Guardian: defense. Pagan: dark magic. Assassin: stealth-themed combat. Oracle: healing and curses. Hunter: stalking and beast-themed identity in the publisher's introduction.",
           "code": ""
         },
         {
@@ -1198,6 +1198,257 @@
           "code": ""
         }
       ]
+    },
+    {
+      "id": "fawkes-overview",
+      "categoryId": "shaiya",
+      "title": "Shaiya: the official game overview",
+      "summary": "A short introduction grounded in the publisher's own presentation.",
+      "scope": "Fawkes English game page, November 2026. Promotional overview, not a server configuration specification.",
+      "evidence": "Source-backed overview",
+      "resolutionStatus": "",
+      "reviewedAt": "2026-11-13",
+      "sourceIds": [
+        "fawkes"
+      ],
+      "blocks": [
+        {
+          "heading": "The game",
+          "body": "Shaiya is a fantasy MMORPG built around the Alliance of Light and Union of Fury. Fawkes highlights faction PvP, character difficulty choices, and exploration involving dungeons and bosses.",
+          "code": ""
+        },
+        {
+          "heading": "From play to development",
+          "body": "Use the gameplay vocabulary to understand what an editor changes. A publisher overview does not establish the file format, numeric class IDs or database schema of an archived server.",
+          "code": ""
+        }
+      ]
+    },
+    {
+      "id": "races-and-characters",
+      "categoryId": "shaiya",
+      "title": "The four races and their character classes",
+      "summary": "Identify the historical race-to-class relationships.",
+      "scope": "North American producer interview, May 2008. Historical roster; not a claim about every modified client.",
+      "evidence": "Source-backed overview",
+      "resolutionStatus": "",
+      "reviewedAt": "2026-11-13",
+      "sourceIds": [
+        "producer"
+      ],
+      "blocks": [
+        {
+          "heading": "Alliance of Light",
+          "body": "Humans: Fighter, Defender, Priest. Elves: Ranger, Archer, Mage.",
+          "code": ""
+        },
+        {
+          "heading": "Union of Fury",
+          "body": "Vail: Pagan, Oracle, Assassin. Nordein: Warrior, Guardian, Hunter.",
+          "code": ""
+        },
+        {
+          "heading": "Reading a character record",
+          "body": "Faction, race and class describe different choices. This historical mapping supplies names, not numeric database values; inspect the target build before assigning IDs.",
+          "code": ""
+        }
+      ]
+    },
+    {
+      "id": "paired-class-roles",
+      "categoryId": "shaiya",
+      "title": "Character roles: the six class pairs",
+      "summary": "Understand the original party roles without inventing builds or statistics.",
+      "scope": "Roles described by producer Joshua Sell in 2008; later class balance is outside this article.",
+      "evidence": "Source-backed overview",
+      "resolutionStatus": "",
+      "reviewedAt": "2026-11-13",
+      "sourceIds": [
+        "producer"
+      ],
+      "blocks": [
+        {
+          "heading": "Front line",
+          "body": "Fighter / Warrior: close-range damage. Defender / Guardian: defensive tank and monster attention.",
+          "code": ""
+        },
+        {
+          "heading": "Damage and positioning",
+          "body": "Archer / Hunter: ranged physical attacks. Ranger / Assassin: stealth and surprise. Mage / Pagan: ranged magic.",
+          "code": ""
+        },
+        {
+          "heading": "Party support",
+          "body": "Priest / Oracle: healing and resurrection. These role pairings do not guarantee identical skills, equipment or stat growth in every episode.",
+          "code": ""
+        }
+      ]
+    },
+    {
+      "id": "resolved-shstudio-monsters",
+      "categoryId": "troubleshooting",
+      "title": "Resolved in shStudio 0.9.0.6: monster data saving",
+      "summary": "A specific serialization fix confirmed by the tool author.",
+      "scope": "castor4878's 29 May 2020 release statement, post #574. Not independently reproduced here; not a guarantee that all editor features are fixed.",
+      "evidence": "Source-backed overview",
+      "resolutionStatus": "Maintainer-confirmed fix",
+      "reviewedAt": "2026-11-13",
+      "sourceIds": [
+        "shstudio-0906"
+      ],
+      "blocks": [
+        {
+          "heading": "Problem and fix",
+          "body": "The author reported that DBMonsterData.sdata was saved using Monster.sdata format and that its accompanying DBMonsterText_???.sdata was not generated. The 0.9.0.6 release explicitly fixes this saving issue.",
+          "code": ""
+        },
+        {
+          "heading": "Scope",
+          "body": "Use a copy to check the affected output. The same post leaves NPCQuest analysis pending and does not guarantee 0.8.x support. No replacement binary is added to the download library by this article.",
+          "code": ""
+        }
+      ]
+    },
+    {
+      "id": "shstudio-fixrange",
+      "categoryId": "editing",
+      "title": "shStudio: finding the FixRange skill field",
+      "summary": "Distinguish a missing dialog control from a missing data field.",
+      "scope": "Author guidance for 0.9.0.5 and the 0.9.0.6 Noos editor; other editors and builds may differ.",
+      "evidence": "Source-backed overview",
+      "resolutionStatus": "",
+      "reviewedAt": "2026-11-13",
+      "sourceIds": [
+        "shstudio-0906"
+      ],
+      "blocks": [
+        {
+          "heading": "Author's workaround",
+          "body": "In 0.9.0.5, the author directs users to Raw Skills, select the record, scroll to FixRange and press F2 to edit. The tailored skill dialog did not expose that field.",
+          "code": ""
+        },
+        {
+          "heading": "Version change",
+          "body": "Version 0.9.0.6 adds FixRange to the Noos editor; non-Noos tailored dialogs still omit it. This does not establish a universal meaning or safe value for the field.",
+          "code": ""
+        }
+      ]
+    },
+    {
+      "id": "data-file-tool-v2",
+      "categoryId": "editing",
+      "title": "Shaiya Data File Tool v2: archive and patch tasks",
+      "summary": "What the author says the tool can do, and how to identify the right release.",
+      "scope": "nubness's July 2014 release description. No compatibility or executable safety guarantee; binaries were not run.",
+      "evidence": "Source-backed overview",
+      "resolutionStatus": "",
+      "reviewedAt": "2026-11-13",
+      "sourceIds": [
+        "data-tool-v2"
+      ],
+      "blocks": [
+        {
+          "heading": "Published features",
+          "body": "The author lists multi-file and multi-folder import, patch editing and import into clients, drag-and-drop, and SData encryption/decryption.",
+          "code": ""
+        },
+        {
+          "heading": "Opening versus importing",
+          "body": "The release describes dropping a SAH or PATCH file to open it when no document is open. With a client or patch already open, dropped resources are imported into that document.",
+          "code": ""
+        },
+        {
+          "heading": "Match the tool first",
+          "body": "A library entry named Shaiya Data File Tool is not proof that it is this v2 release. Identify the local version before following its controls, and test imports against a disposable copy.",
+          "code": ""
+        }
+      ]
+    },
+    {
+      "id": "extractor-not-repacker",
+      "categoryId": "client",
+      "title": "Extraction is not the same as repacking",
+      "summary": "A concrete example of a tool that cannot write archives back.",
+      "scope": "castor4878's January 2011 shextract release; only that release's published capabilities.",
+      "evidence": "Source-backed overview",
+      "resolutionStatus": "",
+      "reviewedAt": "2026-11-13",
+      "sourceIds": [
+        "shextract"
+      ],
+      "blocks": [
+        {
+          "heading": "Documented limitation",
+          "body": "The author describes extracting resources and decrypting SData, but explicitly excludes import and repacking. The post also says one file-record field was not understood.",
+          "code": ""
+        },
+        {
+          "heading": "Practical consequence",
+          "body": "Successfully exporting a resource does not demonstrate the ability to rebuild data.saf or its index. Choose a writer documented for the intended format, preserve the original pair, then reopen and verify the rebuilt result. Do not turn the author's uncertain field description into a definitive format specification.",
+          "code": ""
+        }
+      ]
+    },
+    {
+      "id": "historical-server-guides",
+      "categoryId": "server",
+      "title": "Reading legacy server setup guides",
+      "summary": "Recognize the environment assumptions in an old forum tutorial.",
+      "scope": "RaGEZONE guide dated April 2011. Historical instructions are not a validated deployment recipe for current Windows and SQL Server.",
+      "evidence": "Source-backed overview",
+      "resolutionStatus": "",
+      "reviewedAt": "2026-11-13",
+      "sourceIds": [
+        "ragezone-setup"
+      ],
+      "blocks": [
+        {
+          "heading": "What the guide actually targets",
+          "body": "The author distinguishes C: and D: server layouts, points to PSM_Client/Bin/Config/ps_game.ini and its GamePublicIP setting, and uses SQL Server Express 2008 R2 in the example.",
+          "code": ""
+        },
+        {
+          "heading": "Why a copied path can fail",
+          "body": "A path in this guide belongs to that package layout. Confirm the installed service's executable and actual configuration location before editing a similarly named file.",
+          "code": ""
+        },
+        {
+          "heading": "Compatibility is a separate check",
+          "body": "The guide distinguishes an engine-only installer from a package that included Management Studio. Its old Windows and SQL assumptions do not prove that a modern engine, client and server combination is compatible.",
+          "code": ""
+        }
+      ]
+    },
+    {
+      "id": "ssms-installer-identity",
+      "categoryId": "sql",
+      "title": "SSMS, SQL Server and Visual Studio Installer",
+      "summary": "Understand the similarly named Microsoft downloads.",
+      "scope": "Current Microsoft installation documentation and release history. Version numbers belong to separate products.",
+      "evidence": "Source-backed overview",
+      "resolutionStatus": "",
+      "reviewedAt": "2026-11-13",
+      "sourceIds": [
+        "ssms-install",
+        "ssms-history"
+      ],
+      "blocks": [
+        {
+          "heading": "Different products",
+          "body": "SQL Server is the database engine; SQL Server Management Studio is the administration application. Visual Studio Community is a separate development environment.",
+          "code": ""
+        },
+        {
+          "heading": "Why newer SSMS uses that installer",
+          "body": "Microsoft documents that SSMS 22 uses vs_SSMS.exe to open Visual Studio Installer. That installer interface alone does not identify which product is being installed; inspect the product name.",
+          "code": ""
+        },
+        {
+          "heading": "Choosing a release",
+          "body": "SSMS versions are numbered independently of SQL Server's year names. The download library can provide an explicitly labeled older installer; verify that release's supported operating systems and SQL versions before using it.",
+          "code": ""
+        }
+      ]
     }
   ],
   "sources": [
@@ -1398,6 +1649,42 @@
       "title": "Source control in VS Code",
       "kind": "Microsoft editor documentation",
       "url": "https://code.visualstudio.com/docs/sourcecontrol/overview"
+    },
+    {
+      "id": "shstudio-0906",
+      "title": "castor4878: shStudio 0.9.0.6, post #574, 29 May 2020",
+      "kind": "Tool author release and fix statement",
+      "url": "https://www.elitepvpers.com/forum/shaiya-pserver-guides-releases/3430120-release-shstudio-0-7-5-a-39.html"
+    },
+    {
+      "id": "data-tool-v2",
+      "title": "nubness: Shaiya Data File Tool v2, 19 July 2014",
+      "kind": "Tool author feature description",
+      "url": "https://www.elitepvpers.com/forum/shaiya-pserver-guides-releases/3346422-euphoria-dev-team-release-shaiya-data-file-tool-v2.html"
+    },
+    {
+      "id": "shextract",
+      "title": "castor4878: Yet Another Data Extractor, 29 January 2011",
+      "kind": "Tool author limitations",
+      "url": "https://www.elitepvpers.com/forum/shaiya-pserver-guides-releases/983102-release-yet-another-data-extractor.html"
+    },
+    {
+      "id": "ragezone-setup",
+      "title": "dary3113: Detailed server setup guide, 22 April 2011",
+      "kind": "Historical community guide; environment-specific",
+      "url": "https://forum.ragezone.com/threads/guide-detailed-guide-on-how-to-set-up-shaiya-server.745585/"
+    },
+    {
+      "id": "ssms-install",
+      "title": "Microsoft: Install SQL Server Management Studio",
+      "kind": "Official installation documentation",
+      "url": "https://learn.microsoft.com/en-us/ssms/install/install"
+    },
+    {
+      "id": "ssms-history",
+      "title": "Microsoft: SSMS release history",
+      "kind": "Official version and download history",
+      "url": "https://learn.microsoft.com/en-us/ssms/release-history"
     }
   ]
 }
