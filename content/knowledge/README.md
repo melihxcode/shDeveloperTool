@@ -1,6 +1,6 @@
 # Knowledge library / Bilgi merkezi
 
-Uygulama `content/knowledge/catalog.json` adresini okur. Başlangıç koleksiyonu 7 kategori, 41 yazı ve 33 kaynak içerir. Yeni yazılar ve düzeltmeler için EXE sürümünü değiştirmek gerekmez: JSON'u kaydedin, uygulamada **Information → Refresh** seçin. Açık bir okuyucu o anki içeriğin kopyasını gösterir; yenilenen içeriği görmek için okuyucuyu kapatıp kategoriyi yeniden açın.
+Uygulama `content/knowledge/catalog.json` adresini okur. 13 Kasım 2026 koleksiyonu 7 kategori, 50 yazı ve 39 kaynak içerir. Yeni yazılar ve düzeltmeler için EXE sürümünü değiştirmek gerekmez: JSON'u kaydedin, uygulamada **Information → Refresh** seçin. Açık bir okuyucu o anki içeriğin kopyasını gösterir; yenilenen içeriği görmek için okuyucuyu kapatıp kategoriyi yeniden açın.
 
 ## İçerik kuralları
 
@@ -46,3 +46,8 @@ Kaynak kod deposunda `tests/Fixtures/knowledge.json` bu ilk koleksiyonun test ko
 Etiket, kendi sunucumuzda test edildiği anlamına gelmez. `scope` ve yazı metni bu ayrımı açıklar. İlk genişlemede 3 geliştirici doğrulamalı düzeltme ve 2 Microsoft çözüm yazısı bulunur. Doğrulanmamış forum önerileri çözülmüş olarak eklenmedi. Yeni alan isteğe bağlı olduğundan 0.1.10 okuyucusu da kataloğu okuyabilir; eski sürüm ek durum etiketini göstermez.
 
 Yeni eklenen 22 konu: sınıf listesi; blessing ve zorluk; Windows servis sağlığı; EP6.4 veritabanı anahtarları; MDF/NDF/LDF; test geri yükleme; VERIFYONLY sınırları; transactions; database roles; encoding; JSON düzenleme; harita düzenleme; workspace/patch; SHA-256; Git karşılaştırma; VS Code sürüm takibi; Parsec 1.1.1, 1.2.0 ve 1.1.0 düzeltmeleri; SQL 18456 ve 4064; çözüm etiketlerini okuma.
+
+
+## 13 Kasım genişlemesi (0.1.12)
+
+Dokuz yazı eklendi: Fawkes tanıtımı, tarihsel ırk/sınıf eşleştirmesi, sınıf rolleri, shStudio 0.9.0.6 monster-data düzeltmesi, FixRange rehberi, Data File Tool v2, shextract sınırları, RaGEZONE rehberlerinin tarihsel bağlamı ve SSMS kurulum kimliği. Geliştirici doğrulamalı çözüm sayısı dört; Microsoft çözüm yazıları iki. Ayrıntılı inceleme kaydı: `../reviews/2026-11-13.md`.
