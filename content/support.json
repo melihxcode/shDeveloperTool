@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "enabled": false,
-  "provider": "",
-  "url": ""
+  "enabled": true,
+  "provider": "Patreon",
+  "url": "https://www.patreon.com/melihxcode/posts/shdevelopertools-175247018"
 }
