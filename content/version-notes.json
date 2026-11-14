@@ -1,4 +1,17 @@
 [
+  {
+    "version": "0.1.20",
+    "date": "2026-11-14",
+    "title": "Explore native models, animations, media and every non-SData file",
+    "changes": [
+      "Enabled Preview for every non-SData file. Unknown formats, unsupported variants and oversized decoded previews open a clearly labeled read-only hex/ASCII inspector with 4 KB pages, byte-offset navigation and strings from the current page. SData preview remains disabled for the future studio integration.",
+      "Added orbit/zoom 3D views for classic 3DC/3DC_, 3DO, SMOD and DG geometry, with bounded resolution of unambiguous embedded texture references. 3DC shows the base mesh; skeletal ANI playback, collision overlays and dungeon lightmaps are not rendered.",
+      "Added 3DE/VANI vertex-frame scrubbing and optional 15 fps preview playback. ANI exposes bone matrices and rotation/translation keys; MANI exposes rotation properties. These inspectors are not character animation playback.",
+      "Added WLD field height-sample images and dungeon layout references. Full world placement/effect rendering is not implemented; raw bytes remain accessible.",
+      "Expanded images to GIF/TIFF/ICO/CUR first-frame previews and added media playback controls for WAV/MP3/WMA/OGG/FLAC/MP4/AVI/WMV when Windows codecs support the file. Media uses a temporary copy removed on preview close; playback starts only on Play. No embedded executable or script is launched.",
+      "Preserved text Edit/Save, direct archive imports/deletion and the single session backup. Added independent native-format fixtures, malformed/count-limit checks, paged-byte verification and Windows model/raw/media-lifecycle tests."
+    ]
+  },
   null,
   {
     "version": "0.1.18",
