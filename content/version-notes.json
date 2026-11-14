@@ -1,4 +1,16 @@
 [
+  {
+    "version": "0.1.14",
+    "date": "2026-11-14",
+    "title": "Explore Shaiya archives with Data Viewer",
+    "changes": [
+      "Added Data Viewer to Workspace. Open a .sah file with the file picker or drop it onto Workspace to open a separate dark-and-gold reader window.",
+      "Browse folders and subfolders, inspect file names, types, sizes and 64-bit SAF offsets, copy internal paths and reveal search results in their parent folders.",
+      "Added debounced whole-archive search (Ctrl+F) and quick filters for all files, .sdata, items, skills and NPC/quest resources. Large lists use UI virtualization.",
+      "Added selectable filename encodings and a bounded, cancellable, read-only SAH parser. Failed opens retain the previous archive. No SAF payloads are loaded, files extracted or SData tables decoded in this first release.",
+      "Validated an independent SAH fixture and a real EP3 index with 21,523 files, plus malformed files, cancellation, encoding and 50,000-entry tests. Added a Windows viewer navigation scenario and format attribution."
+    ]
+  },
   null,
   {
     "version": "0.1.12",
