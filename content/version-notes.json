@@ -1,5 +1,17 @@
 [
   {
+    "version": "0.1.16",
+    "date": "2026-11-14",
+    "title": "Data Editor: import, replace and extract",
+    "changes": [
+      "Renamed the Workspace tool to Data Editor and replaced the record-number column with gold file-type icons. Record numbers remain in details and repeated-name labels.",
+      "Added Add / overwrite and drag-and-drop import into the current archive folder. Matching names replace the existing record; ambiguous duplicates require Replace selected. Each file saves automatically.",
+      "Added Replace selected and Extract file. Editing and extraction require the matching SAF next to the SAH; index-only browsing remains available.",
+      "Payload writes append to SAF before atomically replacing SAH. Each successful edit keeps a uniquely named previous-index backup; existing payload bytes and unrelated index metadata are preserved. Replaced payloads are not compacted.",
+      "Added stale-index and payload-range checks, bounded streaming, background operations, and parser/editor plus Windows UI regression tests. No patch generation, SData table editing or universal custom-format compatibility is included."
+    ]
+  },
+  {
     "version": "0.1.15",
     "date": "2026-11-14",
     "title": "Compact workspace cards and repeated SAH records",
