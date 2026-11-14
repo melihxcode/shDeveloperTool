@@ -1,5 +1,16 @@
 [
   {
+    "version": "0.1.17",
+    "date": "2026-11-14",
+    "title": "Delete archive files and keep one session backup",
+    "changes": [
+      "Added Delete for the selected archive file, plus a dark-and-gold right-click menu with Extract file and Delete file. Right-click selects the targeted row.",
+      "Deletion removes only the selected index record, including when names repeat, updates file counts and saves automatically. SAF payload bytes remain intact; this does not compact the archive.",
+      "Replaced per-operation timestamped backups with one session-start index at <archive>.sah yedeği/<archive>.sah. It is saved before the first change, retained through all imports and deletions in the editor window, and refreshed by the next editing session.",
+      "Added regression checks for exact-record deletion, retained payloads, single-session backup behavior and Windows context-menu deletion."
+    ]
+  },
+  {
     "version": "0.1.16",
     "date": "2026-11-14",
     "title": "Data Editor: import, replace and extract",
