@@ -1,5 +1,17 @@
 [
   {
+    "version": "0.1.18",
+    "date": "2026-11-14",
+    "title": "Read text and preview archive textures",
+    "changes": [
+      "Added read-only previews for TXT and common text/configuration files, PNG, JPG/JPEG, BMP, TGA and supported ordinary 2D DDS textures. Open with double-click, Enter, Preview or the right-click menu.",
+      "Text supports BOM detection, UTF-8 and fallback to the archive filename encoding. Images fit a separate dark-and-gold preview window. Missing SAF, unsupported texture variants and invalid files show errors without changing archive data.",
+      "Added bounded in-memory reads: text up to 2 MB, encoded images up to 64 MB, decoded images up to 16 megapixels and 8192 pixels per side. No external applications are launched.",
+      "Removed the default white context-menu gutter with a fully themed menu template. Renamed the session backup folder to data.sah backup (or the corresponding archive basename); existing Turkish-named backups remain untouched.",
+      "Added bounded-read, text-encoding and Windows image-decoding/preview tests. 3DC, ANI and SData content previews remain planned."
+    ]
+  },
+  {
     "version": "0.1.17",
     "date": "2026-11-14",
     "title": "Delete archive files and keep one session backup",
