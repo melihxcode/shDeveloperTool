@@ -1,5 +1,16 @@
 [
   {
+    "version": "0.1.15",
+    "date": "2026-11-14",
+    "title": "Compact workspace cards and repeated SAH records",
+    "changes": [
+      "Replaced the large Workspace introduction with a compact Data Viewer card matching Information. File selection and drag-and-drop remain available.",
+      "Fixed the reader rejecting an entire index with 'Duplicate archive entry name'. Repeated files, case-only paths and repeated folders are now retained as separate records with a warning and visible record numbers.",
+      "Show folder and parent navigation now use record identity, so duplicate folder paths do not send a search result to the wrong folder.",
+      "Added parser and Windows regression checks for repeated records, different offsets, file/folder collisions and unchanged source files. A separate public EP4.5 RU index was checked with 23,533 files; the reported duplicate condition is covered by dedicated fixtures."
+    ]
+  },
+  {
     "version": "0.1.14",
     "date": "2026-11-14",
     "title": "Explore Shaiya archives with Data Viewer",
@@ -11,7 +22,16 @@
       "Validated an independent SAH fixture and a real EP3 index with 21,523 files, plus malformed files, cancellation, encoding and 50,000-entry tests. Added a Windows viewer navigation scenario and format attribution."
     ]
   },
-  null,
+  {
+    "version": "0.1.13",
+    "date": "2026-11-13",
+    "title": "A new home for development workflows",
+    "changes": [
+      "Added Workspace to the top of the sidebar with a matching gold active icon and a dedicated dark-and-gold introductory screen.",
+      "Workspace is the starting point for upcoming project and management features. No project creation, server control or database operations are enabled in this release.",
+      "Preserved Information as the opening page and retained the existing Tools launcher. Added a Windows navigation check covering the new page and sidebar spacing."
+    ]
+  },
   {
     "version": "0.1.12",
     "date": "2026-11-13",
