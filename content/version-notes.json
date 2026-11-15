@@ -1,5 +1,14 @@
 [
   {
+    "version": "0.1.22",
+    "date": "2026-11-15",
+    "title": "Organized related files",
+    "changes": [
+      "Added a dark/gold category sidebar to every Related files window, including model texture mapping results. Only populated categories are shown, with reference-entry counts and an All files option.",
+      "Separated WLD buildings, shapes, trees, grass, objects, terrain textures, music and sounds; other asset types are grouped into models, textures, animations, worlds, effects and texture mappings. Search filters the selected category; missing and ambiguous references retain their status and exact-record navigation."
+    ]
+  },
+  {
     "version": "0.1.21",
     "date": "2026-11-15",
     "title": "Bulk archive editing, undo and connected 3D previews",
