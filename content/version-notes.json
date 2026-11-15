@@ -1,5 +1,18 @@
 [
   {
+    "version": "0.1.24",
+    "date": "2026-11-15",
+    "title": "Persistent SQL sessions, latest logs and full configuration editing",
+    "changes": [
+      "SQL connections now belong to the application. Closing/reopening the SQL panel preserves the connection and database list. Explicit Disconnect or application shutdown closes it.",
+      "After a successful manual SQL connection, an opt-in prompt offers automatic startup connection. Saved settings and credentials are protected with Windows DPAPI for the current Windows account; no plaintext SQL password is stored. Connect saved retries the connection, and Forget startup connection deletes the stored profile and disables auto-connect. Startup makes one attempt without repeated background retries.",
+      "Log Viewer defaults to Latest logs only, grouping timestamped logs by component/name while retaining distinct error/info suffixes. New logs are discovered periodically during live monitoring; older files remain available with the filter disabled and are never deleted. Grouping is filename-based and scan limits remain visible.",
+      "Configuration Editor now opens the full text by default, including every section, comment and value. Optional Fields view includes all keys; server name/IP/port filtering is off by default. Added CONFIG, XML, JSON and non-log TXT discovery, Find next, full-file saves, protected draft closing, and existing backup/encoding/stale-file safeguards.",
+      "No automatic decryption or re-encryption is claimed for unknown INI variants. The applicable encrypted format could not be verified; unsupported binary content is refused without modification. Full-text editing does not validate every game-specific setting.",
+      "Expanded regression coverage for latest-log grouping, full-text configuration saves, protected credential storage/forget and application-scoped SQL connection lifecycle."
+    ]
+  },
+  {
     "version": "0.1.23",
     "date": "2026-11-15",
     "title": "Server workspace, configuration tools and dependency checks",
