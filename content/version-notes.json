@@ -1,5 +1,18 @@
 [
   {
+    "version": "0.1.21",
+    "date": "2026-11-15",
+    "title": "Bulk archive editing, undo and connected 3D previews",
+    "changes": [
+      "Added Ctrl/Shift multi-selection, recursive folder import, extraction with archive paths, and bulk file/folder deletion. Each import or deletion commits as one operation; cancelling an import leaves the original index unchanged. Completed extractions remain on disk after cancellation.",
+      "Added Undo and Ctrl+Z for archive imports, replacements, text saves and deletions. History is kept for this editor session (up to 20 changes / 128 MB of indexes); the single session-start backup remains. Old SAF payload bytes are retained; no archive compaction is performed.",
+      "Added model texture selection per mesh part, MLT texture mapping discovery, and explicit pairing of compatible 3DC skeletons with ANI animations. Includes key scrubbing, optional 15 fps preview playback, pan and zoom. Pairing is preview-only; matching bone counts alone do not prove matching rigs.",
+      "Added bounded WLD scene previews with signed-height terrain, terrain textures and static placed models/dungeon layouts. Object search, focus and missing/ambiguous/budget statuses are shown. Terrain is simplified; effects, lightmaps, blending, gameplay and MANI object animation are not simulated.",
+      "Added searchable Related files with declared texture/world/MLT references and exact-record navigation. Missing and ambiguous matches are shown; scanned strings and filename suggestions are explicitly unverified. SData interpretation remains deferred.",
+      "Added archive transaction/undo tests, real skeleton and dungeon fixtures, hierarchy/interpolation checks, and Windows bulk/animation/world UI coverage. Native readers were also checked against a real 2,048-unit field with 13,638 placements."
+    ]
+  },
+  {
     "version": "0.1.20",
     "date": "2026-11-14",
     "title": "Explore native models, animations, media and every non-SData file",
