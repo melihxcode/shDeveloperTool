@@ -12,7 +12,17 @@
       "Preserved text Edit/Save, direct archive imports/deletion and the single session backup. Added independent native-format fixtures, malformed/count-limit checks, paged-byte verification and Windows model/raw/media-lifecycle tests."
     ]
   },
-  null,
+  {
+    "version": "0.1.19",
+    "date": "2026-11-14",
+    "title": "Edit text directly inside archives",
+    "changes": [
+      "Added Edit, Save and Ctrl+S to supported text previews. Save writes directly to the selected archive record without manual extraction or import.",
+      "Preserves text encoding and BOM; uses the original newline style for edited content. Unrepresentable characters and text exceeding 2 MB are rejected without saving.",
+      "Reuses atomic index replacement and the single session backup. Stale indexes are rejected; unsaved text prompts before closing the editor. Images remain read only.",
+      "Added encoding round-trip, repeated-record text replacement and Windows Edit/Save tests."
+    ]
+  },
   {
     "version": "0.1.18",
     "date": "2026-11-14",
