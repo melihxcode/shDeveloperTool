@@ -1,5 +1,18 @@
 [
   {
+    "version": "0.1.23",
+    "date": "2026-11-15",
+    "title": "Server workspace, configuration tools and dependency checks",
+    "changes": [
+      "Fixed Enter in Data Editor: open the selected file preview or folder before the grid handles row navigation. Holding Enter and multi-selection do not open repeated previews.",
+      "Added Dependency Checker to Data Editor for selected files/folders or the current folder. Inspect declared model, MLT and WLD references with missing/ambiguous/unreadable filters, search and source/match navigation. Scans are cancellable and bounded; SData and filename guesses are excluded.",
+      "Added PSM/server-files folder selection and SQL Server connection controls to Workspace. SQL supports Windows and SQL authentication, encrypted connections, accessible database listing, refresh and disconnect. Only folder paths and the SQL address are saved locally; passwords are not persisted. This panel does not edit databases.",
+      "Added Log Viewer with live two-second tail reading, pause/resume, search, heuristic error/warning filters, encoding selection and follow-latest. Reads the latest 256 KB / 2,000 lines and tolerates active log writers and rotation.",
+      "Added Configuration Editor for extracted server/client INI, CFG and CONF text files. Bin paths appear first; quick filters expose server name, IP, host and port fields. Explicit saves preserve encoding, BOM, comments and line endings, retain one session-start backup per file, and reject stale drafts. Password/secret fields are excluded.",
+      "Configuration support does not modify binary files, executables, encrypted formats or SData, and does not restart services. Added regression coverage for configuration round trips/backups, log tails/discovery, dependency scanning, Enter routing and Windows tool lifecycle."
+    ]
+  },
+  {
     "version": "0.1.22",
     "date": "2026-11-15",
     "title": "Organized related files",
