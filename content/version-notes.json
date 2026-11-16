@@ -1,5 +1,16 @@
 [
   {
+    "version": "0.1.25",
+    "date": "2026-11-16",
+    "title": "Client–SQL synchronization workspace",
+    "changes": [
+      "Added Client–SQL Sync to Workspace: select Item, Skill, Monster or Cash SData with EP4.5, EP5.4 or EP6.4 layout profiles and explicit text encoding. Known SEED-encrypted files are read with checksum validation. Custom layouts are rejected.",
+      "Compare client values with an existing SQL connection, review field differences, export a transactional SQL update script or synchronize existing records after confirmation. SQL-only fields and records missing from the client are preserved; missing SQL rows are reported, not inserted.",
+      "Direct synchronization saves original mapped values locally, rejects stale comparisons and rolls back on failure. SQL exports create a persistent table backup. Episode-specific and uncertain fields are excluded; Monster currently maps only name, level and HP.",
+      "Added bounded parsing and regression fixtures plus isolated LocalDB integration coverage. EP4.5 Skill coverage uses a derived fixture; real-client and in-game validation is still required."
+    ]
+  },
+  {
     "version": "0.1.24",
     "date": "2026-11-15",
     "title": "Persistent SQL sessions, latest logs and full configuration editing",
