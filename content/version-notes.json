@@ -1,5 +1,17 @@
 [
   {
+    "version": "0.1.26",
+    "date": "2026-11-17",
+    "title": "Shared client data across Workspace tools",
+    "changes": [
+      "Added Data selection beside PSM and SQL in Workspace. The selected SAH index stays available for this application session; the SAF payload is read on demand instead of being loaded into memory. Invalid selections preserve the previous client.",
+      "Data Editor opens the selected client automatically. Opening another archive in Data Editor updates the shared selection; archive edits refresh the shared index. Existing editor windows are reused.",
+      "Client–SQL Sync lists Item, Skill, Monster and Cash SData entries directly from the selected archive, with full paths and repeated-entry identifiers. Select the episode and encoding, then use Load from data; standalone SData selection remains available.",
+      "Changing or refreshing the client invalidates archive-based comparisons. Bounded reads and stale-source checks protect comparison, export and synchronization. Added shared-session and Windows UI regression coverage.",
+      "The common client-data service provides discovery and bounded reads for future Workspace editors. No WLD/SVMAP editor or new archive-writing feature is included in this release."
+    ]
+  },
+  {
     "version": "0.1.25",
     "date": "2026-11-16",
     "title": "Client–SQL synchronization workspace",
