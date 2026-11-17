@@ -1,5 +1,16 @@
 [
   {
+    "version": "0.1.27",
+    "date": "2026-11-17",
+    "title": "Asset Cleaner with review and compact client copies",
+    "changes": [
+      "Added Asset Cleaner to Workspace for the selected client data. Scan DDS, 3DC and WAV assets, inspect candidate paths/sizes and reference coverage, and explicitly select files to exclude.",
+      "Candidates are not proven unused: SData numeric IDs, runtime names and unsupported formats are not fully decoded. Declared model/WLD/MLT links and embedded text protect referenced assets; ambiguous basenames and repeated records are handled conservatively.",
+      "Cleaning requires a risk acknowledgement and a separate confirmation. It creates a compact SAH/SAF copy in a new folder, preserves the original archive, and records removed files and coverage limitations in a JSON report. Test the new copy in game before using it.",
+      "Added output SHA-256 verification, stale-source checks, cancellation/partial-output cleanup and scan limits. Regression tests cover reference protection, exact retained bytes, source preservation, compaction and UI confirmation gating."
+    ]
+  },
+  {
     "version": "0.1.26",
     "date": "2026-11-17",
     "title": "Shared client data across Workspace tools",
