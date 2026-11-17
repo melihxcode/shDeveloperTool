@@ -35,8 +35,8 @@ jobs:
           from pathlib import Path
           url=os.environ['BUNDLE_URL']
           parsed=urllib.parse.urlparse(url)
-          if parsed.scheme!='https' or not (parsed.hostname or '').endswith('.oaiusercontent.com') or parsed.username:
-              raise SystemExit('Expected a temporary OpenAI artifact download URL.')
+          if parsed.scheme!='https' or not ((parsed.hostname or '').endswith('.oaiusercontent.com') or parsed.hostname=='release-assets.githubusercontent.com') or parsed.username:
+              raise SystemExit('Expected a temporary OpenAI artifact or signed GitHub release-asset URL.')
           expected=os.environ['EXPECTED_SHA'].lower()
           version=os.environ['RELEASE_VERSION']
           if not re.fullmatch('[a-f0-9]{64}',expected) or not re.fullmatch(r'\d+\.\d+\.\d+',version):
