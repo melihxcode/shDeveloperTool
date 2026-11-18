@@ -1,5 +1,17 @@
 [
   {
+    "version": "0.1.28",
+    "date": "2026-11-18",
+    "title": "SQL Explorer for accounts, characters and items",
+    "changes": [
+      "Added SQL Explorer to Workspace with shortcuts for accounts, characters, character items, account storage, guilds and game definitions. Reuses the application SQL connection and discovers actual database/table columns.",
+      "Browse accessible dbo tables in 100-row pages with column-based literal search. Custom database/table selectors are available when a server uses different names. Common credential columns are hidden from the grid.",
+      "Added explicit row insertion, editing and deletion with review/confirmation. Identity/computed fields remain SQL-managed; tables without a supported non-null unique key are read-only. NULL and SQL defaults are handled explicitly.",
+      "Writes use typed parameters, schema/stale-row checks and transactions. Conversion or precision loss aborts the change. Protected local recovery snapshots are created; there is no automatic restore of cascading/trigger effects or game caches.",
+      "Added isolated LocalDB and Windows UI tests. This is a row-level SQL editor; full account/character provisioning and server-specific application rules are not automated."
+    ]
+  },
+  {
     "version": "0.1.27",
     "date": "2026-11-17",
     "title": "Asset Cleaner with review and compact client copies",
