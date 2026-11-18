@@ -1,5 +1,15 @@
 [
   {
+    "version": "0.1.30",
+    "date": "2026-11-18",
+    "title": "Map Workspace for selected client data",
+    "changes": [
+      "Added a Map Workspace card with a dedicated dark/gold window for the shared client archive. Search map paths and filter WLD or SVMAP entries; repeated archive records remain distinct.",
+      "Open a selected map in the existing preview or reveal it directly in Data Editor to inspect related assets. Client selection/refresh updates the map list and invalidates the previous selection.",
+      "WLD uses the existing terrain/object viewer. SVMAP remains a raw-data preview; map editing, server-file discovery and automatic client/server map pairing are not included in this first version."
+    ]
+  },
+  {
     "version": "0.1.29",
     "date": "2026-11-18",
     "title": "Local Server Control Panel",
