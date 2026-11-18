@@ -1,5 +1,16 @@
 [
   {
+    "version": "0.1.29",
+    "date": "2026-11-18",
+    "title": "Local Server Control Panel",
+    "changes": [
+      "Added Server Control Panel to Workspace using the selected local PSM folder. Displays verified Windows services and running PSM/game processes, PID, CPU share and working-set memory with automatic refresh.",
+      "Added reviewed Start, Stop and Restart commands for dedicated supported Windows services. Commands recheck configuration/state, reject active dependent services and never force-terminate processes or alter service installation settings.",
+      "PSM-managed child processes are monitoring-only; Open PSM Manager launches the manager from the selected installation. Remote servers, proprietary PSM commands and game-level health checks are not included.",
+      "Added path-scope, stale-state, dependency, restart and timeout tests plus Windows SCM/process/UI coverage. Administrator access may be required for service operations."
+    ]
+  },
+  {
     "version": "0.1.28",
     "date": "2026-11-18",
     "title": "SQL Explorer for accounts, characters and items",
